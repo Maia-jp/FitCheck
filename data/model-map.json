@@ -1,73 +1,28 @@
 {
-  "groq/llama-3.1-8b-instant": {
-    "ollama": "llama3.1",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+  "kilo/meta-llama/llama-3.2-1b-instruct": {
+    "ollama": "llama3.2:1b",
+    "hf_gguf": "lmstudio-community/Llama-3.2-1B-Instruct-GGUF",
+    "params_b": 1.0
+  },
+  "kilo/meta-llama/llama-3.2-3b-instruct": {
+    "ollama": "llama3.2:3b",
+    "hf_gguf": "lmstudio-community/Llama-3.2-3B-Instruct-GGUF",
+    "params_b": 3.0
+  },
+  "kilo/meta-llama/llama-3-8b-instruct": {
+    "ollama": "llama3:8b",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
     "params_b": 8.0
-  },
-  "azure/meta-llama-3.1-70b-instruct": {
-    "ollama": "llama3.1:70b",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF",
-    "params_b": 70.0
-  },
-  "groq/llama-3.3-70b-versatile": {
-    "ollama": "llama3.3",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.3-70B-Instruct-GGUF",
-    "params_b": 70.0
-  },
-  "mistral/open-mistral-7b": {
-    "ollama": "mistral",
-    "hf_gguf": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
-    "params_b": 7.0
-  },
-  "mistral/open-mixtral-8x7b": {
-    "ollama": "mixtral",
-    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
-    "params_b": 46.7
-  },
-  "azure/phi-3-mini-4k-instruct": {
-    "ollama": "phi3:mini",
-    "hf_gguf": "microsoft/Phi-3-mini-4k-instruct-gguf",
-    "params_b": 3.8
-  },
-  "azure/phi-4": {
-    "ollama": "phi4",
-    "hf_gguf": "lmstudio-community/phi-4-GGUF",
-    "params_b": 14.0
-  },
-  "openrouter/google/gemma-2-9b-it": {
-    "ollama": "gemma2:9b",
-    "hf_gguf": "lmstudio-community/gemma-2-9b-it-GGUF",
-    "params_b": 9.0
-  },
-  "kilo/qwen/qwen-2.5-7b-instruct": {
-    "ollama": "qwen2.5:7b",
-    "hf_gguf": "Qwen/Qwen2.5-7B-Instruct-GGUF",
-    "params_b": 7.0
-  },
-  "azure-cognitive-services/deepseek-r1": {
-    "ollama": "deepseek-r1",
-    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-    "params_b": 7.0
-  },
-  "kilo/microsoft/phi-4": {
-    "ollama": "phi4",
-    "hf_gguf": "lmstudio-community/phi-4-GGUF",
-    "params_b": 14.0
-  },
-  "kilo/google/gemma-2-9b-it": {
-    "ollama": "gemma2:9b",
-    "hf_gguf": "lmstudio-community/gemma-2-9b-it-GGUF",
-    "params_b": 9.0
-  },
-  "kilo/mistralai/mixtral-8x7b-instruct": {
-    "ollama": "mixtral",
-    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
-    "params_b": 46.7
   },
   "kilo/meta-llama/llama-3.1-8b-instruct": {
-    "ollama": "llama3.1",
+    "ollama": "llama3.1:8b",
     "hf_gguf": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
     "params_b": 8.0
+  },
+  "kilo/meta-llama/llama-3-70b-instruct": {
+    "ollama": "llama3:70b",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3-70B-Instruct-GGUF",
+    "params_b": 70.0
   },
   "kilo/meta-llama/llama-3.1-70b-instruct": {
     "ollama": "llama3.1:70b",
@@ -75,8 +30,198 @@
     "params_b": 70.0
   },
   "kilo/meta-llama/llama-3.3-70b-instruct": {
-    "ollama": "llama3.3",
+    "ollama": "llama3.3:70b",
     "hf_gguf": "lmstudio-community/Meta-Llama-3.3-70B-Instruct-GGUF",
     "params_b": 70.0
+  },
+  "kilo/meta-llama/llama-3.1-405b-instruct": {
+    "ollama": "llama3.1:405b",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-405B-Instruct-GGUF",
+    "params_b": 405.0
+  },
+  "mistral/open-mistral-7b": {
+    "ollama": "mistral:7b",
+    "hf_gguf": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/mistralai/mistral-nemo": {
+    "ollama": "mistral-nemo",
+    "hf_gguf": "lmstudio-community/Mistral-Nemo-Instruct-2407-GGUF",
+    "params_b": 12.0
+  },
+  "kilo/mistralai/mistral-small-3.1-24b-instruct": {
+    "ollama": "mistral-small:24b",
+    "hf_gguf": "lmstudio-community/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+    "params_b": 24.0
+  },
+  "mistral/open-mixtral-8x7b": {
+    "ollama": "mixtral:8x7b",
+    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+    "params_b": 46.7
+  },
+  "kilo/mistralai/mixtral-8x22b-instruct": {
+    "ollama": "mixtral:8x22b",
+    "hf_gguf": "MaziyarPanahi/Mixtral-8x22B-Instruct-v0.1-GGUF",
+    "params_b": 141.0
+  },
+  "kilo/mistralai/codestral-2508": {
+    "ollama": "codestral",
+    "hf_gguf": "lmstudio-community/Codestral-22B-v0.1-GGUF",
+    "params_b": 22.0
+  },
+  "azure/phi-3-mini-4k-instruct": {
+    "ollama": "phi3:mini",
+    "hf_gguf": "microsoft/Phi-3-mini-4k-instruct-gguf",
+    "params_b": 3.8
+  },
+  "azure/phi-4": {
+    "ollama": "phi4:14b",
+    "hf_gguf": "lmstudio-community/phi-4-GGUF",
+    "params_b": 14.0
+  },
+  "azure/phi-4-mini": {
+    "ollama": "phi4-mini",
+    "hf_gguf": "microsoft/Phi-4-mini-instruct-GGUF",
+    "params_b": 3.8
+  },
+  "kilo/google/gemma-2-9b-it": {
+    "ollama": "gemma2:9b",
+    "hf_gguf": "lmstudio-community/gemma-2-9b-it-GGUF",
+    "params_b": 9.0
+  },
+  "kilo/google/gemma-2-27b-it": {
+    "ollama": "gemma2:27b",
+    "hf_gguf": "lmstudio-community/gemma-2-27b-it-GGUF",
+    "params_b": 27.0
+  },
+  "kilo/google/gemma-3-4b-it": {
+    "ollama": "gemma3:4b",
+    "hf_gguf": "lmstudio-community/gemma-3-4b-it-GGUF",
+    "params_b": 4.0
+  },
+  "kilo/google/gemma-3-12b-it": {
+    "ollama": "gemma3:12b",
+    "hf_gguf": "lmstudio-community/gemma-3-12b-it-GGUF",
+    "params_b": 12.0
+  },
+  "kilo/google/gemma-3-27b-it": {
+    "ollama": "gemma3:27b",
+    "hf_gguf": "lmstudio-community/gemma-3-27b-it-GGUF",
+    "params_b": 27.0
+  },
+  "kilo/qwen/qwen-2.5-7b-instruct": {
+    "ollama": "qwen2.5:7b",
+    "hf_gguf": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/qwen/qwen-2.5-72b-instruct": {
+    "ollama": "qwen2.5:72b",
+    "hf_gguf": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+    "params_b": 72.0
+  },
+  "kilo/qwen/qwen-2.5-coder-32b-instruct": {
+    "ollama": "qwen2.5-coder:32b",
+    "hf_gguf": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+    "params_b": 32.0
+  },
+  "kilo/qwen/qwen2.5-coder-7b-instruct": {
+    "ollama": "qwen2.5-coder:7b",
+    "hf_gguf": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/qwen/qwen3-8b": {
+    "ollama": "qwen3:8b",
+    "hf_gguf": "Qwen/Qwen3-8B-GGUF",
+    "params_b": 8.0
+  },
+  "kilo/qwen/qwen3-14b": {
+    "ollama": "qwen3:14b",
+    "hf_gguf": "Qwen/Qwen3-14B-GGUF",
+    "params_b": 14.0
+  },
+  "kilo/qwen/qwen3-32b": {
+    "ollama": "qwen3:32b",
+    "hf_gguf": "Qwen/Qwen3-32B-GGUF",
+    "params_b": 32.0
+  },
+  "kilo/qwen/qwq-32b": {
+    "ollama": "qwq:32b",
+    "hf_gguf": "Qwen/QwQ-32B-GGUF",
+    "params_b": 32.0
+  },
+  "kilo/qwen/qwen3.5-9b": {
+    "ollama": "qwen3.5:9b",
+    "hf_gguf": "Qwen/Qwen3.5-9B-GGUF",
+    "params_b": 9.0
+  },
+  "kilo/qwen/qwen3.5-27b": {
+    "ollama": "qwen3.5:27b",
+    "hf_gguf": "Qwen/Qwen3.5-27B-GGUF",
+    "params_b": 27.0
+  },
+  "kilo/deepseek/deepseek-r1": {
+    "ollama": "deepseek-r1:7b",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/deepseek/deepseek-r1-distill-qwen-32b": {
+    "ollama": "deepseek-r1:32b",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+    "params_b": 32.0
+  },
+  "kilo/deepseek/deepseek-r1-distill-llama-70b": {
+    "ollama": "deepseek-r1:70b",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Llama-70B-GGUF",
+    "params_b": 70.0
+  },
+  "kilo/deepseek/deepseek-v3.2": {
+    "ollama": "deepseek-v3",
+    "hf_gguf": null,
+    "params_b": 671.0
+  },
+  "kilo/cohere/command-r-08-2024": {
+    "ollama": "command-r:35b",
+    "hf_gguf": "lmstudio-community/c4ai-command-r-08-2024-GGUF",
+    "params_b": 35.0
+  },
+  "kilo/cohere/command-r-plus-08-2024": {
+    "ollama": "command-r-plus:104b",
+    "hf_gguf": "lmstudio-community/c4ai-command-r-plus-08-2024-GGUF",
+    "params_b": 104.0
+  },
+  "kilo/cohere/command-r7b-12-2024": {
+    "ollama": "command-r7b",
+    "hf_gguf": "lmstudio-community/c4ai-command-r7b-12-2024-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/nvidia/nemotron-nano-9b-v2": {
+    "ollama": "nemotron-mini",
+    "hf_gguf": "nvidia/Nemotron-Mini-4B-Instruct-GGUF",
+    "params_b": 9.0
+  },
+  "kilo/allenai/olmo-3-7b-instruct": {
+    "ollama": "olmo2:7b",
+    "hf_gguf": "allenai/OLMo-2-0325-7B-Instruct-GGUF",
+    "params_b": 7.0
+  },
+  "kilo/allenai/olmo-3.1-32b-instruct": {
+    "ollama": "olmo2:32b",
+    "hf_gguf": null,
+    "params_b": 32.0
+  },
+  "kilo/liquid/lfm-2-24b-a2b": {
+    "ollama": "lfm2",
+    "hf_gguf": null,
+    "params_b": 24.0
+  },
+  "kilo/nousresearch/hermes-3-llama-3.1-70b": {
+    "ollama": "hermes3:70b",
+    "hf_gguf": "NousResearch/Hermes-3-Llama-3.1-70B-GGUF",
+    "params_b": 70.0
+  },
+  "kilo/essentialai/rnj-1-instruct": {
+    "ollama": "rnj-1",
+    "hf_gguf": null,
+    "params_b": 8.0
   }
 }
