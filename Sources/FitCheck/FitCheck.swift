@@ -144,6 +144,63 @@ public actor FitCheck {
         }
     }
 
+    // MARK: - Custom Model Checking
+
+    /// Check whether an arbitrary model (not in the catalog) can run on this machine.
+    /// Useful for evaluating custom fine-tunes, new releases, or models from any source.
+    public func checkCustom(
+        parametersBillion: Double,
+        quantization: QuantizationFormat = .q4KM,
+        contextLength: UInt64 = ModelRequirements.defaultContextLength
+    ) throws -> CustomModelReport {
+        let profile = try hardwareProfile()
+
+        let diskSizeBytes = UInt64(parametersBillion * quantization.gbPerBillionParams * 1_073_741_824)
+        let requirements = ModelRequirements.estimated(
+            parameterCount: ParameterCount(billions: parametersBillion),
+            quantization: quantization,
+            diskSizeBytes: diskSizeBytes,
+            contextLength: contextLength
+        )
+
+        let available = profile.availableMemoryForInferenceBytes
+        let required = requirements.minimumMemoryBytes
+        let headroom = Int64(available) - Int64(required)
+        let usagePercent = available > 0
+            ? (Double(required) / Double(available)) * 100
+            : 100
+
+        let verdict: CompatibilityVerdict
+        if required > available {
+            verdict = .incompatible(.insufficientMemory(requiredBytes: required, availableBytes: available))
+        } else {
+            let ratio = Double(required) / Double(available)
+            verdict = switch ratio {
+            case ..<0.50:     .compatible(.optimal)
+            case 0.50..<0.75: .compatible(.comfortable)
+            case 0.75..<0.90: .compatible(.constrained)
+            default:          .marginal
+            }
+        }
+
+        let perf = PerformanceCalculator.estimate(
+            modelSizeGB: Double(diskSizeBytes) / 1_073_741_824,
+            hardware: profile
+        )
+
+        return CustomModelReport(
+            parametersBillion: parametersBillion,
+            quantization: quantization,
+            contextLength: contextLength,
+            requirements: requirements,
+            verdict: verdict,
+            memoryUsagePercent: usagePercent,
+            memoryHeadroomBytes: headroom,
+            performanceEstimate: perf,
+            hardware: profile
+        )
+    }
+
     // MARK: - Cache Management
 
     public func refreshCatalog() async throws {
@@ -215,6 +272,46 @@ public struct VariantReport: Sendable {
     }
 
     public var isRunnable: Bool { report.verdict.isRunnable }
+}
+
+/// Result of checking a custom model specification against the current hardware.
+public struct CustomModelReport: Sendable {
+    public let parametersBillion: Double
+    public let quantization: QuantizationFormat
+    public let contextLength: UInt64
+    public let requirements: ModelRequirements
+    public let verdict: CompatibilityVerdict
+    public let memoryUsagePercent: Double
+    public let memoryHeadroomBytes: Int64
+    public let performanceEstimate: PerformanceEstimate
+    public let hardware: HardwareProfile
+
+    public init(
+        parametersBillion: Double, quantization: QuantizationFormat,
+        contextLength: UInt64, requirements: ModelRequirements,
+        verdict: CompatibilityVerdict, memoryUsagePercent: Double,
+        memoryHeadroomBytes: Int64, performanceEstimate: PerformanceEstimate,
+        hardware: HardwareProfile
+    ) {
+        self.parametersBillion = parametersBillion
+        self.quantization = quantization
+        self.contextLength = contextLength
+        self.requirements = requirements
+        self.verdict = verdict
+        self.memoryUsagePercent = memoryUsagePercent
+        self.memoryHeadroomBytes = memoryHeadroomBytes
+        self.performanceEstimate = performanceEstimate
+        self.hardware = hardware
+    }
+
+    public var isRunnable: Bool { verdict.isRunnable }
+
+    public var summary: String {
+        let params = ParameterCount(billions: parametersBillion).displayString
+        let mem = String(format: "%.1f", requirements.minimumMemoryGB)
+        let speed = String(format: "%.1f", performanceEstimate.estimatedTokensPerSecond)
+        return "\(params) \(quantization.displayName): \(verdict) — \(mem) GB, ~\(speed) tok/s"
+    }
 }
 
 public struct ProviderInfo: Sendable {

@@ -161,6 +161,38 @@ struct FitCheckIntegrationTests {
         #expect(before.count == after.count)
     }
 
+    @Test("checkCustom evaluates arbitrary model specs")
+    func checkCustomModel() async throws {
+        let fc = makeFitCheck(profile: .fixture(totalMemoryBytes: 16 * 1_073_741_824))
+        let report = try await fc.checkCustom(parametersBillion: 7, quantization: .q4KM)
+
+        #expect(report.isRunnable)
+        #expect(report.requirements.minimumMemoryGB > 4)
+        #expect(report.requirements.minimumMemoryGB < 7)
+        #expect(report.performanceEstimate.estimatedTokensPerSecond > 0)
+        #expect(!report.summary.isEmpty)
+    }
+
+    @Test("checkCustom with large context increases memory")
+    func checkCustomLargeContext() async throws {
+        let fc = makeFitCheck(profile: .fixture(totalMemoryBytes: 16 * 1_073_741_824))
+        let short = try await fc.checkCustom(parametersBillion: 7, contextLength: 4096)
+        let long = try await fc.checkCustom(parametersBillion: 7, contextLength: 32768)
+
+        #expect(long.requirements.minimumMemoryBytes > short.requirements.minimumMemoryBytes)
+    }
+
+    @Test("checkCustom rejects models that don't fit")
+    func checkCustomTooLarge() async throws {
+        let fc = makeFitCheck(profile: .fixture(totalMemoryBytes: 8 * 1_073_741_824))
+        let report = try await fc.checkCustom(parametersBillion: 70)
+
+        #expect(!report.isRunnable)
+        if case .incompatible = report.verdict {} else {
+            Issue.record("Expected incompatible verdict")
+        }
+    }
+
     @Test("CompatibilityVerdict has readable description")
     func verdictDescription() {
         let optimal = CompatibilityVerdict.compatible(.optimal)

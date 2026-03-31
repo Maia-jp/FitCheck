@@ -53,16 +53,16 @@ Then add `"FitCheck"` to your target's dependencies.
 ```swift
 let fc = FitCheck()
 
-// What can I run?
+// What can I run from the catalog?
 let compatible = try await fc.compatibleModels()
 
-// Check a specific model
+// Check a specific catalog model
 let reports = try await fc.check(modelID: "llama3-1-8b")
 
 // What's my hardware?
 let profile = try await fc.hardwareProfile()
 
-// Filter models
+// Filter catalog
 let small = try await fc.models(maxParameters: 8)
 let llamas = try await fc.models(family: .llama)
 let results = try await fc.models(matching: "deepseek")
@@ -70,6 +70,57 @@ let results = try await fc.models(matching: "deepseek")
 // Provider status
 let providers = try await fc.providers()
 let installed = try await fc.installedModels()
+```
+
+## Custom Models
+
+You don't need to use the catalog. Check any model spec directly — your own fine-tunes, new releases, anything:
+
+```swift
+let fc = FitCheck()
+
+// "Can my Mac run a 13B model at Q4_K_M with 8K context?"
+let report = try await fc.checkCustom(
+    parametersBillion: 13,
+    quantization: .q4KM,
+    contextLength: 8192
+)
+
+print(report.summary)
+// "13B Q4_K_M: Compatible (Comfortable) — 8.6 GB, ~14.5 tok/s"
+
+print(report.verdict)              // Compatible (Comfortable)
+print(report.requirements.minimumMemoryGB)  // 8.6
+print(report.performanceEstimate.rating)    // Moderate (15–30 tok/s)
+print(report.isRunnable)           // true
+```
+
+Use the calculation engine directly for full control:
+
+```swift
+// Estimate memory for any model spec
+let requirements = ModelRequirements.estimated(
+    parameterCount: ParameterCount(billions: 70),
+    quantization: .q4KM,
+    diskSizeBytes: 40_000_000_000,
+    contextLength: 32768  // 32K context
+)
+print(requirements.minimumMemoryGB)  // ~45 GB
+
+// Estimate inference speed on any chip
+let profile = try await FitCheck().hardwareProfile()
+let perf = PerformanceCalculator.estimate(
+    modelSizeGB: 40.0,
+    hardware: profile
+)
+print(perf.estimatedTokensPerSecond)  // varies by chip
+print(perf.rating)                    // e.g. "Slow (8–15 tok/s)"
+
+// Check memory bandwidth for any Apple Silicon variant
+let bandwidth = PerformanceCalculator.memoryBandwidth(
+    for: .appleSilicon(.m4Max)
+)
+print(bandwidth)  // 546.0 GB/s
 ```
 
 ## Architecture
