@@ -16,7 +16,7 @@ struct CatalogGenerator {
         let modelsDevClient = ModelsDevClient()
         let modelMapLoader = ModelMapLoader()
 
-        // Layer 0: models.dev
+        // Layer 0: models.dev (optional enrichment)
         let openWeightModels: [ModelsDevEntry]
         if offline {
             print("Offline mode: skipping models.dev fetch")
@@ -27,7 +27,7 @@ struct CatalogGenerator {
             log("\(openWeightModels.count) open-weight models found on models.dev")
         }
 
-        // Layer 1: Model map
+        // Layer 1: Model map (source of truth for what models to include)
         let modelMap = try modelMapLoader.load(from: "data/model-map.json")
         log("\(modelMap.count) entries in model-map.json")
 
@@ -36,40 +36,45 @@ struct CatalogGenerator {
             return
         }
 
-        // Match models.dev entries with model map
-        var catalogModels: [CatalogModel] = []
+        // Build catalog: every model-map entry is included.
+        // models.dev enriches with metadata when a match exists.
+        let modelsDevLookup = Dictionary(
+            openWeightModels.map { ($0.fullID, $0) },
+            uniquingKeysWith: { first, _ in first }
+        )
 
-        if offline {
-            for (fullID, mapping) in modelMap {
+        var catalogModels: [CatalogModel] = []
+        var seenOllama = Set<String>()
+        var enrichedCount = 0
+
+        for (fullID, mapping) in modelMap {
+            guard seenOllama.insert(mapping.ollama).inserted else { continue }
+
+            let entry: ModelsDevEntry
+            if let matched = modelsDevLookup[fullID] {
+                entry = matched
+                enrichedCount += 1
+            } else {
                 let parts = fullID.split(separator: "/", maxSplits: 1)
                 let providerID = parts.first.map(String.init) ?? ""
                 let modelID = parts.count > 1 ? String(parts[1]) : fullID
-                let entry = ModelsDevEntry(
+                entry = ModelsDevEntry(
                     fullID: fullID,
                     providerID: providerID,
                     modelID: modelID,
-                    name: modelID,
-                    family: nil,
+                    name: mapping.displayName ?? modelID,
+                    family: mapping.family,
                     releaseDate: nil,
-                    providerName: String(parts.first ?? ""),
+                    providerName: nil,
                     providerDoc: nil
                 )
-                let card = CatalogBuilder.buildCard(from: entry, mapping: mapping)
-                catalogModels.append(card)
             }
-        } else {
-            let mapped = openWeightModels.filter { modelMap[$0.fullID] != nil }
-            log("\(mapped.count) models matched with model map")
 
-            var seenOllama = Set<String>()
-            for entry in mapped {
-                guard let mapping = modelMap[entry.fullID] else { continue }
-                let ollamaBase = mapping.ollama.split(separator: ":").first.map(String.init) ?? mapping.ollama
-                guard seenOllama.insert(ollamaBase).inserted else { continue }
-                let card = CatalogBuilder.buildCard(from: entry, mapping: mapping)
-                catalogModels.append(card)
-            }
+            let card = CatalogBuilder.buildCard(from: entry, mapping: mapping)
+            catalogModels.append(card)
         }
+
+        log("\(catalogModels.count) unique models (\(enrichedCount) enriched from models.dev)")
 
         let catalog = CatalogOutput(
             version: "1.0.0",
