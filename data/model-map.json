@@ -376,31 +376,31 @@
     "hf_gguf": null, "params_b": 7.0
   },
   "ollama/lfm2": {
-    "ollama": "lfm2", "name": "LFM 2 24B", "family": "other",
+    "ollama": "lfm2", "name": "LFM 2 24B", "family": "lfm",
     "hf_gguf": null, "params_b": 24.0
   },
   "ollama/gpt-oss:20b": {
-    "ollama": "gpt-oss:20b", "name": "GPT-OSS 20B", "family": "other",
+    "ollama": "gpt-oss:20b", "name": "GPT-OSS 20B", "family": "gpt_oss",
     "hf_gguf": null, "params_b": 20.0
   },
   "ollama/gpt-oss:120b": {
-    "ollama": "gpt-oss:120b", "name": "GPT-OSS 120B", "family": "other",
+    "ollama": "gpt-oss:120b", "name": "GPT-OSS 120B", "family": "gpt_oss",
     "hf_gguf": null, "params_b": 120.0
   },
   "ollama/cogito:8b": {
-    "ollama": "cogito:8b", "name": "Cogito 8B", "family": "other",
+    "ollama": "cogito:8b", "name": "Cogito 8B", "family": "cogito",
     "hf_gguf": null, "params_b": 8.0
   },
   "ollama/cogito:32b": {
-    "ollama": "cogito:32b", "name": "Cogito 32B", "family": "other",
+    "ollama": "cogito:32b", "name": "Cogito 32B", "family": "cogito",
     "hf_gguf": null, "params_b": 32.0
   },
   "ollama/cogito:70b": {
-    "ollama": "cogito:70b", "name": "Cogito 70B", "family": "other",
+    "ollama": "cogito:70b", "name": "Cogito 70B", "family": "cogito",
     "hf_gguf": null, "params_b": 70.0
   },
   "ollama/glm-4.7-flash": {
-    "ollama": "glm-4.7-flash", "name": "GLM 4.7 Flash 30B", "family": "other",
+    "ollama": "glm-4.7-flash", "name": "GLM 4.7 Flash 30B", "family": "glm",
     "hf_gguf": null, "params_b": 30.0
   },
   "ollama/magistral": {
@@ -420,7 +420,7 @@
     "hf_gguf": null, "params_b": 1.5
   },
   "ollama/solar:10.7b": {
-    "ollama": "solar:10.7b", "name": "Solar 10.7B", "family": "other",
+    "ollama": "solar:10.7b", "name": "Solar 10.7B", "family": "solar",
     "hf_gguf": null, "params_b": 10.7
   }
 }

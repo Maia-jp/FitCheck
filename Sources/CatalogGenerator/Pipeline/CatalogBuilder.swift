@@ -21,6 +21,15 @@ enum CatalogBuilder {
         "granite": "IBM",
         "nemotron": "NVIDIA",
         "aya": "Cohere",
+        "cogito": "Deep Cogito",
+        "glm": "Zhipu AI",
+        "gpt_oss": "OpenAI",
+        "lfm": "Liquid AI",
+        "solar": "Upstage",
+        "dolphin": "Cognitive Computations",
+        "hermes": "Nous Research",
+        "wizard": "WizardLM Team",
+        "openchat": "OpenChat Team",
     ]
 
     static func buildCard(

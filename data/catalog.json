@@ -1,5 +1,5 @@
 {
-  "generated_at" : "2026-03-31T13:08:12Z",
+  "generated_at" : "2026-03-31T13:13:50Z",
   "models" : [
     {
       "description" : "Aya 23 8B — open-weight model by Cohere.",
@@ -899,11 +899,11 @@
       ]
     },
     {
-      "description" : "Cogito 32B — open-weight model.",
-      "family" : "other",
+      "description" : "Cogito 32B — open-weight model by Deep Cogito.",
+      "family" : "cogito",
       "id" : "cogito-32b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "cogito",
         "is_open_source" : true,
         "name" : "Cogito 32B License"
       },
@@ -992,11 +992,11 @@
       ]
     },
     {
-      "description" : "Cogito 70B — open-weight model.",
-      "family" : "other",
+      "description" : "Cogito 70B — open-weight model by Deep Cogito.",
+      "family" : "cogito",
       "id" : "cogito-70b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "cogito",
         "is_open_source" : true,
         "name" : "Cogito 70B License"
       },
@@ -1085,11 +1085,11 @@
       ]
     },
     {
-      "description" : "Cogito 8B — open-weight model.",
-      "family" : "other",
+      "description" : "Cogito 8B — open-weight model by Deep Cogito.",
+      "family" : "cogito",
       "id" : "cogito-8b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "cogito",
         "is_open_source" : true,
         "name" : "Cogito 8B License"
       },
@@ -3065,11 +3065,11 @@
       ]
     },
     {
-      "description" : "GLM 4.7 Flash 30B — open-weight model.",
-      "family" : "other",
+      "description" : "GLM 4.7 Flash 30B — open-weight model by Zhipu AI.",
+      "family" : "glm",
       "id" : "glm-4-7-flash",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "glm",
         "is_open_source" : true,
         "name" : "GLM 4.7 Flash 30B License"
       },
@@ -3158,11 +3158,11 @@
       ]
     },
     {
-      "description" : "GPT-OSS 120B — open-weight model.",
-      "family" : "other",
+      "description" : "GPT-OSS 120B — open-weight model by OpenAI.",
+      "family" : "gpt_oss",
       "id" : "gpt-oss-120b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "gpt_oss",
         "is_open_source" : true,
         "name" : "GPT-OSS 120B License"
       },
@@ -3251,11 +3251,11 @@
       ]
     },
     {
-      "description" : "GPT-OSS 20B — open-weight model.",
-      "family" : "other",
+      "description" : "GPT-OSS 20B — open-weight model by OpenAI.",
+      "family" : "gpt_oss",
       "id" : "gpt-oss-20b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "gpt_oss",
         "is_open_source" : true,
         "name" : "GPT-OSS 20B License"
       },
@@ -4658,11 +4658,11 @@
       ]
     },
     {
-      "description" : "LFM 2 24B — open-weight model.",
-      "family" : "other",
+      "description" : "LFM 2 24B — open-weight model by Liquid AI.",
+      "family" : "lfm",
       "id" : "lfm2",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "lfm",
         "is_open_source" : true,
         "name" : "LFM 2 24B License"
       },
@@ -9494,11 +9494,11 @@
       ]
     },
     {
-      "description" : "Solar 10.7B — open-weight model.",
-      "family" : "other",
+      "description" : "Solar 10.7B — open-weight model by Upstage.",
+      "family" : "solar",
       "id" : "solar-10-7b",
       "license" : {
-        "identifier" : "other",
+        "identifier" : "solar",
         "is_open_source" : true,
         "name" : "Solar 10.7B License"
       },
