@@ -18,6 +18,15 @@ public enum ModelFamily: String, Sendable, Codable, CaseIterable, Equatable {
     case granite
     case nemotron
     case aya
+    case cogito
+    case glm
+    case gptOss = "gpt_oss"
+    case lfm
+    case solar
+    case dolphin
+    case hermes
+    case wizard
+    case openchat
     case other
 
     public init(from decoder: any Decoder) throws {
@@ -52,6 +61,15 @@ public enum ModelFamily: String, Sendable, Codable, CaseIterable, Equatable {
         case .granite:    "Granite"
         case .nemotron:   "Nemotron"
         case .aya:        "Aya"
+        case .cogito:     "Cogito"
+        case .glm:        "GLM"
+        case .gptOss:     "GPT-OSS"
+        case .lfm:        "LFM"
+        case .solar:      "Solar"
+        case .dolphin:    "Dolphin"
+        case .hermes:     "Hermes"
+        case .wizard:     "WizardLM"
+        case .openchat:   "OpenChat"
         case .other:      "Other"
         }
     }

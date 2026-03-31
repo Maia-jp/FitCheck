@@ -12,6 +12,20 @@ struct MockHardwareProfiler: HardwareProfiler {
     }
 }
 
+final class CountingHardwareProfiler: HardwareProfiler, @unchecked Sendable {
+    private(set) var callCount = 0
+    let result: HardwareProfile
+
+    init(result: HardwareProfile = .fixture()) {
+        self.result = result
+    }
+
+    func profile() throws -> HardwareProfile {
+        callCount += 1
+        return result
+    }
+}
+
 extension HardwareProfile {
     static func fixture(
         chip: Chip = .appleSilicon(.m2),

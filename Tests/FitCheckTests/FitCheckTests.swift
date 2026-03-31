@@ -103,12 +103,76 @@ struct FitCheckIntegrationTests {
         }
     }
 
-    @Test("Hardware profile is cached after first call")
+    @Test("Hardware profile is cached — profiler called only once")
     func profileCaching() async throws {
-        let fc = makeFitCheck()
-        let first = try await fc.hardwareProfile()
-        let second = try await fc.hardwareProfile()
-        #expect(first == second)
+        let counting = CountingHardwareProfiler()
+        let fc = FitCheck(
+            hardwareProfiler: counting,
+            catalogProvider: MockCatalogProvider(models: [.fixture()]),
+            compatibilityChecker: DefaultCompatibilityChecker(),
+            downloadProviders: []
+        )
+        _ = try await fc.hardwareProfile()
+        _ = try await fc.hardwareProfile()
+        _ = try await fc.hardwareProfile()
+        #expect(counting.callCount == 1)
+    }
+
+    @Test("invalidateHardwareCache forces re-profile")
+    func invalidateHardware() async throws {
+        let counting = CountingHardwareProfiler()
+        let fc = FitCheck(
+            hardwareProfiler: counting,
+            catalogProvider: MockCatalogProvider(models: [.fixture()]),
+            compatibilityChecker: DefaultCompatibilityChecker(),
+            downloadProviders: []
+        )
+        _ = try await fc.hardwareProfile()
+        await fc.invalidateHardwareCache()
+        _ = try await fc.hardwareProfile()
+        #expect(counting.callCount == 2)
+    }
+
+    @Test("allModelsWithCompatibility returns all variants including incompatible")
+    func allModelsWithCompatibility() async throws {
+        let model = ModelCard.fixture(
+            id: "test",
+            variants: [
+                .fixture(id: "small", minimumMemoryBytes: 2 * 1_073_741_824 as UInt64),
+                .fixture(id: "huge", minimumMemoryBytes: 100 * 1_073_741_824 as UInt64),
+            ]
+        )
+        let fc = makeFitCheck(
+            profile: .fixture(totalMemoryBytes: 16 * 1_073_741_824),
+            models: [model]
+        )
+        let all = try await fc.allModelsWithCompatibility()
+        #expect(all.count == 2)
+        #expect(all.contains { $0.isRunnable })
+        #expect(all.contains { !$0.isRunnable })
+    }
+
+    @Test("refreshCatalog reloads from provider")
+    func refreshCatalog() async throws {
+        let fc = makeFitCheck(models: [.fixture()])
+        let before = try await fc.allModels()
+        try await fc.refreshCatalog()
+        let after = try await fc.allModels()
+        #expect(before.count == after.count)
+    }
+
+    @Test("CompatibilityVerdict has readable description")
+    func verdictDescription() {
+        let optimal = CompatibilityVerdict.compatible(.optimal)
+        #expect(optimal.description == "Compatible (Optimal)")
+
+        let marginal = CompatibilityVerdict.marginal
+        #expect(marginal.description.contains("Marginal"))
+
+        let incompatible = CompatibilityVerdict.incompatible(
+            .insufficientMemory(requiredBytes: 10_000_000_000, availableBytes: 5_000_000_000)
+        )
+        #expect(incompatible.description.contains("Incompatible"))
     }
 
     @Test("models(family:) filters correctly")

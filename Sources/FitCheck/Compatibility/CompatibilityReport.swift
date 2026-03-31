@@ -8,6 +8,22 @@ public struct CompatibilityReport: Sendable, Equatable {
     public let memoryUsagePercent: Double
     public let warnings: [CompatibilityWarning]
 
+    public init(
+        modelCardID: String, variantID: String, verdict: CompatibilityVerdict,
+        estimatedMemoryUsageBytes: UInt64, availableMemoryBytes: UInt64,
+        memoryHeadroomBytes: Int64, memoryUsagePercent: Double,
+        warnings: [CompatibilityWarning]
+    ) {
+        self.modelCardID = modelCardID
+        self.variantID = variantID
+        self.verdict = verdict
+        self.estimatedMemoryUsageBytes = estimatedMemoryUsageBytes
+        self.availableMemoryBytes = availableMemoryBytes
+        self.memoryHeadroomBytes = memoryHeadroomBytes
+        self.memoryUsagePercent = memoryUsagePercent
+        self.warnings = warnings
+    }
+
     public var memoryHeadroomGB: Double {
         Double(memoryHeadroomBytes) / 1_073_741_824
     }

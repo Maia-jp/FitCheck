@@ -164,6 +164,14 @@ public struct CompatibleModel: Sendable, Identifiable {
     public let report: CompatibilityReport
     public let downloadActions: [DownloadAction]
 
+    public init(id: String, card: ModelCard, variant: ModelVariant, report: CompatibilityReport, downloadActions: [DownloadAction]) {
+        self.id = id
+        self.card = card
+        self.variant = variant
+        self.report = report
+        self.downloadActions = downloadActions
+    }
+
     internal init(match: ModelMatch, downloadActions: [DownloadAction]) {
         self.id = match.id
         self.card = match.card
@@ -188,6 +196,12 @@ public struct VariantReport: Sendable {
     public let report: CompatibilityReport
     public let downloadActions: [DownloadAction]
 
+    public init(variant: ModelVariant, report: CompatibilityReport, downloadActions: [DownloadAction]) {
+        self.variant = variant
+        self.report = report
+        self.downloadActions = downloadActions
+    }
+
     public var isRunnable: Bool { report.verdict.isRunnable }
 }
 
@@ -198,4 +212,13 @@ public struct ProviderInfo: Sendable {
     public let installationURL: URL
     public let installedModelCount: Int
     public let installedModels: [InstalledModel]
+
+    public init(name: String, type: DownloadProviderType, installation: ProviderInstallation, installationURL: URL, installedModelCount: Int, installedModels: [InstalledModel]) {
+        self.name = name
+        self.type = type
+        self.installation = installation
+        self.installationURL = installationURL
+        self.installedModelCount = installedModelCount
+        self.installedModels = installedModels
+    }
 }

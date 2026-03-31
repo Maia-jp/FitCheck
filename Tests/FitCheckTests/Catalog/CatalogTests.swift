@@ -239,7 +239,74 @@ struct BundledCatalogProviderTests {
     func loadsSuccessfully() async throws {
         let provider = BundledCatalogProvider()
         let models = try await provider.fetchModels()
-        #expect(models is [ModelCard])
+        #expect(!models.isEmpty)
+    }
+
+    @Test("Bundled catalog contains 50+ models")
+    func catalogSize() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        #expect(models.count >= 50)
+    }
+
+    @Test("Every model has at least one variant")
+    func allModelsHaveVariants() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        for model in models {
+            #expect(!model.variants.isEmpty, "Model \(model.id) has no variants")
+        }
+    }
+
+    @Test("Every variant has an Ollama tag")
+    func allVariantsHaveOllamaTag() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        for model in models {
+            for variant in model.variants {
+                #expect(variant.ollamaTag != nil, "Variant \(variant.id) of \(model.id) has no ollamaTag")
+            }
+        }
+    }
+
+    @Test("Memory requirements scale with parameter count")
+    func requirementsScale() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        let q4km = models.compactMap { model -> (Double, UInt64)? in
+            guard let variant = model.variants.first(where: { $0.quantization == .q4KM }) else { return nil }
+            return (model.parameterCount.billions, variant.requirements.minimumMemoryBytes)
+        }
+        .sorted { $0.0 < $1.0 }
+
+        guard q4km.count >= 2 else { return }
+        for i in 1..<q4km.count {
+            let (smallParams, smallMem) = q4km[i - 1]
+            let (largeParams, largeMem) = q4km[i]
+            if largeParams > smallParams * 1.5 {
+                #expect(largeMem > smallMem,
+                    "\(largeParams)B model (\(largeMem) bytes) should require more memory than \(smallParams)B (\(smallMem) bytes)")
+            }
+        }
+    }
+
+    @Test("All quantization formats are valid enum cases")
+    func validQuantizations() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        let validQuants = Set(QuantizationFormat.allCases)
+        for model in models {
+            for variant in model.variants {
+                #expect(validQuants.contains(variant.quantization),
+                    "Unknown quantization \(variant.quantization) in \(model.id)")
+            }
+        }
+    }
+
+    @Test("Variant disk size equals size_bytes")
+    func diskSizeConsistency() async throws {
+        let models = try await BundledCatalogProvider().fetchModels()
+        for model in models {
+            for variant in model.variants {
+                #expect(variant.sizeBytes == variant.requirements.diskSizeBytes,
+                    "Inconsistent size for \(variant.id)")
+            }
+        }
     }
 }
 

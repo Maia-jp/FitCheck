@@ -64,22 +64,23 @@ enum CatalogBuilder {
             huggingFaceUrl: mapping.hfGguf.map { "https://huggingface.co/\($0)" },
             variants: buildFormulaVariants(
                 modelID: cleanID,
-                ollamaBase: ollamaTag,
+                ollamaTag: ollamaTag,
                 hfGguf: mapping.hfGguf,
                 paramsB: mapping.paramsB
             )
         )
     }
 
+    /// Each variant represents a different quantization at a known size.
+    /// The `ollamaTag` is the real pull tag from the model map — what
+    /// users actually type into `ollama pull`.
     static func buildFormulaVariants(
         modelID: String,
-        ollamaBase: String,
+        ollamaTag: String,
         hfGguf: String?,
         paramsB: Double
     ) -> [CatalogVariant] {
-        targetQuantizations.compactMap { quant in
-            let base = ollamaBase.split(separator: ":").first.map(String.init) ?? ollamaBase
-            let tag = "\(base):\(quant.lowercased())"
+        targetQuantizations.map { quant in
             let sizeBytes = UInt64(paramsB * gbPerBillionParams(quant) * 1_073_741_824)
             let requirements = RequirementsCalculator.compute(
                 paramsBillion: paramsB,
@@ -92,7 +93,7 @@ enum CatalogBuilder {
                 quantization: quant,
                 sizeBytes: sizeBytes,
                 requirements: requirements,
-                ollamaTag: tag,
+                ollamaTag: ollamaTag,
                 lmStudioModelId: hfGguf,
                 downloadUrl: hfGguf.map { "https://huggingface.co/\($0)" }
             )

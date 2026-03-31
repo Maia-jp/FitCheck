@@ -1,4 +1,4 @@
-public enum CompatibilityVerdict: Sendable, Equatable {
+public enum CompatibilityVerdict: Sendable, Equatable, CustomStringConvertible {
     case compatible(PerformanceTier)
     case marginal
     case incompatible(IncompatibilityReason)
@@ -7,6 +7,17 @@ public enum CompatibilityVerdict: Sendable, Equatable {
         switch self {
         case .compatible, .marginal: true
         case .incompatible:          false
+        }
+    }
+
+    public var description: String {
+        switch self {
+        case .compatible(let tier):
+            "Compatible (\(tier.displayName))"
+        case .marginal:
+            "Marginal — model fits but swapping is likely"
+        case .incompatible(let reason):
+            "Incompatible — \(reason.displayDescription)"
         }
     }
 }
