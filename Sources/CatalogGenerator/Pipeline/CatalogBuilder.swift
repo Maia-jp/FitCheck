@@ -3,19 +3,50 @@ import Foundation
 enum CatalogBuilder {
     static let targetQuantizations = ["Q4_K_M", "Q5_K_M", "Q8_0", "Q3_K_M", "Q6_K", "Q2_K", "F16"]
 
+    private static let familyCreators: [String: String] = [
+        "llama": "Meta", "code_llama": "Meta",
+        "mistral": "Mistral AI", "mixtral": "Mistral AI",
+        "phi": "Microsoft",
+        "gemma": "Google",
+        "qwen": "Alibaba",
+        "deepseek": "DeepSeek",
+        "falcon": "TII",
+        "yi": "01.AI",
+        "starcoder": "BigCode",
+        "vicuna": "LMSYS",
+        "command_r": "Cohere",
+        "olmo": "Allen AI",
+        "intern_lm": "Shanghai AI Lab",
+        "smol_lm": "Hugging Face",
+        "granite": "IBM",
+        "nemotron": "NVIDIA",
+        "aya": "Cohere",
+    ]
+
     static func buildCard(
         from entry: ModelsDevEntry,
         mapping: ModelMapEntry
     ) -> CatalogModel {
-        CatalogModel(
-            id: entry.modelID,
-            name: entry.name,
-            family: entry.family ?? "other",
+        let name = mapping.displayName ?? entry.name
+        let family = mapping.family ?? entry.family ?? "other"
+        let creator = familyCreators[family]
+        let description = creator.map { "\(name) — open-weight model by \($0)." }
+            ?? "\(name) — open-weight model."
+
+        let ollamaTag = mapping.ollama
+        let cleanID = ollamaTag
+            .replacingOccurrences(of: ":", with: "-")
+            .replacingOccurrences(of: ".", with: "-")
+
+        return CatalogModel(
+            id: cleanID,
+            name: name,
+            family: family,
             parameterCount: CatalogParameterCount(billions: mapping.paramsB),
-            description: "\(entry.name) by \(entry.providerName ?? entry.providerID).",
+            description: description,
             license: CatalogLicense(
-                identifier: entry.family ?? "unknown",
-                name: "\(entry.name) License",
+                identifier: family,
+                name: "\(name) License",
                 url: nil,
                 isOpenSource: true
             ),
@@ -23,8 +54,8 @@ enum CatalogBuilder {
             sourceUrl: entry.providerDoc,
             huggingFaceUrl: mapping.hfGguf.map { "https://huggingface.co/\($0)" },
             variants: buildFormulaVariants(
-                modelID: entry.modelID,
-                ollamaBase: mapping.ollama,
+                modelID: cleanID,
+                ollamaBase: ollamaTag,
                 hfGguf: mapping.hfGguf,
                 paramsB: mapping.paramsB
             )
@@ -38,7 +69,8 @@ enum CatalogBuilder {
         paramsB: Double
     ) -> [CatalogVariant] {
         targetQuantizations.compactMap { quant in
-            let tag = "\(ollamaBase.split(separator: ":").first ?? Substring(ollamaBase)):\(quant.lowercased())"
+            let base = ollamaBase.split(separator: ":").first.map(String.init) ?? ollamaBase
+            let tag = "\(base):\(quant.lowercased())"
             let sizeBytes = UInt64(paramsB * gbPerBillionParams(quant) * 1_073_741_824)
             let requirements = RequirementsCalculator.compute(
                 paramsBillion: paramsB,
