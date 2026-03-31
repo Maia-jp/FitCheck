@@ -1,0 +1,996 @@
+{
+  "generated_at" : "2026-03-31T12:55:13Z",
+  "models" : [
+    {
+      "description" : "DeepSeek-R1 by Azure Cognitive Services.",
+      "family" : "deepseek-thinking",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+      "id" : "deepseek-r1",
+      "license" : {
+        "identifier" : "deepseek-thinking",
+        "is_open_source" : true,
+        "name" : "DeepSeek-R1 License"
+      },
+      "name" : "DeepSeek-R1",
+      "parameter_count" : {
+        "billions" : 7
+      },
+      "release_date" : "2025-01-20",
+      "source_url" : "https:\/\/learn.microsoft.com\/en-us\/azure\/ai-services\/openai\/concepts\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4359391805,
+            "minimum_memory_bytes" : 5142553322,
+            "recommended_memory_bytes" : 6171063986
+          },
+          "size_bytes" : 4359391805
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 5111011082,
+            "minimum_memory_bytes" : 5894172598,
+            "recommended_memory_bytes" : 7073007118
+          },
+          "size_bytes" : 5111011082
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q80",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 7892002406,
+            "minimum_memory_bytes" : 8675163923,
+            "recommended_memory_bytes" : 10410196707
+          },
+          "size_bytes" : 7892002406
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 3607772528,
+            "minimum_memory_bytes" : 4390934045,
+            "recommended_memory_bytes" : 5269120854
+          },
+          "size_bytes" : 3607772528
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 6012954214,
+            "minimum_memory_bytes" : 6796115731,
+            "recommended_memory_bytes" : 8155338877
+          },
+          "size_bytes" : 6012954214
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 2780991324,
+            "minimum_memory_bytes" : 3564152840,
+            "recommended_memory_bytes" : 4276983408
+          },
+          "size_bytes" : 2780991324
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "id" : "deepseek-r1-f16",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "ollama_tag" : "deepseek-r1:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 15032385536,
+            "minimum_memory_bytes" : 15815547052,
+            "recommended_memory_bytes" : 18978656463
+          },
+          "size_bytes" : 15032385536
+        }
+      ]
+    },
+    {
+      "description" : "Gemma 2 9B by OpenRouter.",
+      "family" : "gemma",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+      "id" : "google\/gemma-2-9b-it",
+      "license" : {
+        "identifier" : "gemma",
+        "is_open_source" : true,
+        "name" : "Gemma 2 9B License"
+      },
+      "name" : "Gemma 2 9B",
+      "parameter_count" : {
+        "billions" : 9
+      },
+      "release_date" : "2024-06-28",
+      "source_url" : "https:\/\/openrouter.ai\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 5604932321,
+            "minimum_memory_bytes" : 6458462582,
+            "recommended_memory_bytes" : 7750155098
+          },
+          "size_bytes" : 5604932321
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 6571299962,
+            "minimum_memory_bytes" : 7424830223,
+            "recommended_memory_bytes" : 8909796268
+          },
+          "size_bytes" : 6571299962
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q80",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 10146860236,
+            "minimum_memory_bytes" : 11000390497,
+            "recommended_memory_bytes" : 13200468597
+          },
+          "size_bytes" : 10146860236
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4638564679,
+            "minimum_memory_bytes" : 5492094940,
+            "recommended_memory_bytes" : 6590513928
+          },
+          "size_bytes" : 4638564679
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 7730941132,
+            "minimum_memory_bytes" : 8584471393,
+            "recommended_memory_bytes" : 10301365672
+          },
+          "size_bytes" : 7730941132
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 3575560273,
+            "minimum_memory_bytes" : 4429090534,
+            "recommended_memory_bytes" : 5314908641
+          },
+          "size_bytes" : 3575560273
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-f16",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "ollama_tag" : "gemma2:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 19327352832,
+            "minimum_memory_bytes" : 20180883092,
+            "recommended_memory_bytes" : 24217059711
+          },
+          "size_bytes" : 19327352832
+        }
+      ]
+    },
+    {
+      "description" : "Llama 3.1 8B Instant by Groq.",
+      "family" : "llama",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "id" : "llama-3.1-8b-instant",
+      "license" : {
+        "identifier" : "llama",
+        "is_open_source" : true,
+        "name" : "Llama 3.1 8B Instant License"
+      },
+      "name" : "Llama 3.1 8B Instant",
+      "parameter_count" : {
+        "billions" : 8
+      },
+      "release_date" : "2024-07-23",
+      "source_url" : "https:\/\/console.groq.com\/docs\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4982162063,
+            "minimum_memory_bytes" : 5800507952,
+            "recommended_memory_bytes" : 6960609542
+          },
+          "size_bytes" : 4982162063
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 5841155522,
+            "minimum_memory_bytes" : 6659501411,
+            "recommended_memory_bytes" : 7991401693
+          },
+          "size_bytes" : 5841155522
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q80",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 9019431321,
+            "minimum_memory_bytes" : 9837777210,
+            "recommended_memory_bytes" : 11805332652
+          },
+          "size_bytes" : 9019431321
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4123168604,
+            "minimum_memory_bytes" : 4941514492,
+            "recommended_memory_bytes" : 5929817391
+          },
+          "size_bytes" : 4123168604
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 6871947673,
+            "minimum_memory_bytes" : 7690293562,
+            "recommended_memory_bytes" : 9228352274
+          },
+          "size_bytes" : 6871947673
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 3178275799,
+            "minimum_memory_bytes" : 3996621687,
+            "recommended_memory_bytes" : 4795946025
+          },
+          "size_bytes" : 3178275799
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "id" : "llama-3.1-8b-instant-f16",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "ollama_tag" : "llama3.1:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 17179869184,
+            "minimum_memory_bytes" : 17998215072,
+            "recommended_memory_bytes" : 21597858087
+          },
+          "size_bytes" : 17179869184
+        }
+      ]
+    },
+    {
+      "description" : "Llama 3.3 70B Versatile by Groq.",
+      "family" : "llama",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+      "id" : "llama-3.3-70b-versatile",
+      "license" : {
+        "identifier" : "llama",
+        "is_open_source" : true,
+        "name" : "Llama 3.3 70B Versatile License"
+      },
+      "name" : "Llama 3.3 70B Versatile",
+      "parameter_count" : {
+        "billions" : 70
+      },
+      "release_date" : "2024-12-06",
+      "source_url" : "https:\/\/console.groq.com\/docs\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 43593918054,
+            "minimum_memory_bytes" : 46593695012,
+            "recommended_memory_bytes" : 55912434015
+          },
+          "size_bytes" : 43593918054
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 51110110822,
+            "minimum_memory_bytes" : 54109887780,
+            "recommended_memory_bytes" : 64931865336
+          },
+          "size_bytes" : 51110110822
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q80",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 78920024064,
+            "minimum_memory_bytes" : 81919801022,
+            "recommended_memory_bytes" : 98303761226
+          },
+          "size_bytes" : 78920024064
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 36077725286,
+            "minimum_memory_bytes" : 39077502244,
+            "recommended_memory_bytes" : 46893002693
+          },
+          "size_bytes" : 36077725286
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 60129542144,
+            "minimum_memory_bytes" : 63129319102,
+            "recommended_memory_bytes" : 75755182922
+          },
+          "size_bytes" : 60129542144
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 27809913241,
+            "minimum_memory_bytes" : 30809690199,
+            "recommended_memory_bytes" : 36971628239
+          },
+          "size_bytes" : 27809913241
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "id" : "llama-3.3-70b-versatile-f16",
+          "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "ollama_tag" : "llama3.3:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 150323855360,
+            "minimum_memory_bytes" : 153323632318,
+            "recommended_memory_bytes" : 183988358781
+          },
+          "size_bytes" : 150323855360
+        }
+      ]
+    },
+    {
+      "description" : "Mistral 7B by Mistral.",
+      "family" : "mistral",
+      "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+      "id" : "open-mistral-7b",
+      "license" : {
+        "identifier" : "mistral",
+        "is_open_source" : true,
+        "name" : "Mistral 7B License"
+      },
+      "name" : "Mistral 7B",
+      "parameter_count" : {
+        "billions" : 7
+      },
+      "release_date" : "2023-09-27",
+      "source_url" : "https:\/\/docs.mistral.ai\/getting-started\/models\/",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q4km",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4359391805,
+            "minimum_memory_bytes" : 5142553322,
+            "recommended_memory_bytes" : 6171063986
+          },
+          "size_bytes" : 4359391805
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q5km",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 5111011082,
+            "minimum_memory_bytes" : 5894172598,
+            "recommended_memory_bytes" : 7073007118
+          },
+          "size_bytes" : 5111011082
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q80",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 7892002406,
+            "minimum_memory_bytes" : 8675163923,
+            "recommended_memory_bytes" : 10410196707
+          },
+          "size_bytes" : 7892002406
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q3km",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 3607772528,
+            "minimum_memory_bytes" : 4390934045,
+            "recommended_memory_bytes" : 5269120854
+          },
+          "size_bytes" : 3607772528
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q6k",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 6012954214,
+            "minimum_memory_bytes" : 6796115731,
+            "recommended_memory_bytes" : 8155338877
+          },
+          "size_bytes" : 6012954214
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-q2k",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 2780991324,
+            "minimum_memory_bytes" : 3564152840,
+            "recommended_memory_bytes" : 4276983408
+          },
+          "size_bytes" : 2780991324
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "id" : "open-mistral-7b-f16",
+          "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "ollama_tag" : "mistral:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 15032385536,
+            "minimum_memory_bytes" : 15815547052,
+            "recommended_memory_bytes" : 18978656463
+          },
+          "size_bytes" : 15032385536
+        }
+      ]
+    },
+    {
+      "description" : "Mixtral 8x7B by Mistral.",
+      "family" : "mixtral",
+      "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+      "id" : "open-mixtral-8x7b",
+      "license" : {
+        "identifier" : "mixtral",
+        "is_open_source" : true,
+        "name" : "Mixtral 8x7B License"
+      },
+      "name" : "Mixtral 8x7B",
+      "parameter_count" : {
+        "billions" : 46.7
+      },
+      "release_date" : "2023-12-11",
+      "source_url" : "https:\/\/docs.mistral.ai\/getting-started\/models\/",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q4km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 29083371044,
+            "minimum_memory_bytes" : 31263352133,
+            "recommended_memory_bytes" : 37516022560
+          },
+          "size_bytes" : 29083371044
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q5km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 34097745362,
+            "minimum_memory_bytes" : 36277726451,
+            "recommended_memory_bytes" : 43533271741
+          },
+          "size_bytes" : 34097745362
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q80",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 52650930339,
+            "minimum_memory_bytes" : 54830911428,
+            "recommended_memory_bytes" : 65797093714
+          },
+          "size_bytes" : 52650930339
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q3km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 24068996726,
+            "minimum_memory_bytes" : 26248977815,
+            "recommended_memory_bytes" : 31498773378
+          },
+          "size_bytes" : 24068996726
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q6k",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 40114994544,
+            "minimum_memory_bytes" : 42294975633,
+            "recommended_memory_bytes" : 50753970759
+          },
+          "size_bytes" : 40114994544
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q2k",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 18553184976,
+            "minimum_memory_bytes" : 20733166065,
+            "recommended_memory_bytes" : 24879799278
+          },
+          "size_bytes" : 18553184976
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-f16",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "ollama_tag" : "mixtral:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 100287486361,
+            "minimum_memory_bytes" : 102467467450,
+            "recommended_memory_bytes" : 122960960940
+          },
+          "size_bytes" : 100287486361
+        }
+      ]
+    },
+    {
+      "description" : "Phi-3-mini-instruct (4k) by Azure.",
+      "family" : "phi",
+      "hugging_face_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+      "id" : "phi-3-mini-4k-instruct",
+      "license" : {
+        "identifier" : "phi",
+        "is_open_source" : true,
+        "name" : "Phi-3-mini-instruct (4k) License"
+      },
+      "name" : "Phi-3-mini-instruct (4k)",
+      "parameter_count" : {
+        "billions" : 3.8
+      },
+      "release_date" : "2024-04-23",
+      "source_url" : "https:\/\/learn.microsoft.com\/en-us\/azure\/ai-services\/openai\/concepts\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q4km",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 2366526980,
+            "minimum_memory_bytes" : 3037098506,
+            "recommended_memory_bytes" : 3644518207
+          },
+          "size_bytes" : 2366526980
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q5km",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 2774548873,
+            "minimum_memory_bytes" : 3445120399,
+            "recommended_memory_bytes" : 4134144478
+          },
+          "size_bytes" : 2774548873
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q80",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 4284229877,
+            "minimum_memory_bytes" : 4954801403,
+            "recommended_memory_bytes" : 5945761684
+          },
+          "size_bytes" : 4284229877
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q3km",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 1958505086,
+            "minimum_memory_bytes" : 2629076612,
+            "recommended_memory_bytes" : 3154891935
+          },
+          "size_bytes" : 1958505086
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q6k",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 3264175144,
+            "minimum_memory_bytes" : 3934746670,
+            "recommended_memory_bytes" : 4721696005
+          },
+          "size_bytes" : 3264175144
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-q2k",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 1509681004,
+            "minimum_memory_bytes" : 2180252530,
+            "recommended_memory_bytes" : 2616303036
+          },
+          "size_bytes" : 1509681004
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "id" : "phi-3-mini-4k-instruct-f16",
+          "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "ollama_tag" : "phi3:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 8160437862,
+            "minimum_memory_bytes" : 8831009388,
+            "recommended_memory_bytes" : 10597211266
+          },
+          "size_bytes" : 8160437862
+        }
+      ]
+    },
+    {
+      "description" : "Phi-4 by Azure.",
+      "family" : "phi",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+      "id" : "phi-4",
+      "license" : {
+        "identifier" : "phi",
+        "is_open_source" : true,
+        "name" : "Phi-4 License"
+      },
+      "name" : "Phi-4",
+      "parameter_count" : {
+        "billions" : 14
+      },
+      "release_date" : "2024-12-11",
+      "source_url" : "https:\/\/learn.microsoft.com\/en-us\/azure\/ai-services\/openai\/concepts\/models",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 8718783610,
+            "minimum_memory_bytes" : 9748235732,
+            "recommended_memory_bytes" : 11697882878
+          },
+          "size_bytes" : 8718783610
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 10222022164,
+            "minimum_memory_bytes" : 11251474285,
+            "recommended_memory_bytes" : 13501769142
+          },
+          "size_bytes" : 10222022164
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q80",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 15784004812,
+            "minimum_memory_bytes" : 16813456934,
+            "recommended_memory_bytes" : 20176148320
+          },
+          "size_bytes" : 15784004812
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 7215545057,
+            "minimum_memory_bytes" : 8244997178,
+            "recommended_memory_bytes" : 9893996614
+          },
+          "size_bytes" : 7215545057
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 12025908428,
+            "minimum_memory_bytes" : 13055360550,
+            "recommended_memory_bytes" : 15666432660
+          },
+          "size_bytes" : 12025908428
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 5561982648,
+            "minimum_memory_bytes" : 6591434769,
+            "recommended_memory_bytes" : 7909721723
+          },
+          "size_bytes" : 5561982648
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
+          "id" : "phi-4-f16",
+          "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "ollama_tag" : "phi4:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 30064771072,
+            "minimum_memory_bytes" : 31094223193,
+            "recommended_memory_bytes" : 37313067831
+          },
+          "size_bytes" : 30064771072
+        }
+      ]
+    },
+    {
+      "description" : "Qwen: Qwen2.5 7B Instruct by Kilo Gateway.",
+      "family" : "other",
+      "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+      "id" : "qwen\/qwen-2.5-7b-instruct",
+      "license" : {
+        "identifier" : "unknown",
+        "is_open_source" : true,
+        "name" : "Qwen: Qwen2.5 7B Instruct License"
+      },
+      "name" : "Qwen: Qwen2.5 7B Instruct",
+      "parameter_count" : {
+        "billions" : 7
+      },
+      "release_date" : "2024-09",
+      "source_url" : "https:\/\/kilo.ai",
+      "variants" : [
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q4km",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q4_k_m",
+          "quantization" : "Q4_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 4359391805,
+            "minimum_memory_bytes" : 5142553322,
+            "recommended_memory_bytes" : 6171063986
+          },
+          "size_bytes" : 4359391805
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q5km",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q5_k_m",
+          "quantization" : "Q5_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 5111011082,
+            "minimum_memory_bytes" : 5894172598,
+            "recommended_memory_bytes" : 7073007118
+          },
+          "size_bytes" : 5111011082
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q80",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q8_0",
+          "quantization" : "Q8_0",
+          "requirements" : {
+            "disk_size_bytes" : 7892002406,
+            "minimum_memory_bytes" : 8675163923,
+            "recommended_memory_bytes" : 10410196707
+          },
+          "size_bytes" : 7892002406
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q3km",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q3_k_m",
+          "quantization" : "Q3_K_M",
+          "requirements" : {
+            "disk_size_bytes" : 3607772528,
+            "minimum_memory_bytes" : 4390934045,
+            "recommended_memory_bytes" : 5269120854
+          },
+          "size_bytes" : 3607772528
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q6k",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q6_k",
+          "quantization" : "Q6_K",
+          "requirements" : {
+            "disk_size_bytes" : 6012954214,
+            "minimum_memory_bytes" : 6796115731,
+            "recommended_memory_bytes" : 8155338877
+          },
+          "size_bytes" : 6012954214
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-q2k",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:q2_k",
+          "quantization" : "Q2_K",
+          "requirements" : {
+            "disk_size_bytes" : 2780991324,
+            "minimum_memory_bytes" : 3564152840,
+            "recommended_memory_bytes" : 4276983408
+          },
+          "size_bytes" : 2780991324
+        },
+        {
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "id" : "qwen\/qwen-2.5-7b-instruct-f16",
+          "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "ollama_tag" : "qwen2.5:f16",
+          "quantization" : "F16",
+          "requirements" : {
+            "disk_size_bytes" : 15032385536,
+            "minimum_memory_bytes" : 15815547052,
+            "recommended_memory_bytes" : 18978656463
+          },
+          "size_bytes" : 15032385536
+        }
+      ]
+    }
+  ],
+  "version" : "1.0.0"
+}
