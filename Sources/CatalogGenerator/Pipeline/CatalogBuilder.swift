@@ -47,12 +47,16 @@ enum CatalogBuilder {
             .replacingOccurrences(of: ":", with: "-")
             .replacingOccurrences(of: ".", with: "-")
 
+        let moeNote = mapping.isMoE
+            ? " MoE model: \(String(format: "%.0f", mapping.paramsB))B total, \(String(format: "%.0f", mapping.effectiveParamsB))B active."
+            : ""
+
         return CatalogModel(
             id: cleanID,
             name: name,
             family: family,
             parameterCount: CatalogParameterCount(billions: mapping.paramsB),
-            description: description,
+            description: description + moeNote,
             license: CatalogLicense(
                 identifier: family,
                 name: "\(name) License",
@@ -66,7 +70,8 @@ enum CatalogBuilder {
                 modelID: cleanID,
                 ollamaTag: ollamaTag,
                 hfGguf: mapping.hfGguf,
-                paramsB: mapping.paramsB
+                totalParamsB: mapping.paramsB,
+                activeParamsB: mapping.effectiveParamsB
             )
         )
     }
@@ -74,16 +79,19 @@ enum CatalogBuilder {
     /// Each variant represents a different quantization at a known size.
     /// The `ollamaTag` is the real pull tag from the model map — what
     /// users actually type into `ollama pull`.
+    /// `totalParamsB` is used for disk size estimation (all weights are stored).
+    /// `activeParamsB` is used for memory requirements (MoE models only load active experts).
     static func buildFormulaVariants(
         modelID: String,
         ollamaTag: String,
         hfGguf: String?,
-        paramsB: Double
+        totalParamsB: Double,
+        activeParamsB: Double
     ) -> [CatalogVariant] {
         targetQuantizations.map { quant in
-            let sizeBytes = UInt64(paramsB * gbPerBillionParams(quant) * 1_073_741_824)
+            let sizeBytes = UInt64(totalParamsB * gbPerBillionParams(quant) * 1_073_741_824)
             let requirements = RequirementsCalculator.compute(
-                paramsBillion: paramsB,
+                paramsBillion: activeParamsB,
                 quantization: quant,
                 diskSizeBytes: sizeBytes
             )

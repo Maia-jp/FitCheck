@@ -4,10 +4,15 @@ public struct DefaultCompatibilityChecker: CompatibilityChecker, Sendable {
     public func check(
         variant: ModelVariant,
         of card: ModelCard,
-        against hardware: HardwareProfile
+        against hardware: HardwareProfile,
+        contextLength: UInt64
     ) -> CompatibilityReport {
         let available = hardware.availableMemoryForInferenceBytes
-        let required = variant.requirements.minimumMemoryBytes
+        let required = adjustedMemory(
+            base: variant.requirements,
+            paramsBillion: card.parameterCount.billions,
+            contextLength: contextLength
+        )
 
         let headroom = Int64(available) - Int64(required)
         let usagePercent = available > 0
@@ -37,11 +42,12 @@ public struct DefaultCompatibilityChecker: CompatibilityChecker, Sendable {
 
     public func checkAll(
         models: [ModelCard],
-        against hardware: HardwareProfile
+        against hardware: HardwareProfile,
+        contextLength: UInt64
     ) -> [ModelMatch] {
         models.flatMap { card in
             card.variants.map { variant in
-                let report = check(variant: variant, of: card, against: hardware)
+                let report = check(variant: variant, of: card, against: hardware, contextLength: contextLength)
                 return ModelMatch(card: card, variant: variant, report: report)
             }
         }
@@ -49,14 +55,34 @@ public struct DefaultCompatibilityChecker: CompatibilityChecker, Sendable {
 
     public func compatibleModels(
         from models: [ModelCard],
-        against hardware: HardwareProfile
+        against hardware: HardwareProfile,
+        contextLength: UInt64
     ) -> [ModelMatch] {
         models.compactMap { card in
-            bestCompatibleVariant(of: card, against: hardware)
+            bestCompatibleVariant(of: card, against: hardware, contextLength: contextLength)
         }
         .sorted { lhs, rhs in
             sortOrder(lhs) > sortOrder(rhs)
         }
+    }
+
+    // MARK: - Memory adjustment for context length
+
+    /// Catalog stores requirements at 4096 tokens. For other context lengths,
+    /// adjust the KV cache portion: 0.000008 GB per billion params per token.
+    private func adjustedMemory(
+        base: ModelRequirements,
+        paramsBillion: Double,
+        contextLength: UInt64
+    ) -> UInt64 {
+        if contextLength == ModelRequirements.defaultContextLength {
+            return base.minimumMemoryBytes
+        }
+        let oneGB: Double = 1_073_741_824
+        let kvDefault = UInt64(0.000008 * paramsBillion * Double(ModelRequirements.defaultContextLength) * oneGB)
+        let kvNew = UInt64(0.000008 * paramsBillion * Double(contextLength) * oneGB)
+        let baseWithoutKV = base.minimumMemoryBytes - kvDefault
+        return baseWithoutKV + kvNew
     }
 
     // MARK: - Verdict
@@ -74,7 +100,7 @@ public struct DefaultCompatibilityChecker: CompatibilityChecker, Sendable {
         let usageRatio = Double(required) / Double(available)
 
         return switch usageRatio {
-        case ..<0.50:    .compatible(.optimal)
+        case ..<0.50:     .compatible(.optimal)
         case 0.50..<0.75: .compatible(.comfortable)
         case 0.75..<0.90: .compatible(.constrained)
         default:          .marginal
@@ -116,11 +142,12 @@ public struct DefaultCompatibilityChecker: CompatibilityChecker, Sendable {
 
     private func bestCompatibleVariant(
         of card: ModelCard,
-        against hardware: HardwareProfile
+        against hardware: HardwareProfile,
+        contextLength: UInt64
     ) -> ModelMatch? {
         let candidates = card.variants
             .map { variant in
-                (variant, check(variant: variant, of: card, against: hardware))
+                (variant, check(variant: variant, of: card, against: hardware, contextLength: contextLength))
             }
             .filter { $0.1.verdict.isRunnable }
             .sorted { lhs, rhs in

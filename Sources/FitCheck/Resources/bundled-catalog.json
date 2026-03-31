@@ -1,5 +1,5 @@
 {
-  "generated_at" : "2026-03-31T13:24:29Z",
+  "generated_at" : "2026-03-31T13:49:08Z",
   "models" : [
     {
       "description" : "Aya 23 8B — open-weight model by Cohere.",
@@ -1889,7 +1889,7 @@
       ]
     },
     {
-      "description" : "DeepSeek R1 671B — open-weight model by DeepSeek.",
+      "description" : "DeepSeek R1 671B — open-weight model by DeepSeek. MoE model: 671B total, 37B active.",
       "family" : "deepseek",
       "id" : "deepseek-r1-671b",
       "license" : {
@@ -1908,8 +1908,8 @@
           "quantization" : "Q4_K_M",
           "requirements" : {
             "disk_size_bytes" : 417878843064,
-            "minimum_memory_bytes" : 442024427647,
-            "recommended_memory_bytes" : 530429313177
+            "minimum_memory_bytes" : 24881192222,
+            "recommended_memory_bytes" : 29857430666
           },
           "size_bytes" : 417878843064
         },
@@ -1919,8 +1919,8 @@
           "quantization" : "Q5_K_M",
           "requirements" : {
             "disk_size_bytes" : 489926919454,
-            "minimum_memory_bytes" : 514072504038,
-            "recommended_memory_bytes" : 616887004845
+            "minimum_memory_bytes" : 28854036971,
+            "recommended_memory_bytes" : 34624844365
           },
           "size_bytes" : 489926919454
         },
@@ -1930,8 +1930,8 @@
           "quantization" : "Q8_0",
           "requirements" : {
             "disk_size_bytes" : 756504802099,
-            "minimum_memory_bytes" : 780650386682,
-            "recommended_memory_bytes" : 936780464019
+            "minimum_memory_bytes" : 43553562541,
+            "recommended_memory_bytes" : 52264275050
           },
           "size_bytes" : 756504802099
         },
@@ -1941,8 +1941,8 @@
           "quantization" : "Q3_K_M",
           "requirements" : {
             "disk_size_bytes" : 345830766673,
-            "minimum_memory_bytes" : 369976351257,
-            "recommended_memory_bytes" : 443971621509
+            "minimum_memory_bytes" : 20908347473,
+            "recommended_memory_bytes" : 25090016968
           },
           "size_bytes" : 345830766673
         },
@@ -1952,8 +1952,8 @@
           "quantization" : "Q6_K",
           "requirements" : {
             "disk_size_bytes" : 576384611123,
-            "minimum_memory_bytes" : 600530195706,
-            "recommended_memory_bytes" : 720636234848
+            "minimum_memory_bytes" : 33621450669,
+            "recommended_memory_bytes" : 40345740803
           },
           "size_bytes" : 576384611123
         },
@@ -1963,8 +1963,8 @@
           "quantization" : "Q2_K",
           "requirements" : {
             "disk_size_bytes" : 266577882644,
-            "minimum_memory_bytes" : 290723467228,
-            "recommended_memory_bytes" : 348868160673
+            "minimum_memory_bytes" : 16538218249,
+            "recommended_memory_bytes" : 19845861899
           },
           "size_bytes" : 266577882644
         },
@@ -1974,8 +1974,8 @@
           "quantization" : "F16",
           "requirements" : {
             "disk_size_bytes" : 1440961527808,
-            "minimum_memory_bytes" : 1465107112391,
-            "recommended_memory_bytes" : 1758128534869
+            "minimum_memory_bytes" : 81295587655,
+            "recommended_memory_bytes" : 97554705186
           },
           "size_bytes" : 1440961527808
         }
@@ -2600,7 +2600,7 @@
       ]
     },
     {
-      "description" : "DeepSeek V3 671B — open-weight model by DeepSeek.",
+      "description" : "DeepSeek V3 671B — open-weight model by DeepSeek. MoE model: 671B total, 37B active.",
       "family" : "deepseek",
       "id" : "deepseek-v3",
       "license" : {
@@ -2619,8 +2619,8 @@
           "quantization" : "Q4_K_M",
           "requirements" : {
             "disk_size_bytes" : 417878843064,
-            "minimum_memory_bytes" : 442024427647,
-            "recommended_memory_bytes" : 530429313177
+            "minimum_memory_bytes" : 24881192222,
+            "recommended_memory_bytes" : 29857430666
           },
           "size_bytes" : 417878843064
         },
@@ -2630,8 +2630,8 @@
           "quantization" : "Q5_K_M",
           "requirements" : {
             "disk_size_bytes" : 489926919454,
-            "minimum_memory_bytes" : 514072504038,
-            "recommended_memory_bytes" : 616887004845
+            "minimum_memory_bytes" : 28854036971,
+            "recommended_memory_bytes" : 34624844365
           },
           "size_bytes" : 489926919454
         },
@@ -2641,8 +2641,8 @@
           "quantization" : "Q8_0",
           "requirements" : {
             "disk_size_bytes" : 756504802099,
-            "minimum_memory_bytes" : 780650386682,
-            "recommended_memory_bytes" : 936780464019
+            "minimum_memory_bytes" : 43553562541,
+            "recommended_memory_bytes" : 52264275050
           },
           "size_bytes" : 756504802099
         },
@@ -2652,8 +2652,8 @@
           "quantization" : "Q3_K_M",
           "requirements" : {
             "disk_size_bytes" : 345830766673,
-            "minimum_memory_bytes" : 369976351257,
-            "recommended_memory_bytes" : 443971621509
+            "minimum_memory_bytes" : 20908347473,
+            "recommended_memory_bytes" : 25090016968
           },
           "size_bytes" : 345830766673
         },
@@ -2663,8 +2663,8 @@
           "quantization" : "Q6_K",
           "requirements" : {
             "disk_size_bytes" : 576384611123,
-            "minimum_memory_bytes" : 600530195706,
-            "recommended_memory_bytes" : 720636234848
+            "minimum_memory_bytes" : 33621450669,
+            "recommended_memory_bytes" : 40345740803
           },
           "size_bytes" : 576384611123
         },
@@ -2674,8 +2674,8 @@
           "quantization" : "Q2_K",
           "requirements" : {
             "disk_size_bytes" : 266577882644,
-            "minimum_memory_bytes" : 290723467228,
-            "recommended_memory_bytes" : 348868160673
+            "minimum_memory_bytes" : 16538218249,
+            "recommended_memory_bytes" : 19845861899
           },
           "size_bytes" : 266577882644
         },
@@ -2685,8 +2685,8 @@
           "quantization" : "F16",
           "requirements" : {
             "disk_size_bytes" : 1440961527808,
-            "minimum_memory_bytes" : 1465107112391,
-            "recommended_memory_bytes" : 1758128534869
+            "minimum_memory_bytes" : 81295587655,
+            "recommended_memory_bytes" : 97554705186
           },
           "size_bytes" : 1440961527808
         }
@@ -6326,7 +6326,7 @@
       ]
     },
     {
-      "description" : "Mixtral 8x22B — open-weight model by Mistral AI.",
+      "description" : "Mixtral 8x22B — open-weight model by Mistral AI. MoE model: 141B total, 39B active.",
       "family" : "mixtral",
       "id" : "mixtral-8x22b",
       "license" : {
@@ -6345,8 +6345,8 @@
           "quantization" : "Q4_K_M",
           "requirements" : {
             "disk_size_bytes" : 87810606366,
-            "minimum_memory_bytes" : 93308473743,
-            "recommended_memory_bytes" : 111970168491
+            "minimum_memory_bytes" : 26197101482,
+            "recommended_memory_bytes" : 31436521778
           },
           "size_bytes" : 87810606366
         },
@@ -6356,8 +6356,8 @@
           "quantization" : "Q5_K_M",
           "requirements" : {
             "disk_size_bytes" : 102950366085,
-            "minimum_memory_bytes" : 108448233461,
-            "recommended_memory_bytes" : 130137880153
+            "minimum_memory_bytes" : 30384694595,
+            "recommended_memory_bytes" : 36461633515
           },
           "size_bytes" : 102950366085
         },
@@ -6367,8 +6367,8 @@
           "quantization" : "Q8_0",
           "requirements" : {
             "disk_size_bytes" : 158967477043,
-            "minimum_memory_bytes" : 164465344419,
-            "recommended_memory_bytes" : 197358413303
+            "minimum_memory_bytes" : 45878789116,
+            "recommended_memory_bytes" : 55054546939
           },
           "size_bytes" : 158967477043
         },
@@ -6378,8 +6378,8 @@
           "quantization" : "Q3_K_M",
           "requirements" : {
             "disk_size_bytes" : 72670846648,
-            "minimum_memory_bytes" : 78168714024,
-            "recommended_memory_bytes" : 93802456829
+            "minimum_memory_bytes" : 22009508368,
+            "recommended_memory_bytes" : 26411410042
           },
           "size_bytes" : 72670846648
         },
@@ -6389,8 +6389,8 @@
           "quantization" : "Q6_K",
           "requirements" : {
             "disk_size_bytes" : 121118077747,
-            "minimum_memory_bytes" : 126615945123,
-            "recommended_memory_bytes" : 151939134148
+            "minimum_memory_bytes" : 35409806332,
+            "recommended_memory_bytes" : 42491767598
           },
           "size_bytes" : 121118077747
         },
@@ -6400,8 +6400,8 @@
           "quantization" : "Q2_K",
           "requirements" : {
             "disk_size_bytes" : 56017110958,
-            "minimum_memory_bytes" : 61514978334,
-            "recommended_memory_bytes" : 73817974001
+            "minimum_memory_bytes" : 17403155943,
+            "recommended_memory_bytes" : 20883787132
           },
           "size_bytes" : 56017110958
         },
@@ -6411,15 +6411,15 @@
           "quantization" : "F16",
           "requirements" : {
             "disk_size_bytes" : 302795194368,
-            "minimum_memory_bytes" : 308293061744,
-            "recommended_memory_bytes" : 369951674093
+            "minimum_memory_bytes" : 85660923695,
+            "recommended_memory_bytes" : 102793108434
           },
           "size_bytes" : 302795194368
         }
       ]
     },
     {
-      "description" : "Mixtral 8x7B — open-weight model by Mistral AI.",
+      "description" : "Mixtral 8x7B — open-weight model by Mistral AI. MoE model: 47B total, 14B active.",
       "family" : "mixtral",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
       "id" : "mixtral-8x7b",
@@ -6441,8 +6441,8 @@
           "quantization" : "Q4_K_M",
           "requirements" : {
             "disk_size_bytes" : 29083371044,
-            "minimum_memory_bytes" : 31263352133,
-            "recommended_memory_bytes" : 37516022560
+            "minimum_memory_bytes" : 9748235732,
+            "recommended_memory_bytes" : 11697882878
           },
           "size_bytes" : 29083371044
         },
@@ -6454,8 +6454,8 @@
           "quantization" : "Q5_K_M",
           "requirements" : {
             "disk_size_bytes" : 34097745362,
-            "minimum_memory_bytes" : 36277726451,
-            "recommended_memory_bytes" : 43533271741
+            "minimum_memory_bytes" : 11251474285,
+            "recommended_memory_bytes" : 13501769142
           },
           "size_bytes" : 34097745362
         },
@@ -6467,8 +6467,8 @@
           "quantization" : "Q8_0",
           "requirements" : {
             "disk_size_bytes" : 52650930339,
-            "minimum_memory_bytes" : 54830911428,
-            "recommended_memory_bytes" : 65797093714
+            "minimum_memory_bytes" : 16813456934,
+            "recommended_memory_bytes" : 20176148320
           },
           "size_bytes" : 52650930339
         },
@@ -6480,8 +6480,8 @@
           "quantization" : "Q3_K_M",
           "requirements" : {
             "disk_size_bytes" : 24068996726,
-            "minimum_memory_bytes" : 26248977815,
-            "recommended_memory_bytes" : 31498773378
+            "minimum_memory_bytes" : 8244997178,
+            "recommended_memory_bytes" : 9893996614
           },
           "size_bytes" : 24068996726
         },
@@ -6493,8 +6493,8 @@
           "quantization" : "Q6_K",
           "requirements" : {
             "disk_size_bytes" : 40114994544,
-            "minimum_memory_bytes" : 42294975633,
-            "recommended_memory_bytes" : 50753970759
+            "minimum_memory_bytes" : 13055360550,
+            "recommended_memory_bytes" : 15666432660
           },
           "size_bytes" : 40114994544
         },
@@ -6506,8 +6506,8 @@
           "quantization" : "Q2_K",
           "requirements" : {
             "disk_size_bytes" : 18553184976,
-            "minimum_memory_bytes" : 20733166065,
-            "recommended_memory_bytes" : 24879799278
+            "minimum_memory_bytes" : 6591434769,
+            "recommended_memory_bytes" : 7909721723
           },
           "size_bytes" : 18553184976
         },
@@ -6519,8 +6519,8 @@
           "quantization" : "F16",
           "requirements" : {
             "disk_size_bytes" : 100287486361,
-            "minimum_memory_bytes" : 102467467450,
-            "recommended_memory_bytes" : 122960960940
+            "minimum_memory_bytes" : 31094223193,
+            "recommended_memory_bytes" : 37313067831
           },
           "size_bytes" : 100287486361
         }
@@ -8936,7 +8936,7 @@
       ]
     },
     {
-      "description" : "Qwen 3 Coder 480B MoE — open-weight model by Alibaba.",
+      "description" : "Qwen 3 Coder 480B MoE — open-weight model by Alibaba. MoE model: 480B total, 35B active.",
       "family" : "qwen",
       "id" : "qwen3-coder",
       "license" : {
@@ -8955,8 +8955,8 @@
           "quantization" : "Q4_K_M",
           "requirements" : {
             "disk_size_bytes" : 298929723801,
-            "minimum_memory_bytes" : 316355093316,
-            "recommended_memory_bytes" : 379626111979
+            "minimum_memory_bytes" : 23565282962,
+            "recommended_memory_bytes" : 28278339554
           },
           "size_bytes" : 298929723801
         },
@@ -8966,8 +8966,8 @@
           "quantization" : "Q5_K_M",
           "requirements" : {
             "disk_size_bytes" : 350469331353,
-            "minimum_memory_bytes" : 367894700868,
-            "recommended_memory_bytes" : 441473641041
+            "minimum_memory_bytes" : 27323379346,
+            "recommended_memory_bytes" : 32788055215
           },
           "size_bytes" : 350469331353
         },
@@ -8977,8 +8977,8 @@
           "quantization" : "Q8_0",
           "requirements" : {
             "disk_size_bytes" : 541165879296,
-            "minimum_memory_bytes" : 558591248810,
-            "recommended_memory_bytes" : 670309498572
+            "minimum_memory_bytes" : 41228335967,
+            "recommended_memory_bytes" : 49474003160
           },
           "size_bytes" : 541165879296
         },
@@ -8988,8 +8988,8 @@
           "quantization" : "Q3_K_M",
           "requirements" : {
             "disk_size_bytes" : 247390116249,
-            "minimum_memory_bytes" : 264815485764,
-            "recommended_memory_bytes" : 317778582917
+            "minimum_memory_bytes" : 19807186578,
+            "recommended_memory_bytes" : 23768623893
           },
           "size_bytes" : 247390116249
         },
@@ -8999,8 +8999,8 @@
           "quantization" : "Q6_K",
           "requirements" : {
             "disk_size_bytes" : 412316860416,
-            "minimum_memory_bytes" : 429742229930,
-            "recommended_memory_bytes" : 515690675916
+            "minimum_memory_bytes" : 31833095007,
+            "recommended_memory_bytes" : 38199714008
           },
           "size_bytes" : 412316860416
         },
@@ -9010,8 +9010,8 @@
           "quantization" : "Q2_K",
           "requirements" : {
             "disk_size_bytes" : 190696547942,
-            "minimum_memory_bytes" : 208121917457,
-            "recommended_memory_bytes" : 249746300948
+            "minimum_memory_bytes" : 15673280555,
+            "recommended_memory_bytes" : 18807936667
           },
           "size_bytes" : 190696547942
         },
@@ -9021,8 +9021,8 @@
           "quantization" : "F16",
           "requirements" : {
             "disk_size_bytes" : 1030792151040,
-            "minimum_memory_bytes" : 1048217520554,
-            "recommended_memory_bytes" : 1257861024665
+            "minimum_memory_bytes" : 76930251615,
+            "recommended_memory_bytes" : 92316301938
           },
           "size_bytes" : 1030792151040
         }

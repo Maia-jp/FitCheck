@@ -62,18 +62,14 @@ public actor FitCheck {
         let profile = try hardwareProfile()
         let models = try await allModels()
         let matches = compatibilityChecker.compatibleModels(from: models, against: profile)
-        return matches.map { match in
-            CompatibleModel(match: match, downloadActions: downloadActions(for: match.variant, of: match.card))
-        }
+        return matches.map { enrichedModel(match: $0, hardware: profile) }
     }
 
     public func allModelsWithCompatibility() async throws -> [CompatibleModel] {
         let profile = try hardwareProfile()
         let models = try await allModels()
         let matches = compatibilityChecker.checkAll(models: models, against: profile)
-        return matches.map { match in
-            CompatibleModel(match: match, downloadActions: downloadActions(for: match.variant, of: match.card))
-        }
+        return matches.map { enrichedModel(match: $0, hardware: profile) }
     }
 
     public func check(modelID: String) async throws -> [VariantReport] {
@@ -81,12 +77,23 @@ public actor FitCheck {
         let profile = try hardwareProfile()
         return card.variants.map { variant in
             let report = compatibilityChecker.check(variant: variant, of: card, against: profile)
+            let perf = PerformanceCalculator.estimate(modelSizeGB: variant.sizeGB, hardware: profile)
             return VariantReport(
                 variant: variant,
                 report: report,
+                performanceEstimate: perf,
                 downloadActions: downloadActions(for: variant, of: card)
             )
         }
+    }
+
+    private func enrichedModel(match: ModelMatch, hardware: HardwareProfile) -> CompatibleModel {
+        let perf = PerformanceCalculator.estimate(modelSizeGB: match.variant.sizeGB, hardware: hardware)
+        return CompatibleModel(
+            match: match,
+            performanceEstimate: perf,
+            downloadActions: downloadActions(for: match.variant, of: match.card)
+        )
     }
 
     // MARK: - Download Providers
@@ -162,21 +169,24 @@ public struct CompatibleModel: Sendable, Identifiable {
     public let card: ModelCard
     public let variant: ModelVariant
     public let report: CompatibilityReport
+    public let performanceEstimate: PerformanceEstimate
     public let downloadActions: [DownloadAction]
 
-    public init(id: String, card: ModelCard, variant: ModelVariant, report: CompatibilityReport, downloadActions: [DownloadAction]) {
+    public init(id: String, card: ModelCard, variant: ModelVariant, report: CompatibilityReport, performanceEstimate: PerformanceEstimate, downloadActions: [DownloadAction]) {
         self.id = id
         self.card = card
         self.variant = variant
         self.report = report
+        self.performanceEstimate = performanceEstimate
         self.downloadActions = downloadActions
     }
 
-    internal init(match: ModelMatch, downloadActions: [DownloadAction]) {
+    internal init(match: ModelMatch, performanceEstimate: PerformanceEstimate, downloadActions: [DownloadAction]) {
         self.id = match.id
         self.card = match.card
         self.variant = match.variant
         self.report = match.report
+        self.performanceEstimate = performanceEstimate
         self.downloadActions = downloadActions
     }
 
@@ -194,11 +204,13 @@ public struct CompatibleModel: Sendable, Identifiable {
 public struct VariantReport: Sendable {
     public let variant: ModelVariant
     public let report: CompatibilityReport
+    public let performanceEstimate: PerformanceEstimate
     public let downloadActions: [DownloadAction]
 
-    public init(variant: ModelVariant, report: CompatibilityReport, downloadActions: [DownloadAction]) {
+    public init(variant: ModelVariant, report: CompatibilityReport, performanceEstimate: PerformanceEstimate, downloadActions: [DownloadAction]) {
         self.variant = variant
         self.report = report
+        self.performanceEstimate = performanceEstimate
         self.downloadActions = downloadActions
     }
 

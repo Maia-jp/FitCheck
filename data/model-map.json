@@ -73,11 +73,11 @@
   },
   "ollama/mixtral:8x7b": {
     "ollama": "mixtral:8x7b", "name": "Mixtral 8x7B", "family": "mixtral",
-    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF", "params_b": 46.7
+    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF", "params_b": 46.7, "active_params_b": 14.0
   },
   "ollama/mixtral:8x22b": {
     "ollama": "mixtral:8x22b", "name": "Mixtral 8x22B", "family": "mixtral",
-    "hf_gguf": null, "params_b": 141.0
+    "hf_gguf": null, "params_b": 141.0, "active_params_b": 39.0
   },
   "ollama/codestral": {
     "ollama": "codestral", "name": "Codestral 22B", "family": "mistral",
@@ -221,11 +221,11 @@
   },
   "ollama/deepseek-r1:671b": {
     "ollama": "deepseek-r1:671b", "name": "DeepSeek R1 671B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 671.0
+    "hf_gguf": null, "params_b": 671.0, "active_params_b": 37.0
   },
   "ollama/deepseek-v3": {
     "ollama": "deepseek-v3", "name": "DeepSeek V3 671B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 671.0
+    "hf_gguf": null, "params_b": 671.0, "active_params_b": 37.0
   },
   "ollama/deepseek-coder:6.7b": {
     "ollama": "deepseek-coder:6.7b", "name": "DeepSeek Coder 6.7B", "family": "deepseek",
@@ -413,7 +413,7 @@
   },
   "ollama/qwen3-coder": {
     "ollama": "qwen3-coder", "name": "Qwen 3 Coder 480B MoE", "family": "qwen",
-    "hf_gguf": null, "params_b": 480.0
+    "hf_gguf": null, "params_b": 480.0, "active_params_b": 35.0
   },
   "ollama/deepscaler": {
     "ollama": "deepscaler", "name": "DeepScaler 1.5B", "family": "qwen",

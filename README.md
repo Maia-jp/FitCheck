@@ -2,7 +2,7 @@
 
 A Swift package for macOS that tells you which open-weight AI models can run on your Mac.
 
-FitCheck detects your Apple Silicon hardware, checks it against a catalog of 100+ open-weight models, and tells you exactly what fits — with download instructions for [Ollama](https://ollama.com) and [LM Studio](https://lmstudio.ai).
+FitCheck detects your Apple Silicon hardware, checks it against a catalog of 100+ open-weight models, and tells you exactly what fits — with download instructions for [Ollama](https://ollama.com) and [LM Studio](https://lmstudio.ai), and estimated inference speed.
 
 ## Quick Start
 
@@ -28,7 +28,7 @@ Add FitCheck to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/nicklama/FitCheck.git", from: "0.1.0")
+    .package(url: "https://github.com/Maia-jp/FitCheck.git", from: "0.1.0")
 ]
 ```
 
@@ -38,11 +38,13 @@ Then add `"FitCheck"` to your target's dependencies.
 
 ## What It Does
 
-**Hardware profiling** — Detects your chip (M1–M4, all tiers), total memory, GPU cores, and Neural Engine. Computes available memory using a calibrated utilization formula.
+**Hardware profiling** — Detects your chip (M1–M4, all tiers), total memory, GPU cores, Neural Engine, and memory bandwidth. Computes available memory using a calibrated utilization formula.
 
-**Model catalog** — Ships with a bundled catalog of open-weight models across all major families (Llama, Mistral, Phi, Gemma, Qwen, DeepSeek, and more). Auto-updates from GitHub so even old installations see new models.
+**Model catalog** — Ships with 106 open-weight models across 24 families (Llama, Mistral, Phi, Gemma, Qwen, DeepSeek, and more). Auto-updates from GitHub so even old installations see new models.
 
-**Compatibility verdicts** — Matches hardware against model requirements and produces clear verdicts: optimal, comfortable, constrained, marginal, or incompatible. Memory estimation uses calibrated bytes-per-parameter values validated against real Ollama sizes.
+**Compatibility verdicts** — Matches hardware against model requirements and produces clear verdicts: optimal, comfortable, constrained, marginal, or incompatible. Supports MoE models (Mixtral, DeepSeek V3) and configurable context lengths. Memory estimation uses calibrated values validated against real Ollama sizes.
+
+**Performance estimation** — Estimates tokens/second based on your chip's memory bandwidth and the model size. Know whether a model will be fast or frustratingly slow before downloading.
 
 **Download actions** — Generates ready-to-use download instructions for Ollama (`ollama pull ...`) and LM Studio (`lms get ...`). Detects which tools are installed.
 
@@ -55,7 +57,7 @@ let fc = FitCheck()
 let compatible = try await fc.compatibleModels()
 
 // Check a specific model
-let reports = try await fc.check(modelID: "llama-3.1-8b-instruct")
+let reports = try await fc.check(modelID: "llama3-1-8b")
 
 // What's my hardware?
 let profile = try await fc.hardwareProfile()
@@ -99,14 +101,16 @@ The model catalog is sourced from [models.dev](https://models.dev) (open-weight 
 swift run CatalogGenerator
 ```
 
-**Add a model:** Edit `data/model-map.json` with three fields:
+**Add a model:** Edit `data/model-map.json`:
 
 ```json
 {
-  "provider/model-id": {
-    "ollama": "model-name",
-    "hf_gguf": "org/Model-GGUF",
-    "params_b": 7.0
+  "ollama/llama3.1:8b": {
+    "ollama": "llama3.1:8b",
+    "name": "Llama 3.1 8B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "params_b": 8.0
   }
 }
 ```
@@ -124,14 +128,15 @@ swift run CatalogGenerator --discover
 - **Swift 6 strict concurrency** — The `FitCheck` entry point is an actor. All types are `Sendable`.
 - **Generate actions, don't execute** — FitCheck tells you *how* to download a model. Your app decides *when*.
 - **Calibrated memory estimates** — `Q4_K_M` uses 0.58 GB per billion parameters (not theoretical 0.5). Validated against real Ollama download sizes.
+- **MoE awareness** — Mixture-of-Experts models (Mixtral, DeepSeek V3) use active parameters for memory estimation, not total parameters.
 
 ## Project Structure
 
 ```
 Sources/FitCheck/          Library (import FitCheck)
 Sources/CatalogGenerator/  Catalog generation tool
-Tests/FitCheckTests/       Test suite (51 tests)
-data/                      Model map and overrides
+Tests/FitCheckTests/       Test suite (61 tests)
+data/                      Model map
 docs/rfcs/                 Design documents
 ```
 
