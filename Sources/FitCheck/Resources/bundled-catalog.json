@@ -1,5 +1,5 @@
 {
-  "generated_at" : "2026-03-31T12:58:35Z",
+  "generated_at" : "2026-03-31T12:59:31Z",
   "models" : [
     {
       "description" : "AllenAI: Olmo 3 7B Instruct by Kilo Gateway.",
@@ -537,112 +537,112 @@
       ]
     },
     {
-      "description" : "DeepSeek: R1 by Kilo Gateway.",
+      "description" : "DeepSeek: R1 Distill Llama 70B by Kilo Gateway.",
       "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-      "id" : "deepseek\/deepseek-r1",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+      "id" : "deepseek\/deepseek-r1-distill-llama-70b",
       "license" : {
         "identifier" : "unknown",
         "is_open_source" : true,
-        "name" : "DeepSeek: R1 License"
+        "name" : "DeepSeek: R1 Distill Llama 70B License"
       },
-      "name" : "DeepSeek: R1",
+      "name" : "DeepSeek: R1 Distill Llama 70B",
       "parameter_count" : {
-        "billions" : 7
+        "billions" : 70
       },
-      "release_date" : "2025-01-20",
+      "release_date" : "2025-01-23",
       "source_url" : "https:\/\/kilo.ai",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q4km",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 4359391805,
-            "minimum_memory_bytes" : 5142553322,
-            "recommended_memory_bytes" : 6171063986
+            "disk_size_bytes" : 43593918054,
+            "minimum_memory_bytes" : 46593695012,
+            "recommended_memory_bytes" : 55912434015
           },
-          "size_bytes" : 4359391805
+          "size_bytes" : 43593918054
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q5km",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 5111011082,
-            "minimum_memory_bytes" : 5894172598,
-            "recommended_memory_bytes" : 7073007118
+            "disk_size_bytes" : 51110110822,
+            "minimum_memory_bytes" : 54109887780,
+            "recommended_memory_bytes" : 64931865336
           },
-          "size_bytes" : 5111011082
+          "size_bytes" : 51110110822
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q80",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q80",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 7892002406,
-            "minimum_memory_bytes" : 8675163923,
-            "recommended_memory_bytes" : 10410196707
+            "disk_size_bytes" : 78920024064,
+            "minimum_memory_bytes" : 81919801022,
+            "recommended_memory_bytes" : 98303761226
           },
-          "size_bytes" : 7892002406
+          "size_bytes" : 78920024064
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q3km",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 3607772528,
-            "minimum_memory_bytes" : 4390934045,
-            "recommended_memory_bytes" : 5269120854
+            "disk_size_bytes" : 36077725286,
+            "minimum_memory_bytes" : 39077502244,
+            "recommended_memory_bytes" : 46893002693
           },
-          "size_bytes" : 3607772528
+          "size_bytes" : 36077725286
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q6k",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 6012954214,
-            "minimum_memory_bytes" : 6796115731,
-            "recommended_memory_bytes" : 8155338877
+            "disk_size_bytes" : 60129542144,
+            "minimum_memory_bytes" : 63129319102,
+            "recommended_memory_bytes" : 75755182922
           },
-          "size_bytes" : 6012954214
+          "size_bytes" : 60129542144
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-q2k",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 2780991324,
-            "minimum_memory_bytes" : 3564152840,
-            "recommended_memory_bytes" : 4276983408
+            "disk_size_bytes" : 27809913241,
+            "minimum_memory_bytes" : 30809690199,
+            "recommended_memory_bytes" : 36971628239
           },
-          "size_bytes" : 2780991324
+          "size_bytes" : 27809913241
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
-          "id" : "deepseek\/deepseek-r1-f16",
-          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
+          "id" : "deepseek\/deepseek-r1-distill-llama-70b-f16",
+          "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
           "ollama_tag" : "deepseek-r1:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 15032385536,
-            "minimum_memory_bytes" : 15815547052,
-            "recommended_memory_bytes" : 18978656463
+            "disk_size_bytes" : 150323855360,
+            "minimum_memory_bytes" : 153323632318,
+            "recommended_memory_bytes" : 183988358781
           },
-          "size_bytes" : 15032385536
+          "size_bytes" : 150323855360
         }
       ]
     },
@@ -742,222 +742,222 @@
       ]
     },
     {
-      "description" : "Google: Gemma 2 27B by Kilo Gateway.",
+      "description" : "Google: Gemma 2 9B by Kilo Gateway.",
       "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-      "id" : "google\/gemma-2-27b-it",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+      "id" : "google\/gemma-2-9b-it",
       "license" : {
         "identifier" : "unknown",
         "is_open_source" : true,
-        "name" : "Google: Gemma 2 27B License"
+        "name" : "Google: Gemma 2 9B License"
       },
-      "name" : "Google: Gemma 2 27B",
+      "name" : "Google: Gemma 2 9B",
       "parameter_count" : {
-        "billions" : 27
+        "billions" : 9
       },
-      "release_date" : "2024-06-24",
+      "release_date" : "2024-06-28",
       "source_url" : "https:\/\/kilo.ai",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q4km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 16814796963,
-            "minimum_memory_bytes" : 18301645922,
-            "recommended_memory_bytes" : 21961975106
+            "disk_size_bytes" : 5604932321,
+            "minimum_memory_bytes" : 6458462582,
+            "recommended_memory_bytes" : 7750155098
           },
-          "size_bytes" : 16814796963
+          "size_bytes" : 5604932321
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q5km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 19713899888,
-            "minimum_memory_bytes" : 21200748847,
-            "recommended_memory_bytes" : 25440898616
+            "disk_size_bytes" : 6571299962,
+            "minimum_memory_bytes" : 7424830223,
+            "recommended_memory_bytes" : 8909796268
           },
-          "size_bytes" : 19713899888
+          "size_bytes" : 6571299962
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q80",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q80",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 30440580710,
-            "minimum_memory_bytes" : 31927429668,
-            "recommended_memory_bytes" : 38312915602
+            "disk_size_bytes" : 10146860236,
+            "minimum_memory_bytes" : 11000390497,
+            "recommended_memory_bytes" : 13200468597
           },
-          "size_bytes" : 30440580710
+          "size_bytes" : 10146860236
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q3km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 13915694039,
-            "minimum_memory_bytes" : 15402542997,
-            "recommended_memory_bytes" : 18483051596
+            "disk_size_bytes" : 4638564679,
+            "minimum_memory_bytes" : 5492094940,
+            "recommended_memory_bytes" : 6590513928
           },
-          "size_bytes" : 13915694039
+          "size_bytes" : 4638564679
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q6k",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 23192823398,
-            "minimum_memory_bytes" : 24679672356,
-            "recommended_memory_bytes" : 29615606828
+            "disk_size_bytes" : 7730941132,
+            "minimum_memory_bytes" : 8584471393,
+            "recommended_memory_bytes" : 10301365672
           },
-          "size_bytes" : 23192823398
+          "size_bytes" : 7730941132
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-q2k",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 10726680821,
-            "minimum_memory_bytes" : 12213529780,
-            "recommended_memory_bytes" : 14656235736
+            "disk_size_bytes" : 3575560273,
+            "minimum_memory_bytes" : 4429090534,
+            "recommended_memory_bytes" : 5314908641
           },
-          "size_bytes" : 10726680821
+          "size_bytes" : 3575560273
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
-          "id" : "google\/gemma-2-27b-it-f16",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
+          "id" : "google\/gemma-2-9b-it-f16",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
           "ollama_tag" : "gemma2:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 57982058496,
-            "minimum_memory_bytes" : 59468907454,
-            "recommended_memory_bytes" : 71362688945
+            "disk_size_bytes" : 19327352832,
+            "minimum_memory_bytes" : 20180883092,
+            "recommended_memory_bytes" : 24217059711
           },
-          "size_bytes" : 57982058496
+          "size_bytes" : 19327352832
         }
       ]
     },
     {
-      "description" : "Google: Gemma 3 27B by Kilo Gateway.",
+      "description" : "Google: Gemma 3 4B by Kilo Gateway.",
       "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-      "id" : "google\/gemma-3-27b-it",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+      "id" : "google\/gemma-3-4b-it",
       "license" : {
         "identifier" : "unknown",
         "is_open_source" : true,
-        "name" : "Google: Gemma 3 27B License"
+        "name" : "Google: Gemma 3 4B License"
       },
-      "name" : "Google: Gemma 3 27B",
+      "name" : "Google: Gemma 3 4B",
       "parameter_count" : {
-        "billions" : 27
+        "billions" : 4
       },
-      "release_date" : "2025-03-12",
+      "release_date" : "2025-03-13",
       "source_url" : "https:\/\/kilo.ai",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q4km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 16814796963,
-            "minimum_memory_bytes" : 18301645922,
-            "recommended_memory_bytes" : 21961975106
+            "disk_size_bytes" : 2491081031,
+            "minimum_memory_bytes" : 3168689432,
+            "recommended_memory_bytes" : 3802427318
           },
-          "size_bytes" : 16814796963
+          "size_bytes" : 2491081031
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q5km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 19713899888,
-            "minimum_memory_bytes" : 21200748847,
-            "recommended_memory_bytes" : 25440898616
+            "disk_size_bytes" : 2920577761,
+            "minimum_memory_bytes" : 3598186161,
+            "recommended_memory_bytes" : 4317823393
           },
-          "size_bytes" : 19713899888
+          "size_bytes" : 2920577761
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q80",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q80",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 30440580710,
-            "minimum_memory_bytes" : 31927429668,
-            "recommended_memory_bytes" : 38312915602
+            "disk_size_bytes" : 4509715660,
+            "minimum_memory_bytes" : 5187324061,
+            "recommended_memory_bytes" : 6224788873
           },
-          "size_bytes" : 30440580710
+          "size_bytes" : 4509715660
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q3km",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 13915694039,
-            "minimum_memory_bytes" : 15402542997,
-            "recommended_memory_bytes" : 18483051596
+            "disk_size_bytes" : 2061584302,
+            "minimum_memory_bytes" : 2739192702,
+            "recommended_memory_bytes" : 3287031242
           },
-          "size_bytes" : 13915694039
+          "size_bytes" : 2061584302
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q6k",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 23192823398,
-            "minimum_memory_bytes" : 24679672356,
-            "recommended_memory_bytes" : 29615606828
+            "disk_size_bytes" : 3435973836,
+            "minimum_memory_bytes" : 4113582237,
+            "recommended_memory_bytes" : 4936298684
           },
-          "size_bytes" : 23192823398
+          "size_bytes" : 3435973836
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-q2k",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 10726680821,
-            "minimum_memory_bytes" : 12213529780,
-            "recommended_memory_bytes" : 14656235736
+            "disk_size_bytes" : 1589137899,
+            "minimum_memory_bytes" : 2266746299,
+            "recommended_memory_bytes" : 2720095559
           },
-          "size_bytes" : 10726680821
+          "size_bytes" : 1589137899
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
-          "id" : "google\/gemma-3-27b-it-f16",
-          "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
+          "id" : "google\/gemma-3-4b-it-f16",
+          "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
           "ollama_tag" : "gemma3:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 57982058496,
-            "minimum_memory_bytes" : 59468907454,
-            "recommended_memory_bytes" : 71362688945
+            "disk_size_bytes" : 8589934592,
+            "minimum_memory_bytes" : 9267542992,
+            "recommended_memory_bytes" : 11121051590
           },
-          "size_bytes" : 57982058496
+          "size_bytes" : 8589934592
         }
       ]
     },
@@ -1277,112 +1277,112 @@
       ]
     },
     {
-      "description" : "Meta: Llama 3.2 3B Instruct by Kilo Gateway.",
+      "description" : "Meta: Llama 3.2 1B Instruct by Kilo Gateway.",
       "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-      "id" : "meta-llama\/llama-3.2-3b-instruct",
+      "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+      "id" : "meta-llama\/llama-3.2-1b-instruct",
       "license" : {
         "identifier" : "unknown",
         "is_open_source" : true,
-        "name" : "Meta: Llama 3.2 3B Instruct License"
+        "name" : "Meta: Llama 3.2 1B Instruct License"
       },
-      "name" : "Meta: Llama 3.2 3B Instruct",
+      "name" : "Meta: Llama 3.2 1B Instruct",
       "parameter_count" : {
-        "billions" : 3
+        "billions" : 1
       },
       "release_date" : "2024-09-18",
       "source_url" : "https:\/\/kilo.ai",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q4km",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q4km",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 1868310773,
-            "minimum_memory_bytes" : 2510734802,
-            "recommended_memory_bytes" : 3012881762
+            "disk_size_bytes" : 622770257,
+            "minimum_memory_bytes" : 1194825542,
+            "recommended_memory_bytes" : 1433790650
           },
-          "size_bytes" : 1868310773
+          "size_bytes" : 622770257
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q5km",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q5km",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 2190433320,
-            "minimum_memory_bytes" : 2832857349,
-            "recommended_memory_bytes" : 3399428819
+            "disk_size_bytes" : 730144440,
+            "minimum_memory_bytes" : 1302199724,
+            "recommended_memory_bytes" : 1562639669
           },
-          "size_bytes" : 2190433320
+          "size_bytes" : 730144440
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q80",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q80",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 3382286745,
-            "minimum_memory_bytes" : 4024710773,
-            "recommended_memory_bytes" : 4829652928
+            "disk_size_bytes" : 1127428915,
+            "minimum_memory_bytes" : 1699484199,
+            "recommended_memory_bytes" : 2039381039
           },
-          "size_bytes" : 3382286745
+          "size_bytes" : 1127428915
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q3km",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q3km",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 1546188226,
-            "minimum_memory_bytes" : 2188612254,
-            "recommended_memory_bytes" : 2626334705
+            "disk_size_bytes" : 515396075,
+            "minimum_memory_bytes" : 1087451359,
+            "recommended_memory_bytes" : 1304941631
           },
-          "size_bytes" : 1546188226
+          "size_bytes" : 515396075
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q6k",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q6k",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 2576980377,
-            "minimum_memory_bytes" : 3219404405,
-            "recommended_memory_bytes" : 3863285287
+            "disk_size_bytes" : 858993459,
+            "minimum_memory_bytes" : 1431048743,
+            "recommended_memory_bytes" : 1717258491
           },
-          "size_bytes" : 2576980377
+          "size_bytes" : 858993459
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-q2k",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-q2k",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 1191853424,
-            "minimum_memory_bytes" : 1834277452,
-            "recommended_memory_bytes" : 2201132943
+            "disk_size_bytes" : 397284474,
+            "minimum_memory_bytes" : 969339758,
+            "recommended_memory_bytes" : 1163207710
           },
-          "size_bytes" : 1191853424
+          "size_bytes" : 397284474
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
-          "id" : "meta-llama\/llama-3.2-3b-instruct-f16",
-          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "id" : "meta-llama\/llama-3.2-1b-instruct-f16",
+          "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "ollama_tag" : "llama3.2:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 6442450944,
-            "minimum_memory_bytes" : 7084874972,
-            "recommended_memory_bytes" : 8501849966
+            "disk_size_bytes" : 2147483648,
+            "minimum_memory_bytes" : 2719538932,
+            "recommended_memory_bytes" : 3263446718
           },
-          "size_bytes" : 6442450944
+          "size_bytes" : 2147483648
         }
       ]
     },
@@ -1937,112 +1937,112 @@
       ]
     },
     {
-      "description" : "Mistral: Mixtral 8x22B Instruct by Kilo Gateway.",
-      "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-      "id" : "mistralai\/mixtral-8x22b-instruct",
+      "description" : "Mixtral 8x7B by Mistral.",
+      "family" : "mixtral",
+      "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+      "id" : "open-mixtral-8x7b",
       "license" : {
-        "identifier" : "unknown",
+        "identifier" : "mixtral",
         "is_open_source" : true,
-        "name" : "Mistral: Mixtral 8x22B Instruct License"
+        "name" : "Mixtral 8x7B License"
       },
-      "name" : "Mistral: Mixtral 8x22B Instruct",
+      "name" : "Mixtral 8x7B",
       "parameter_count" : {
-        "billions" : 141
+        "billions" : 46.7
       },
-      "release_date" : "2024-04-17",
-      "source_url" : "https:\/\/kilo.ai",
+      "release_date" : "2023-12-11",
+      "source_url" : "https:\/\/docs.mistral.ai\/getting-started\/models\/",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q4km",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q4km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 87810606366,
-            "minimum_memory_bytes" : 93308473743,
-            "recommended_memory_bytes" : 111970168491
+            "disk_size_bytes" : 29083371044,
+            "minimum_memory_bytes" : 31263352133,
+            "recommended_memory_bytes" : 37516022560
           },
-          "size_bytes" : 87810606366
+          "size_bytes" : 29083371044
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q5km",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q5km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 102950366085,
-            "minimum_memory_bytes" : 108448233461,
-            "recommended_memory_bytes" : 130137880153
+            "disk_size_bytes" : 34097745362,
+            "minimum_memory_bytes" : 36277726451,
+            "recommended_memory_bytes" : 43533271741
           },
-          "size_bytes" : 102950366085
+          "size_bytes" : 34097745362
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q80",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q80",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 158967477043,
-            "minimum_memory_bytes" : 164465344419,
-            "recommended_memory_bytes" : 197358413303
+            "disk_size_bytes" : 52650930339,
+            "minimum_memory_bytes" : 54830911428,
+            "recommended_memory_bytes" : 65797093714
           },
-          "size_bytes" : 158967477043
+          "size_bytes" : 52650930339
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q3km",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q3km",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 72670846648,
-            "minimum_memory_bytes" : 78168714024,
-            "recommended_memory_bytes" : 93802456829
+            "disk_size_bytes" : 24068996726,
+            "minimum_memory_bytes" : 26248977815,
+            "recommended_memory_bytes" : 31498773378
           },
-          "size_bytes" : 72670846648
+          "size_bytes" : 24068996726
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q6k",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q6k",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 121118077747,
-            "minimum_memory_bytes" : 126615945123,
-            "recommended_memory_bytes" : 151939134148
+            "disk_size_bytes" : 40114994544,
+            "minimum_memory_bytes" : 42294975633,
+            "recommended_memory_bytes" : 50753970759
           },
-          "size_bytes" : 121118077747
+          "size_bytes" : 40114994544
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-q2k",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-q2k",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 56017110958,
-            "minimum_memory_bytes" : 61514978334,
-            "recommended_memory_bytes" : 73817974001
+            "disk_size_bytes" : 18553184976,
+            "minimum_memory_bytes" : 20733166065,
+            "recommended_memory_bytes" : 24879799278
           },
-          "size_bytes" : 56017110958
+          "size_bytes" : 18553184976
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
-          "id" : "mistralai\/mixtral-8x22b-instruct-f16",
-          "lm_studio_model_id" : "MaziyarPanahi\/Mixtral-8x22B-Instruct-v0.1-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "id" : "open-mixtral-8x7b-f16",
+          "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "ollama_tag" : "mixtral:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 302795194368,
-            "minimum_memory_bytes" : 308293061744,
-            "recommended_memory_bytes" : 369951674093
+            "disk_size_bytes" : 100287486361,
+            "minimum_memory_bytes" : 102467467450,
+            "recommended_memory_bytes" : 122960960940
           },
-          "size_bytes" : 302795194368
+          "size_bytes" : 100287486361
         }
       ]
     },
@@ -2927,112 +2927,112 @@
       ]
     },
     {
-      "description" : "Qwen: Qwen3 14B by Kilo Gateway.",
+      "description" : "Qwen: Qwen3 8B by Kilo Gateway.",
       "family" : "other",
-      "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-      "id" : "qwen\/qwen3-14b",
+      "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+      "id" : "qwen\/qwen3-8b",
       "license" : {
         "identifier" : "unknown",
         "is_open_source" : true,
-        "name" : "Qwen: Qwen3 14B License"
+        "name" : "Qwen: Qwen3 8B License"
       },
-      "name" : "Qwen: Qwen3 14B",
+      "name" : "Qwen: Qwen3 8B",
       "parameter_count" : {
-        "billions" : 14
+        "billions" : 8
       },
       "release_date" : "2025-04",
       "source_url" : "https:\/\/kilo.ai",
       "variants" : [
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q4km",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q4km",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q4_k_m",
           "quantization" : "Q4_K_M",
           "requirements" : {
-            "disk_size_bytes" : 8718783610,
-            "minimum_memory_bytes" : 9748235732,
-            "recommended_memory_bytes" : 11697882878
+            "disk_size_bytes" : 4982162063,
+            "minimum_memory_bytes" : 5800507952,
+            "recommended_memory_bytes" : 6960609542
           },
-          "size_bytes" : 8718783610
+          "size_bytes" : 4982162063
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q5km",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q5km",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q5_k_m",
           "quantization" : "Q5_K_M",
           "requirements" : {
-            "disk_size_bytes" : 10222022164,
-            "minimum_memory_bytes" : 11251474285,
-            "recommended_memory_bytes" : 13501769142
+            "disk_size_bytes" : 5841155522,
+            "minimum_memory_bytes" : 6659501411,
+            "recommended_memory_bytes" : 7991401693
           },
-          "size_bytes" : 10222022164
+          "size_bytes" : 5841155522
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q80",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q80",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q8_0",
           "quantization" : "Q8_0",
           "requirements" : {
-            "disk_size_bytes" : 15784004812,
-            "minimum_memory_bytes" : 16813456934,
-            "recommended_memory_bytes" : 20176148320
+            "disk_size_bytes" : 9019431321,
+            "minimum_memory_bytes" : 9837777210,
+            "recommended_memory_bytes" : 11805332652
           },
-          "size_bytes" : 15784004812
+          "size_bytes" : 9019431321
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q3km",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q3km",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q3_k_m",
           "quantization" : "Q3_K_M",
           "requirements" : {
-            "disk_size_bytes" : 7215545057,
-            "minimum_memory_bytes" : 8244997178,
-            "recommended_memory_bytes" : 9893996614
+            "disk_size_bytes" : 4123168604,
+            "minimum_memory_bytes" : 4941514492,
+            "recommended_memory_bytes" : 5929817391
           },
-          "size_bytes" : 7215545057
+          "size_bytes" : 4123168604
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q6k",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q6k",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q6_k",
           "quantization" : "Q6_K",
           "requirements" : {
-            "disk_size_bytes" : 12025908428,
-            "minimum_memory_bytes" : 13055360550,
-            "recommended_memory_bytes" : 15666432660
+            "disk_size_bytes" : 6871947673,
+            "minimum_memory_bytes" : 7690293562,
+            "recommended_memory_bytes" : 9228352274
           },
-          "size_bytes" : 12025908428
+          "size_bytes" : 6871947673
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-q2k",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-q2k",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:q2_k",
           "quantization" : "Q2_K",
           "requirements" : {
-            "disk_size_bytes" : 5561982648,
-            "minimum_memory_bytes" : 6591434769,
-            "recommended_memory_bytes" : 7909721723
+            "disk_size_bytes" : 3178275799,
+            "minimum_memory_bytes" : 3996621687,
+            "recommended_memory_bytes" : 4795946025
           },
-          "size_bytes" : 5561982648
+          "size_bytes" : 3178275799
         },
         {
-          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
-          "id" : "qwen\/qwen3-14b-f16",
-          "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
+          "id" : "qwen\/qwen3-8b-f16",
+          "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
           "ollama_tag" : "qwen3:f16",
           "quantization" : "F16",
           "requirements" : {
-            "disk_size_bytes" : 30064771072,
-            "minimum_memory_bytes" : 31094223193,
-            "recommended_memory_bytes" : 37313067831
+            "disk_size_bytes" : 17179869184,
+            "minimum_memory_bytes" : 17998215072,
+            "recommended_memory_bytes" : 21597858087
           },
-          "size_bytes" : 30064771072
+          "size_bytes" : 17179869184
         }
       ]
     },
