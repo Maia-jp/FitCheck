@@ -78,6 +78,7 @@ enum CatalogBuilder {
                 modelID: cleanID,
                 ollamaTag: ollamaTag,
                 hfGguf: mapping.hfGguf,
+                mlxModel: mapping.mlxModel,
                 totalParamsB: mapping.paramsB,
                 activeParamsB: mapping.effectiveParamsB
             )
@@ -93,6 +94,7 @@ enum CatalogBuilder {
         modelID: String,
         ollamaTag: String,
         hfGguf: String?,
+        mlxModel: String?,
         totalParamsB: Double,
         activeParamsB: Double
     ) -> [CatalogVariant] {
@@ -111,6 +113,7 @@ enum CatalogBuilder {
                 requirements: requirements,
                 ollamaTag: ollamaTag,
                 lmStudioModelId: hfGguf,
+                mlxModelId: mlxModel,
                 downloadUrl: hfGguf.map { "https://huggingface.co/\($0)" }
             )
         }

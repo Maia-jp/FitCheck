@@ -1,5 +1,5 @@
 {
-  "generated_at" : "2026-03-31T14:11:02Z",
+  "generated_at" : "2026-03-31T14:20:04Z",
   "models" : [
     {
       "contextLength" : 8192,
@@ -827,6 +827,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -840,6 +841,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -853,6 +855,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q80",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -866,6 +869,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -879,6 +883,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -892,6 +897,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -905,6 +911,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
           "id" : "codestral-f16",
           "lm_studio_model_id" : "lmstudio-community\/Codestral-22B-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Codestral-22B-v0.1-4bit",
           "ollama_tag" : "codestral",
           "quantization" : "F16",
           "requirements" : {
@@ -1222,6 +1229,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -1235,6 +1243,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -1248,6 +1257,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q80",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -1261,6 +1271,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -1274,6 +1285,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -1287,6 +1299,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -1300,6 +1313,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
           "id" : "command-r-35b-f16",
           "lm_studio_model_id" : "lmstudio-community\/c4ai-command-r-08-2024-GGUF",
+          "mlx_model_id" : "mlx-community\/c4ai-command-r-08-2024-4bit",
           "ollama_tag" : "command-r:35b",
           "quantization" : "F16",
           "requirements" : {
@@ -1742,6 +1756,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q4km",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -1755,6 +1770,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q5km",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -1768,6 +1784,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q80",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -1781,6 +1798,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q3km",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -1794,6 +1812,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q6k",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -1807,6 +1826,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-q2k",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -1820,6 +1840,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
           "id" : "deepseek-coder-6-7b-f16",
           "lm_studio_model_id" : "TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/deepseek-coder-6.7B-instruct-4bit",
           "ollama_tag" : "deepseek-coder:6.7b",
           "quantization" : "F16",
           "requirements" : {
@@ -2138,6 +2159,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -2151,6 +2173,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -2164,6 +2187,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q80",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -2177,6 +2201,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -2190,6 +2215,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -2203,6 +2229,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -2216,6 +2243,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
           "id" : "deepseek-r1-14b-f16",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-14B-4bit",
           "ollama_tag" : "deepseek-r1:14b",
           "quantization" : "F16",
           "requirements" : {
@@ -2248,6 +2276,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -2261,6 +2290,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -2274,6 +2304,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q80",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -2287,6 +2318,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -2300,6 +2332,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -2313,6 +2346,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -2326,6 +2360,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
           "id" : "deepseek-r1-32b-f16",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-32B-4bit",
           "ollama_tag" : "deepseek-r1:32b",
           "quantization" : "F16",
           "requirements" : {
@@ -2468,6 +2503,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -2481,6 +2517,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -2494,6 +2531,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q80",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -2507,6 +2545,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -2520,6 +2559,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -2533,6 +2573,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -2546,6 +2587,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
           "id" : "deepseek-r1-7b-f16",
           "lm_studio_model_id" : "lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+          "mlx_model_id" : "mlx-community\/DeepSeek-R1-Distill-Qwen-7B-4bit",
           "ollama_tag" : "deepseek-r1:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -3434,6 +3476,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -3447,6 +3490,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -3460,6 +3504,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q80",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -3473,6 +3518,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -3486,6 +3532,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -3499,6 +3546,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -3512,6 +3560,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
           "id" : "gemma2-27b-f16",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-27b-it-4bit",
           "ollama_tag" : "gemma2:27b",
           "quantization" : "F16",
           "requirements" : {
@@ -3544,6 +3593,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -3557,6 +3607,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -3570,6 +3621,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q80",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -3583,6 +3635,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -3596,6 +3649,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -3609,6 +3663,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -3622,6 +3677,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
           "id" : "gemma2-9b-f16",
           "lm_studio_model_id" : "lmstudio-community\/gemma-2-9b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-2-9b-it-4bit",
           "ollama_tag" : "gemma2:9b",
           "quantization" : "F16",
           "requirements" : {
@@ -3749,6 +3805,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -3762,6 +3819,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -3775,6 +3833,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q80",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -3788,6 +3847,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -3801,6 +3861,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -3814,6 +3875,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -3827,6 +3889,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
           "id" : "gemma3-12b-f16",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-12b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-12b-it-4bit",
           "ollama_tag" : "gemma3:12b",
           "quantization" : "F16",
           "requirements" : {
@@ -3859,6 +3922,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -3872,6 +3936,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -3885,6 +3950,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q80",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -3898,6 +3964,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -3911,6 +3978,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -3924,6 +3992,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -3937,6 +4006,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
           "id" : "gemma3-27b-f16",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-27b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-27b-it-4bit",
           "ollama_tag" : "gemma3:27b",
           "quantization" : "F16",
           "requirements" : {
@@ -3969,6 +4039,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -3982,6 +4053,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -3995,6 +4067,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q80",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -4008,6 +4081,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -4021,6 +4095,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -4034,6 +4109,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -4047,6 +4123,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
           "id" : "gemma3-4b-f16",
           "lm_studio_model_id" : "lmstudio-community\/gemma-3-4b-it-GGUF",
+          "mlx_model_id" : "mlx-community\/gemma-3-4b-it-4bit",
           "ollama_tag" : "gemma3:4b",
           "quantization" : "F16",
           "requirements" : {
@@ -4480,6 +4557,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q4km",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -4493,6 +4571,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q5km",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -4506,6 +4585,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q80",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -4519,6 +4599,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q3km",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -4532,6 +4613,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q6k",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -4545,6 +4627,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-q2k",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -4558,6 +4641,7 @@
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
           "id" : "hermes3-8b-f16",
           "lm_studio_model_id" : "NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Hermes-3-Llama-3.1-8B-4bit",
           "ollama_tag" : "hermes3:8b",
           "quantization" : "F16",
           "requirements" : {
@@ -5095,6 +5179,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5108,6 +5193,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5121,6 +5207,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5134,6 +5221,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5147,6 +5235,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5160,6 +5249,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5173,6 +5263,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
           "id" : "llama3-70b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-70B-Instruct-4bit",
           "ollama_tag" : "llama3:70b",
           "quantization" : "F16",
           "requirements" : {
@@ -5205,6 +5296,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5218,6 +5310,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5231,6 +5324,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5244,6 +5338,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5257,6 +5352,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5270,6 +5366,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5283,6 +5380,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
           "id" : "llama3-8b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3-8B-Instruct-4bit",
           "ollama_tag" : "llama3:8b",
           "quantization" : "F16",
           "requirements" : {
@@ -5410,6 +5508,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5423,6 +5522,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5436,6 +5536,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5449,6 +5550,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5462,6 +5564,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5475,6 +5578,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5488,6 +5592,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
           "id" : "llama3-1-70b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-70B-Instruct-4bit",
           "ollama_tag" : "llama3.1:70b",
           "quantization" : "F16",
           "requirements" : {
@@ -5520,6 +5625,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5533,6 +5639,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5546,6 +5653,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5559,6 +5667,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5572,6 +5681,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5585,6 +5695,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5598,6 +5709,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
           "id" : "llama3-1-8b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Meta-Llama-3.1-8B-Instruct-4bit",
           "ollama_tag" : "llama3.1:8b",
           "quantization" : "F16",
           "requirements" : {
@@ -5630,6 +5742,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5643,6 +5756,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5656,6 +5770,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5669,6 +5784,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5682,6 +5798,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5695,6 +5812,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5708,6 +5826,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
           "id" : "llama3-2-1b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-1B-Instruct-4bit",
           "ollama_tag" : "llama3.2:1b",
           "quantization" : "F16",
           "requirements" : {
@@ -5740,6 +5859,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5753,6 +5873,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5766,6 +5887,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5779,6 +5901,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5792,6 +5915,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5805,6 +5929,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5818,6 +5943,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
           "id" : "llama3-2-3b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.2-3B-Instruct-4bit",
           "ollama_tag" : "llama3.2:3b",
           "quantization" : "F16",
           "requirements" : {
@@ -5850,6 +5976,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -5863,6 +5990,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -5876,6 +6004,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -5889,6 +6018,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -5902,6 +6032,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -5915,6 +6046,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -5928,6 +6060,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
           "id" : "llama3-3-70b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Llama-3.3-70B-Instruct-4bit",
           "ollama_tag" : "llama3.3:70b",
           "quantization" : "F16",
           "requirements" : {
@@ -6058,6 +6191,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q4km",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -6071,6 +6205,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q5km",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -6084,6 +6219,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q80",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -6097,6 +6233,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q3km",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -6110,6 +6247,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q6k",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -6123,6 +6261,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-q2k",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -6136,6 +6275,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
           "id" : "mistral-7b-f16",
           "lm_studio_model_id" : "TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-7B-Instruct-v0.3-4bit",
           "ollama_tag" : "mistral:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -6269,6 +6409,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -6282,6 +6423,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -6295,6 +6437,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q80",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -6308,6 +6451,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -6321,6 +6465,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -6334,6 +6479,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -6347,6 +6493,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
           "id" : "mistral-nemo-f16",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Nemo-Instruct-2407-4bit",
           "ollama_tag" : "mistral-nemo",
           "quantization" : "F16",
           "requirements" : {
@@ -6382,6 +6529,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -6395,6 +6543,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -6408,6 +6557,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q80",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -6421,6 +6571,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -6434,6 +6585,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -6447,6 +6599,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -6460,6 +6613,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
           "id" : "mistral-small-24b-f16",
           "lm_studio_model_id" : "lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+          "mlx_model_id" : "mlx-community\/Mistral-Small-24B-Instruct-2501-4bit",
           "ollama_tag" : "mistral-small:24b",
           "quantization" : "F16",
           "requirements" : {
@@ -6589,6 +6743,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q4km",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -6602,6 +6757,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q5km",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -6615,6 +6771,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q80",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -6628,6 +6785,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q3km",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -6641,6 +6799,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q6k",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -6654,6 +6813,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-q2k",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -6667,6 +6827,7 @@
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
           "id" : "mixtral-8x7b-f16",
           "lm_studio_model_id" : "TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
+          "mlx_model_id" : "mlx-community\/Mixtral-8x7B-Instruct-v0.1-4bit",
           "ollama_tag" : "mixtral:8x7b",
           "quantization" : "F16",
           "requirements" : {
@@ -6889,6 +7050,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q4km",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -6902,6 +7064,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q5km",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -6915,6 +7078,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q80",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -6928,6 +7092,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q3km",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -6941,6 +7106,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q6k",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -6954,6 +7120,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-q2k",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -6967,6 +7134,7 @@
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
           "id" : "olmo2-7b-f16",
           "lm_studio_model_id" : "allenai\/OLMo-2-0325-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/OLMo-2-7B-Instruct-4bit",
           "ollama_tag" : "olmo2:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -7189,6 +7357,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q4km",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -7202,6 +7371,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q5km",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -7215,6 +7385,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q80",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -7228,6 +7399,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q3km",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -7241,6 +7413,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q6k",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -7254,6 +7427,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-q2k",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -7267,6 +7441,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
           "id" : "phi3-mini-f16",
           "lm_studio_model_id" : "microsoft\/Phi-3-mini-4k-instruct-gguf",
+          "mlx_model_id" : "mlx-community\/Phi-3-mini-4k-instruct-4bit",
           "ollama_tag" : "phi3:mini",
           "quantization" : "F16",
           "requirements" : {
@@ -7394,6 +7569,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q4km",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -7407,6 +7583,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q5km",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -7420,6 +7597,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q80",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -7433,6 +7611,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q3km",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -7446,6 +7625,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q6k",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -7459,6 +7639,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-q2k",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -7472,6 +7653,7 @@
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
           "id" : "phi4-14b-f16",
           "lm_studio_model_id" : "lmstudio-community\/phi-4-GGUF",
+          "mlx_model_id" : "mlx-community\/phi-4-4bit",
           "ollama_tag" : "phi4:14b",
           "quantization" : "F16",
           "requirements" : {
@@ -7504,6 +7686,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q4km",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -7517,6 +7700,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q5km",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -7530,6 +7714,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q80",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -7543,6 +7728,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q3km",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -7556,6 +7742,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q6k",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -7569,6 +7756,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-q2k",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -7582,6 +7770,7 @@
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
           "id" : "phi4-mini-f16",
           "lm_studio_model_id" : "microsoft\/Phi-4-mini-instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Phi-4-mini-instruct-4bit",
           "ollama_tag" : "phi4-mini",
           "quantization" : "F16",
           "requirements" : {
@@ -7944,6 +8133,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -7957,6 +8147,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -7970,6 +8161,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -7983,6 +8175,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -7996,6 +8189,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8009,6 +8203,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8022,6 +8217,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
           "id" : "qwen2-5-14b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-14B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-14B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:14b",
           "quantization" : "F16",
           "requirements" : {
@@ -8054,6 +8250,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8067,6 +8264,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8080,6 +8278,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8093,6 +8292,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8106,6 +8306,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8119,6 +8320,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8132,6 +8334,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
           "id" : "qwen2-5-32b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:32b",
           "quantization" : "F16",
           "requirements" : {
@@ -8274,6 +8477,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8287,6 +8491,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8300,6 +8505,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8313,6 +8519,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8326,6 +8533,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8339,6 +8547,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8352,6 +8561,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
           "id" : "qwen2-5-72b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-72B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-72B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:72b",
           "quantization" : "F16",
           "requirements" : {
@@ -8384,6 +8594,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8397,6 +8608,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8410,6 +8622,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8423,6 +8636,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8436,6 +8650,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8449,6 +8664,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8462,6 +8678,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
           "id" : "qwen2-5-7b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -8604,6 +8821,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8617,6 +8835,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8630,6 +8849,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8643,6 +8863,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8656,6 +8877,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8669,6 +8891,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8682,6 +8905,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
           "id" : "qwen2-5-coder-32b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-32B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:32b",
           "quantization" : "F16",
           "requirements" : {
@@ -8714,6 +8938,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8727,6 +8952,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8740,6 +8966,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8753,6 +8980,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8766,6 +8994,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8779,6 +9008,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8792,6 +9022,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
           "id" : "qwen2-5-coder-7b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen2.5-Coder-7B-Instruct-4bit",
           "ollama_tag" : "qwen2.5-coder:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -8824,6 +9055,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8837,6 +9069,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8850,6 +9083,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8863,6 +9097,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8876,6 +9111,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8889,6 +9125,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -8902,6 +9139,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
           "id" : "qwen3-14b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen3-14B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-14B-4bit",
           "ollama_tag" : "qwen3:14b",
           "quantization" : "F16",
           "requirements" : {
@@ -8934,6 +9172,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -8947,6 +9186,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -8960,6 +9200,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -8973,6 +9214,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -8986,6 +9228,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -8999,6 +9242,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -9012,6 +9256,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
           "id" : "qwen3-32b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen3-32B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-32B-4bit",
           "ollama_tag" : "qwen3:32b",
           "quantization" : "F16",
           "requirements" : {
@@ -9044,6 +9289,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q4km",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -9057,6 +9303,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q5km",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -9070,6 +9317,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q80",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -9083,6 +9331,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q3km",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -9096,6 +9345,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q6k",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -9109,6 +9359,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-q2k",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -9122,6 +9373,7 @@
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
           "id" : "qwen3-8b-f16",
           "lm_studio_model_id" : "Qwen\/Qwen3-8B-GGUF",
+          "mlx_model_id" : "mlx-community\/Qwen3-8B-4bit",
           "ollama_tag" : "qwen3:8b",
           "quantization" : "F16",
           "requirements" : {
@@ -9817,6 +10069,7 @@
       "variants" : [
         {
           "id" : "starcoder2-15b-q4km",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -9828,6 +10081,7 @@
         },
         {
           "id" : "starcoder2-15b-q5km",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -9839,6 +10093,7 @@
         },
         {
           "id" : "starcoder2-15b-q80",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -9850,6 +10105,7 @@
         },
         {
           "id" : "starcoder2-15b-q3km",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -9861,6 +10117,7 @@
         },
         {
           "id" : "starcoder2-15b-q6k",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -9872,6 +10129,7 @@
         },
         {
           "id" : "starcoder2-15b-q2k",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -9883,6 +10141,7 @@
         },
         {
           "id" : "starcoder2-15b-f16",
+          "mlx_model_id" : "mlx-community\/starcoder2-15b-4bit",
           "ollama_tag" : "starcoder2:15b",
           "quantization" : "F16",
           "requirements" : {
@@ -10007,6 +10266,7 @@
       "variants" : [
         {
           "id" : "starcoder2-7b-q4km",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -10018,6 +10278,7 @@
         },
         {
           "id" : "starcoder2-7b-q5km",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -10029,6 +10290,7 @@
         },
         {
           "id" : "starcoder2-7b-q80",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -10040,6 +10302,7 @@
         },
         {
           "id" : "starcoder2-7b-q3km",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -10051,6 +10314,7 @@
         },
         {
           "id" : "starcoder2-7b-q6k",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -10062,6 +10326,7 @@
         },
         {
           "id" : "starcoder2-7b-q2k",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -10073,6 +10338,7 @@
         },
         {
           "id" : "starcoder2-7b-f16",
+          "mlx_model_id" : "mlx-community\/starcoder2-7b-4bit",
           "ollama_tag" : "starcoder2:7b",
           "quantization" : "F16",
           "requirements" : {
@@ -10497,6 +10763,7 @@
       "variants" : [
         {
           "id" : "yi-34b-q4km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -10508,6 +10775,7 @@
         },
         {
           "id" : "yi-34b-q5km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -10519,6 +10787,7 @@
         },
         {
           "id" : "yi-34b-q80",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -10530,6 +10799,7 @@
         },
         {
           "id" : "yi-34b-q3km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -10541,6 +10811,7 @@
         },
         {
           "id" : "yi-34b-q6k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -10552,6 +10823,7 @@
         },
         {
           "id" : "yi-34b-q2k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -10563,6 +10835,7 @@
         },
         {
           "id" : "yi-34b-f16",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-34B-Chat-4bit",
           "ollama_tag" : "yi:34b",
           "quantization" : "F16",
           "requirements" : {
@@ -10592,6 +10865,7 @@
       "variants" : [
         {
           "id" : "yi-6b-q4km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -10603,6 +10877,7 @@
         },
         {
           "id" : "yi-6b-q5km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -10614,6 +10889,7 @@
         },
         {
           "id" : "yi-6b-q80",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -10625,6 +10901,7 @@
         },
         {
           "id" : "yi-6b-q3km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -10636,6 +10913,7 @@
         },
         {
           "id" : "yi-6b-q6k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -10647,6 +10925,7 @@
         },
         {
           "id" : "yi-6b-q2k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -10658,6 +10937,7 @@
         },
         {
           "id" : "yi-6b-f16",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-6B-Chat-4bit",
           "ollama_tag" : "yi:6b",
           "quantization" : "F16",
           "requirements" : {
@@ -10687,6 +10967,7 @@
       "variants" : [
         {
           "id" : "yi-9b-q4km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q4_K_M",
           "requirements" : {
@@ -10698,6 +10979,7 @@
         },
         {
           "id" : "yi-9b-q5km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q5_K_M",
           "requirements" : {
@@ -10709,6 +10991,7 @@
         },
         {
           "id" : "yi-9b-q80",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q8_0",
           "requirements" : {
@@ -10720,6 +11003,7 @@
         },
         {
           "id" : "yi-9b-q3km",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q3_K_M",
           "requirements" : {
@@ -10731,6 +11015,7 @@
         },
         {
           "id" : "yi-9b-q6k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q6_K",
           "requirements" : {
@@ -10742,6 +11027,7 @@
         },
         {
           "id" : "yi-9b-q2k",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "Q2_K",
           "requirements" : {
@@ -10753,6 +11039,7 @@
         },
         {
           "id" : "yi-9b-f16",
+          "mlx_model_id" : "mlx-community\/Yi-1.5-9B-Chat-4bit",
           "ollama_tag" : "yi:9b",
           "quantization" : "F16",
           "requirements" : {

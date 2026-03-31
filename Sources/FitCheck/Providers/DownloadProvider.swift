@@ -13,11 +13,13 @@ public protocol DownloadProvider: Sendable {
 public enum DownloadProviderType: String, Sendable, Codable, CaseIterable {
     case ollama
     case lmStudio = "lm_studio"
+    case mlx
 
     public var displayName: String {
         switch self {
         case .ollama:   "Ollama"
         case .lmStudio: "LM Studio"
+        case .mlx:      "MLX"
         }
     }
 }

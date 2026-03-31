@@ -3,6 +3,7 @@ import Foundation
 struct ModelMapEntry: Codable, Sendable {
     let ollama: String
     let hfGguf: String?
+    let mlxModel: String?
     let paramsB: Double
     let activeParamsB: Double?
     let displayName: String?
@@ -17,6 +18,7 @@ struct ModelMapEntry: Codable, Sendable {
     enum CodingKeys: String, CodingKey {
         case ollama
         case hfGguf = "hf_gguf"
+        case mlxModel = "mlx_model"
         case paramsB = "params_b"
         case activeParamsB = "active_params_b"
         case displayName = "name"

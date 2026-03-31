@@ -7,11 +7,13 @@ public struct ModelVariant: Sendable, Identifiable, Codable, Equatable {
     public let requirements: ModelRequirements
     public let ollamaTag: String?
     public let lmStudioModelID: String?
+    public let mlxModelID: String?
     public let downloadURL: URL?
 
     enum CodingKeys: String, CodingKey {
         case id, quantization, sizeBytes, requirements, ollamaTag
         case lmStudioModelID = "lmStudioModelId"
+        case mlxModelID = "mlxModelId"
         case downloadURL = "downloadUrl"
     }
 
@@ -22,6 +24,7 @@ public struct ModelVariant: Sendable, Identifiable, Codable, Equatable {
         requirements: ModelRequirements,
         ollamaTag: String?,
         lmStudioModelID: String?,
+        mlxModelID: String? = nil,
         downloadURL: URL?
     ) {
         self.id = id
@@ -30,6 +33,7 @@ public struct ModelVariant: Sendable, Identifiable, Codable, Equatable {
         self.requirements = requirements
         self.ollamaTag = ollamaTag
         self.lmStudioModelID = lmStudioModelID
+        self.mlxModelID = mlxModelID
         self.downloadURL = downloadURL
     }
 

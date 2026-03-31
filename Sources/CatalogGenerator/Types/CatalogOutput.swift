@@ -61,6 +61,7 @@ struct CatalogVariant: Codable, Sendable {
     let requirements: CatalogRequirements
     let ollamaTag: String?
     let lmStudioModelId: String?
+    let mlxModelId: String?
     let downloadUrl: String?
 
     enum CodingKeys: String, CodingKey {
@@ -68,6 +69,7 @@ struct CatalogVariant: Codable, Sendable {
         case sizeBytes = "size_bytes"
         case ollamaTag = "ollama_tag"
         case lmStudioModelId = "lm_studio_model_id"
+        case mlxModelId = "mlx_model_id"
         case downloadUrl = "download_url"
     }
 }

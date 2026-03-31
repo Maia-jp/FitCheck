@@ -20,6 +20,7 @@ public actor FitCheck {
         downloadProviders: [any DownloadProvider] = [
             OllamaProvider(),
             LMStudioProvider(),
+            MLXProvider(),
         ]
     ) {
         self.hardwareProfiler = hardwareProfiler
@@ -255,6 +256,10 @@ public struct CompatibleModel: Sendable, Identifiable {
 
     public var lmStudioAction: DownloadAction? {
         downloadActions.first { $0.providerType == .lmStudio }
+    }
+
+    public var mlxAction: DownloadAction? {
+        downloadActions.first { $0.providerType == .mlx }
     }
 }
 
