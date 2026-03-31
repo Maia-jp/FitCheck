@@ -51,6 +51,10 @@ enum CatalogBuilder {
             ? " MoE model: \(String(format: "%.0f", mapping.paramsB))B total, \(String(format: "%.0f", mapping.effectiveParamsB))B active."
             : ""
 
+        let useCase = mapping.useCase ?? inferUseCase(name: name, ollama: ollamaTag)
+        let capabilities = mapping.capabilities ?? inferCapabilities(name: name, useCase: useCase)
+        let contextLength = mapping.contextLength
+
         return CatalogModel(
             id: cleanID,
             name: name,
@@ -66,6 +70,10 @@ enum CatalogBuilder {
             releaseDate: entry.releaseDate,
             sourceUrl: entry.providerDoc,
             huggingFaceUrl: mapping.hfGguf.map { "https://huggingface.co/\($0)" },
+            contextLength: contextLength,
+            useCase: useCase,
+            capabilities: capabilities.isEmpty ? nil : capabilities,
+            isMoE: mapping.isMoE ? true : nil,
             variants: buildFormulaVariants(
                 modelID: cleanID,
                 ollamaTag: ollamaTag,
@@ -106,6 +114,26 @@ enum CatalogBuilder {
                 downloadUrl: hfGguf.map { "https://huggingface.co/\($0)" }
             )
         }
+    }
+
+    // MARK: - Use case and capability inference (aligned with LLMfit's approach)
+
+    static func inferUseCase(name: String, ollama: String) -> String {
+        let lower = (name + " " + ollama).lowercased()
+        if lower.contains("embed") || lower.contains("bge") { return "Text embeddings" }
+        if lower.contains("coder") || lower.contains("starcoder") || lower.contains("codellama") || lower.contains("codestral") || lower.contains("codegemma") || lower.contains("deepcoder") { return "Code generation" }
+        if lower.contains("r1") || lower.contains("reason") || lower.contains("qwq") || lower.contains("deepscaler") { return "Reasoning" }
+        if lower.contains("instruct") || lower.contains("chat") || lower.contains("dolphin") || lower.contains("hermes") || lower.contains("vicuna") || lower.contains("openchat") { return "Chat" }
+        if lower.contains("tiny") || lower.contains("small") || lower.contains("mini") || lower.contains("smol") { return "Lightweight" }
+        return "General purpose"
+    }
+
+    static func inferCapabilities(name: String, useCase: String) -> [String] {
+        var caps: [String] = []
+        let lower = (name + " " + useCase).lowercased()
+        if lower.contains("vision") || lower.contains("-vl") || lower.contains("llava") || lower.contains("pixtral") { caps.append("vision") }
+        if lower.contains("tool") || lower.contains("qwen3") || lower.contains("qwen2.5") || lower.contains("command-r") || lower.contains("hermes") || lower.contains("mistral") { caps.append("tool_use") }
+        return caps
     }
 
     private static func gbPerBillionParams(_ quant: String) -> Double {

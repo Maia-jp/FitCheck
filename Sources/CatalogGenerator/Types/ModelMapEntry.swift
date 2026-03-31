@@ -7,6 +7,9 @@ struct ModelMapEntry: Codable, Sendable {
     let activeParamsB: Double?
     let displayName: String?
     let family: String?
+    let contextLength: Int?
+    let useCase: String?
+    let capabilities: [String]?
 
     var effectiveParamsB: Double { activeParamsB ?? paramsB }
     var isMoE: Bool { activeParamsB != nil }
@@ -18,5 +21,8 @@ struct ModelMapEntry: Codable, Sendable {
         case activeParamsB = "active_params_b"
         case displayName = "name"
         case family
+        case contextLength = "context_length"
+        case useCase = "use_case"
+        case capabilities
     }
 }

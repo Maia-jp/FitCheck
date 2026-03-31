@@ -1,7 +1,8 @@
 {
-  "generated_at" : "2026-03-31T13:49:08Z",
+  "generated_at" : "2026-03-31T14:11:02Z",
   "models" : [
     {
+      "contextLength" : 8192,
       "description" : "Aya 23 8B — open-weight model by Cohere.",
       "family" : "aya",
       "id" : "aya",
@@ -14,6 +15,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "aya-q4km",
@@ -95,6 +97,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Aya Expanse 32B — open-weight model by Cohere.",
       "family" : "aya",
       "id" : "aya-expanse-32b",
@@ -107,6 +110,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "aya-expanse-32b-q4km",
@@ -188,6 +192,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Aya Expanse 8B — open-weight model by Cohere.",
       "family" : "aya",
       "id" : "aya-expanse-8b",
@@ -200,6 +205,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "aya-expanse-8b-q4km",
@@ -281,6 +287,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "Code Llama 13B — open-weight model by Meta.",
       "family" : "code_llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-13B-Instruct-GGUF",
@@ -294,6 +301,7 @@
       "parameter_count" : {
         "billions" : 13
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-13B-Instruct-GGUF",
@@ -389,6 +397,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "Code Llama 34B — open-weight model by Meta.",
       "family" : "code_llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-34B-Instruct-GGUF",
@@ -402,6 +411,7 @@
       "parameter_count" : {
         "billions" : 34
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-34B-Instruct-GGUF",
@@ -497,6 +507,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "Code Llama 70B — open-weight model by Meta.",
       "family" : "code_llama",
       "id" : "codellama-70b",
@@ -509,6 +520,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "codellama-70b-q4km",
@@ -590,6 +602,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "Code Llama 7B — open-weight model by Meta.",
       "family" : "code_llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-7B-Instruct-GGUF",
@@ -603,6 +616,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/CodeLlama-7B-Instruct-GGUF",
@@ -698,6 +712,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "CodeGemma 7B — open-weight model by Google.",
       "family" : "gemma",
       "id" : "codegemma-7b",
@@ -710,6 +725,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "codegemma-7b-q4km",
@@ -791,6 +807,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Codestral 22B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
@@ -804,6 +821,7 @@
       "parameter_count" : {
         "billions" : 22
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Codestral-22B-v0.1-GGUF",
@@ -899,6 +917,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Cogito 32B — open-weight model by Deep Cogito.",
       "family" : "cogito",
       "id" : "cogito-32b",
@@ -911,6 +930,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "cogito-32b-q4km",
@@ -992,6 +1012,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Cogito 70B — open-weight model by Deep Cogito.",
       "family" : "cogito",
       "id" : "cogito-70b",
@@ -1004,6 +1025,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "cogito-70b-q4km",
@@ -1085,6 +1107,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Cogito 8B — open-weight model by Deep Cogito.",
       "family" : "cogito",
       "id" : "cogito-8b",
@@ -1097,6 +1120,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "cogito-8b-q4km",
@@ -1178,6 +1202,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Command R 35B — open-weight model by Cohere.",
       "family" : "command_r",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
@@ -1191,6 +1216,7 @@
       "parameter_count" : {
         "billions" : 35
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r-08-2024-GGUF",
@@ -1286,6 +1312,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Command R 7B — open-weight model by Cohere.",
       "family" : "command_r",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r7b-12-2024-GGUF",
@@ -1299,6 +1326,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/c4ai-command-r7b-12-2024-GGUF",
@@ -1394,6 +1422,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Command R+ 104B — open-weight model by Cohere.",
       "family" : "command_r",
       "id" : "command-r-plus-104b",
@@ -1406,6 +1435,7 @@
       "parameter_count" : {
         "billions" : 104
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "command-r-plus-104b-q4km",
@@ -1487,6 +1517,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "DeepScaler 1.5B — open-weight model by Alibaba.",
       "family" : "qwen",
       "id" : "deepscaler",
@@ -1499,6 +1530,7 @@
       "parameter_count" : {
         "billions" : 1.5
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "id" : "deepscaler-q4km",
@@ -1580,6 +1612,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "DeepSeek Coder 33B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-33B-instruct-GGUF",
@@ -1593,6 +1626,7 @@
       "parameter_count" : {
         "billions" : 33
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-33B-instruct-GGUF",
@@ -1688,6 +1722,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "DeepSeek Coder 6.7B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
@@ -1701,6 +1736,7 @@
       "parameter_count" : {
         "billions" : 6.7
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/deepseek-coder-6.7B-instruct-GGUF",
@@ -1796,6 +1832,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek Coder V2 16B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "id" : "deepseek-coder-v2-16b",
@@ -1808,6 +1845,7 @@
       "parameter_count" : {
         "billions" : 16
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "deepseek-coder-v2-16b-q4km",
@@ -1889,9 +1927,11 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 671B — open-weight model by DeepSeek. MoE model: 671B total, 37B active.",
       "family" : "deepseek",
       "id" : "deepseek-r1-671b",
+      "isMoE" : true,
       "license" : {
         "identifier" : "deepseek",
         "is_open_source" : true,
@@ -1901,6 +1941,7 @@
       "parameter_count" : {
         "billions" : 671
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "id" : "deepseek-r1-671b-q4km",
@@ -1982,6 +2023,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 1.5B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "id" : "deepseek-r1-1-5b",
@@ -1994,6 +2036,7 @@
       "parameter_count" : {
         "billions" : 1.5
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "id" : "deepseek-r1-1-5b-q4km",
@@ -2075,6 +2118,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 14B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
@@ -2088,6 +2132,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-14B-GGUF",
@@ -2183,6 +2228,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 32B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
@@ -2196,6 +2242,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-32B-GGUF",
@@ -2291,6 +2338,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 70B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
@@ -2304,6 +2352,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Llama-70B-GGUF",
@@ -2399,6 +2448,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 7B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
@@ -2412,6 +2462,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/DeepSeek-R1-Distill-Qwen-7B-GGUF",
@@ -2507,6 +2558,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek R1 Distill 8B — open-weight model by DeepSeek.",
       "family" : "deepseek",
       "id" : "deepseek-r1-8b",
@@ -2519,6 +2571,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "id" : "deepseek-r1-8b-q4km",
@@ -2600,9 +2653,11 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "DeepSeek V3 671B — open-weight model by DeepSeek. MoE model: 671B total, 37B active.",
       "family" : "deepseek",
       "id" : "deepseek-v3",
+      "isMoE" : true,
       "license" : {
         "identifier" : "deepseek",
         "is_open_source" : true,
@@ -2612,6 +2667,7 @@
       "parameter_count" : {
         "billions" : 671
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "deepseek-v3-q4km",
@@ -2693,6 +2749,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Devstral 24B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "id" : "devstral",
@@ -2705,6 +2762,7 @@
       "parameter_count" : {
         "billions" : 24
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "devstral-q4km",
@@ -2786,6 +2844,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Dolphin 3 8B — open-weight model by Meta.",
       "family" : "llama",
       "id" : "dolphin3-8b",
@@ -2798,6 +2857,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "id" : "dolphin3-8b-q4km",
@@ -2879,6 +2939,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Falcon 3 10B — open-weight model by TII.",
       "family" : "falcon",
       "id" : "falcon3-10b",
@@ -2891,6 +2952,7 @@
       "parameter_count" : {
         "billions" : 10
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "falcon3-10b-q4km",
@@ -2972,6 +3034,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Falcon 3 7B — open-weight model by TII.",
       "family" : "falcon",
       "id" : "falcon3-7b",
@@ -2984,6 +3047,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "falcon3-7b-q4km",
@@ -3065,6 +3129,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "GLM 4.7 Flash 30B — open-weight model by Zhipu AI.",
       "family" : "glm",
       "id" : "glm-4-7-flash",
@@ -3077,6 +3142,7 @@
       "parameter_count" : {
         "billions" : 30
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "glm-4-7-flash-q4km",
@@ -3158,6 +3224,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "GPT-OSS 120B — open-weight model by OpenAI.",
       "family" : "gpt_oss",
       "id" : "gpt-oss-120b",
@@ -3170,6 +3237,7 @@
       "parameter_count" : {
         "billions" : 120
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "gpt-oss-120b-q4km",
@@ -3251,6 +3319,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "GPT-OSS 20B — open-weight model by OpenAI.",
       "family" : "gpt_oss",
       "id" : "gpt-oss-20b",
@@ -3263,6 +3332,7 @@
       "parameter_count" : {
         "billions" : 20
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "gpt-oss-20b-q4km",
@@ -3344,6 +3414,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 2 27B — open-weight model by Google.",
       "family" : "gemma",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
@@ -3357,6 +3428,7 @@
       "parameter_count" : {
         "billions" : 27
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-27b-it-GGUF",
@@ -3452,6 +3524,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 2 9B — open-weight model by Google.",
       "family" : "gemma",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
@@ -3465,6 +3538,7 @@
       "parameter_count" : {
         "billions" : 9
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-2-9b-it-GGUF",
@@ -3560,6 +3634,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 2B — open-weight model by Google.",
       "family" : "gemma",
       "id" : "gemma-2b",
@@ -3572,6 +3647,7 @@
       "parameter_count" : {
         "billions" : 2
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "gemma-2b-q4km",
@@ -3653,6 +3729,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 3 12B — open-weight model by Google.",
       "family" : "gemma",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
@@ -3666,6 +3743,7 @@
       "parameter_count" : {
         "billions" : 12
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-12b-it-GGUF",
@@ -3761,6 +3839,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 3 27B — open-weight model by Google.",
       "family" : "gemma",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
@@ -3774,6 +3853,7 @@
       "parameter_count" : {
         "billions" : 27
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-27b-it-GGUF",
@@ -3869,6 +3949,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 3 4B — open-weight model by Google.",
       "family" : "gemma",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
@@ -3882,6 +3963,7 @@
       "parameter_count" : {
         "billions" : 4
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/gemma-3-4b-it-GGUF",
@@ -3977,6 +4059,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Gemma 7B — open-weight model by Google.",
       "family" : "gemma",
       "id" : "gemma-7b",
@@ -3989,6 +4072,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "gemma-7b-q4km",
@@ -4070,6 +4154,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Granite 3.3 8B — open-weight model by IBM.",
       "family" : "granite",
       "id" : "granite3-3",
@@ -4082,6 +4167,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "granite3-3-q4km",
@@ -4163,6 +4249,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Granite 4 8B — open-weight model by IBM.",
       "family" : "granite",
       "id" : "granite4",
@@ -4175,6 +4262,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "granite4-q4km",
@@ -4256,6 +4344,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 131072,
       "description" : "Hermes 3 70B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-70B-GGUF",
@@ -4269,6 +4361,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-70B-GGUF",
@@ -4364,6 +4457,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 131072,
       "description" : "Hermes 3 8B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
@@ -4377,6 +4474,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/NousResearch\/Hermes-3-Llama-3.1-8B-GGUF",
@@ -4472,6 +4570,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "InternLM 2 20B — open-weight model by Shanghai AI Lab.",
       "family" : "intern_lm",
       "id" : "internlm2-20b",
@@ -4484,6 +4583,7 @@
       "parameter_count" : {
         "billions" : 20
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "internlm2-20b-q4km",
@@ -4565,6 +4665,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "InternLM 2 7B — open-weight model by Shanghai AI Lab.",
       "family" : "intern_lm",
       "id" : "internlm2-7b",
@@ -4577,6 +4678,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "internlm2-7b-q4km",
@@ -4658,6 +4760,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "LFM 2 24B — open-weight model by Liquid AI.",
       "family" : "lfm",
       "id" : "lfm2",
@@ -4670,6 +4773,7 @@
       "parameter_count" : {
         "billions" : 24
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "lfm2-q4km",
@@ -4751,6 +4855,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Llama 2 13B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Llama-2-13B-Chat-GGUF",
@@ -4764,6 +4869,7 @@
       "parameter_count" : {
         "billions" : 13
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Llama-2-13B-Chat-GGUF",
@@ -4859,6 +4965,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Llama 2 7B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Llama-2-7B-Chat-GGUF",
@@ -4872,6 +4979,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Llama-2-7B-Chat-GGUF",
@@ -4967,6 +5075,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Llama 3 70B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
@@ -4980,6 +5089,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-70B-Instruct-GGUF",
@@ -5075,6 +5185,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Llama 3 8B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
@@ -5088,6 +5199,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3-8B-Instruct-GGUF",
@@ -5183,6 +5295,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.1 405B — open-weight model by Meta.",
       "family" : "llama",
       "id" : "llama3-1-405b",
@@ -5195,6 +5308,7 @@
       "parameter_count" : {
         "billions" : 405
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "llama3-1-405b-q4km",
@@ -5276,6 +5390,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.1 70B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
@@ -5289,6 +5404,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-70B-Instruct-GGUF",
@@ -5384,6 +5500,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.1 8B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
@@ -5397,6 +5514,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.1-8B-Instruct-GGUF",
@@ -5492,6 +5610,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.2 1B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
@@ -5505,6 +5624,7 @@
       "parameter_count" : {
         "billions" : 1
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-1B-Instruct-GGUF",
@@ -5600,6 +5720,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.2 3B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
@@ -5613,6 +5734,7 @@
       "parameter_count" : {
         "billions" : 3
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Llama-3.2-3B-Instruct-GGUF",
@@ -5708,6 +5830,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Llama 3.3 70B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
@@ -5721,6 +5844,7 @@
       "parameter_count" : {
         "billions" : 70
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Meta-Llama-3.3-70B-Instruct-GGUF",
@@ -5816,6 +5940,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Magistral 24B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "id" : "magistral",
@@ -5828,6 +5953,7 @@
       "parameter_count" : {
         "billions" : 24
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "magistral-q4km",
@@ -5909,6 +6035,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 32768,
       "description" : "Mistral 7B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
@@ -5922,6 +6052,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mistral-7B-Instruct-v0.2-GGUF",
@@ -6017,6 +6148,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 131072,
       "description" : "Mistral Large 123B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "id" : "mistral-large",
@@ -6029,6 +6164,7 @@
       "parameter_count" : {
         "billions" : 123
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "mistral-large-q4km",
@@ -6110,6 +6246,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 128000,
       "description" : "Mistral Nemo 12B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
@@ -6123,6 +6263,7 @@
       "parameter_count" : {
         "billions" : 12
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Nemo-Instruct-2407-GGUF",
@@ -6218,6 +6359,10 @@
       ]
     },
     {
+      "capabilities" : [
+        "tool_use"
+      ],
+      "contextLength" : 32768,
       "description" : "Mistral Small 24B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
@@ -6231,6 +6376,7 @@
       "parameter_count" : {
         "billions" : 24
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
@@ -6326,9 +6472,11 @@
       ]
     },
     {
+      "contextLength" : 65536,
       "description" : "Mixtral 8x22B — open-weight model by Mistral AI. MoE model: 141B total, 39B active.",
       "family" : "mixtral",
       "id" : "mixtral-8x22b",
+      "isMoE" : true,
       "license" : {
         "identifier" : "mixtral",
         "is_open_source" : true,
@@ -6338,6 +6486,7 @@
       "parameter_count" : {
         "billions" : 141
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "mixtral-8x22b-q4km",
@@ -6419,10 +6568,12 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Mixtral 8x7B — open-weight model by Mistral AI. MoE model: 47B total, 14B active.",
       "family" : "mixtral",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
       "id" : "mixtral-8x7b",
+      "isMoE" : true,
       "license" : {
         "identifier" : "mixtral",
         "is_open_source" : true,
@@ -6432,6 +6583,7 @@
       "parameter_count" : {
         "billions" : 46.7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/Mixtral-8x7B-Instruct-v0.1-GGUF",
@@ -6527,6 +6679,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "Nemotron Mini 4B — open-weight model by NVIDIA.",
       "family" : "nemotron",
       "id" : "nemotron-mini",
@@ -6539,6 +6692,7 @@
       "parameter_count" : {
         "billions" : 4
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "id" : "nemotron-mini-q4km",
@@ -6620,6 +6774,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "OLMo 2 13B — open-weight model by Allen AI.",
       "family" : "olmo",
       "id" : "olmo2-13b",
@@ -6632,6 +6787,7 @@
       "parameter_count" : {
         "billions" : 13
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "olmo2-13b-q4km",
@@ -6713,6 +6869,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "OLMo 2 7B — open-weight model by Allen AI.",
       "family" : "olmo",
       "hugging_face_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
@@ -6726,6 +6883,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/allenai\/OLMo-2-0325-7B-Instruct-GGUF",
@@ -6821,6 +6979,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "OpenChat 3.5 7B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "id" : "openchat-7b",
@@ -6833,6 +6992,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "id" : "openchat-7b-q4km",
@@ -6914,6 +7074,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Phi-3 Medium 14B — open-weight model by Microsoft.",
       "family" : "phi",
       "id" : "phi3-medium",
@@ -6926,6 +7087,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "phi3-medium-q4km",
@@ -7007,6 +7169,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Phi-3 Mini 3.8B — open-weight model by Microsoft.",
       "family" : "phi",
       "hugging_face_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
@@ -7020,6 +7183,7 @@
       "parameter_count" : {
         "billions" : 3.8
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-3-mini-4k-instruct-gguf",
@@ -7115,6 +7279,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Phi-3.5 Mini 3.8B — open-weight model by Microsoft.",
       "family" : "phi",
       "id" : "phi3-5",
@@ -7127,6 +7292,7 @@
       "parameter_count" : {
         "billions" : 3.8
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "id" : "phi3-5-q4km",
@@ -7208,6 +7374,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "Phi-4 14B — open-weight model by Microsoft.",
       "family" : "phi",
       "hugging_face_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
@@ -7221,6 +7388,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/lmstudio-community\/phi-4-GGUF",
@@ -7316,6 +7484,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Phi-4 Mini 3.8B — open-weight model by Microsoft.",
       "family" : "phi",
       "hugging_face_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
@@ -7329,6 +7498,7 @@
       "parameter_count" : {
         "billions" : 3.8
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/microsoft\/Phi-4-mini-instruct-GGUF",
@@ -7424,6 +7594,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "QwQ 32B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/QwQ-32B-GGUF",
@@ -7437,6 +7608,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "Reasoning",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/QwQ-32B-GGUF",
@@ -7532,6 +7704,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 0.5B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-0.5B-Instruct-GGUF",
@@ -7545,6 +7718,7 @@
       "parameter_count" : {
         "billions" : 0.5
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-0.5B-Instruct-GGUF",
@@ -7640,6 +7814,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 1.5B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-1.5B-Instruct-GGUF",
@@ -7653,6 +7828,7 @@
       "parameter_count" : {
         "billions" : 1.5
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-1.5B-Instruct-GGUF",
@@ -7748,6 +7924,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 14B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
@@ -7761,6 +7938,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-14B-Instruct-GGUF",
@@ -7856,6 +8034,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 32B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
@@ -7869,6 +8048,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-32B-Instruct-GGUF",
@@ -7964,6 +8144,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 3B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-3B-Instruct-GGUF",
@@ -7977,6 +8158,7 @@
       "parameter_count" : {
         "billions" : 3
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-3B-Instruct-GGUF",
@@ -8072,6 +8254,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 72B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
@@ -8085,6 +8268,7 @@
       "parameter_count" : {
         "billions" : 72
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-72B-Instruct-GGUF",
@@ -8180,6 +8364,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 7B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
@@ -8193,6 +8378,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-7B-Instruct-GGUF",
@@ -8288,6 +8474,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 Coder 14B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-14B-Instruct-GGUF",
@@ -8301,6 +8488,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-14B-Instruct-GGUF",
@@ -8396,6 +8584,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 Coder 32B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
@@ -8409,6 +8598,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-32B-Instruct-GGUF",
@@ -8504,6 +8694,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 2.5 Coder 7B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
@@ -8517,6 +8708,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen2.5-Coder-7B-Instruct-GGUF",
@@ -8612,6 +8804,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Qwen 3 14B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
@@ -8625,6 +8818,7 @@
       "parameter_count" : {
         "billions" : 14
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-14B-GGUF",
@@ -8720,6 +8914,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Qwen 3 32B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
@@ -8733,6 +8928,7 @@
       "parameter_count" : {
         "billions" : 32
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-32B-GGUF",
@@ -8828,6 +9024,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Qwen 3 8B — open-weight model by Alibaba.",
       "family" : "qwen",
       "hugging_face_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
@@ -8841,6 +9038,7 @@
       "parameter_count" : {
         "billions" : 8
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/Qwen\/Qwen3-8B-GGUF",
@@ -8936,9 +9134,11 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "Qwen 3 Coder 480B MoE — open-weight model by Alibaba. MoE model: 480B total, 35B active.",
       "family" : "qwen",
       "id" : "qwen3-coder",
+      "isMoE" : true,
       "license" : {
         "identifier" : "qwen",
         "is_open_source" : true,
@@ -8948,6 +9148,7 @@
       "parameter_count" : {
         "billions" : 480
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "qwen3-coder-q4km",
@@ -9029,6 +9230,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 3.5 27B — open-weight model by Alibaba.",
       "family" : "qwen",
       "id" : "qwen3-5-27b",
@@ -9041,6 +9243,7 @@
       "parameter_count" : {
         "billions" : 27
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "qwen3-5-27b-q4km",
@@ -9122,6 +9325,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Qwen 3.5 9B — open-weight model by Alibaba.",
       "family" : "qwen",
       "id" : "qwen3-5-9b",
@@ -9134,6 +9338,7 @@
       "parameter_count" : {
         "billions" : 9
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "qwen3-5-9b-q4km",
@@ -9215,6 +9420,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "SmolLM 2 1.7B — open-weight model by Hugging Face.",
       "family" : "smol_lm",
       "id" : "smollm2-1-7b",
@@ -9227,6 +9433,7 @@
       "parameter_count" : {
         "billions" : 1.7
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "id" : "smollm2-1-7b-q4km",
@@ -9308,6 +9515,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "SmolLM 2 135M — open-weight model by Hugging Face.",
       "family" : "smol_lm",
       "id" : "smollm2-135m",
@@ -9320,6 +9528,7 @@
       "parameter_count" : {
         "billions" : 0.135
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "id" : "smollm2-135m-q4km",
@@ -9401,6 +9610,7 @@
       ]
     },
     {
+      "contextLength" : 8192,
       "description" : "SmolLM 2 360M — open-weight model by Hugging Face.",
       "family" : "smol_lm",
       "id" : "smollm2-360m",
@@ -9413,6 +9623,7 @@
       "parameter_count" : {
         "billions" : 0.36
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "id" : "smollm2-360m-q4km",
@@ -9494,6 +9705,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Solar 10.7B — open-weight model by Upstage.",
       "family" : "solar",
       "id" : "solar-10-7b",
@@ -9506,6 +9718,7 @@
       "parameter_count" : {
         "billions" : 10.7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "solar-10-7b-q4km",
@@ -9587,6 +9800,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "StarCoder 2 15B — open-weight model by BigCode.",
       "family" : "starcoder",
       "id" : "starcoder2-15b",
@@ -9599,6 +9813,7 @@
       "parameter_count" : {
         "billions" : 15
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "starcoder2-15b-q4km",
@@ -9680,6 +9895,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "StarCoder 2 3B — open-weight model by BigCode.",
       "family" : "starcoder",
       "id" : "starcoder2-3b",
@@ -9692,6 +9908,7 @@
       "parameter_count" : {
         "billions" : 3
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "starcoder2-3b-q4km",
@@ -9773,6 +9990,7 @@
       ]
     },
     {
+      "contextLength" : 16384,
       "description" : "StarCoder 2 7B — open-weight model by BigCode.",
       "family" : "starcoder",
       "id" : "starcoder2-7b",
@@ -9785,6 +10003,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "starcoder2-7b-q4km",
@@ -9866,6 +10085,7 @@
       ]
     },
     {
+      "contextLength" : 2048,
       "description" : "TinyLlama 1.1B — open-weight model by Meta.",
       "family" : "llama",
       "hugging_face_url" : "https:\/\/huggingface.co\/TheBloke\/TinyLlama-1.1B-Chat-v1.0-GGUF",
@@ -9879,6 +10099,7 @@
       "parameter_count" : {
         "billions" : 1.1
       },
+      "useCase" : "Lightweight",
       "variants" : [
         {
           "download_url" : "https:\/\/huggingface.co\/TheBloke\/TinyLlama-1.1B-Chat-v1.0-GGUF",
@@ -9974,6 +10195,7 @@
       ]
     },
     {
+      "contextLength" : 2048,
       "description" : "Vicuna 13B — open-weight model by LMSYS.",
       "family" : "vicuna",
       "id" : "vicuna-13b",
@@ -9986,6 +10208,7 @@
       "parameter_count" : {
         "billions" : 13
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "id" : "vicuna-13b-q4km",
@@ -10067,6 +10290,7 @@
       ]
     },
     {
+      "contextLength" : 2048,
       "description" : "Vicuna 7B — open-weight model by LMSYS.",
       "family" : "vicuna",
       "id" : "vicuna-7b",
@@ -10079,6 +10303,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "Chat",
       "variants" : [
         {
           "id" : "vicuna-7b-q4km",
@@ -10160,6 +10385,7 @@
       ]
     },
     {
+      "contextLength" : 32768,
       "description" : "WizardLM 2 7B — open-weight model by Mistral AI.",
       "family" : "mistral",
       "id" : "wizardlm2-7b",
@@ -10172,6 +10398,7 @@
       "parameter_count" : {
         "billions" : 7
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "wizardlm2-7b-q4km",
@@ -10253,6 +10480,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Yi 1.5 34B — open-weight model by 01.AI.",
       "family" : "yi",
       "id" : "yi-34b",
@@ -10265,6 +10493,7 @@
       "parameter_count" : {
         "billions" : 34
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "yi-34b-q4km",
@@ -10346,6 +10575,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Yi 1.5 6B — open-weight model by 01.AI.",
       "family" : "yi",
       "id" : "yi-6b",
@@ -10358,6 +10588,7 @@
       "parameter_count" : {
         "billions" : 6
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "yi-6b-q4km",
@@ -10439,6 +10670,7 @@
       ]
     },
     {
+      "contextLength" : 4096,
       "description" : "Yi 1.5 9B — open-weight model by 01.AI.",
       "family" : "yi",
       "id" : "yi-9b",
@@ -10451,6 +10683,7 @@
       "parameter_count" : {
         "billions" : 9
       },
+      "useCase" : "General purpose",
       "variants" : [
         {
           "id" : "yi-9b-q4km",
@@ -10532,6 +10765,7 @@
       ]
     },
     {
+      "contextLength" : 131072,
       "description" : "Yi Coder 9B — open-weight model by 01.AI.",
       "family" : "yi",
       "id" : "yi-coder-9b",
@@ -10544,6 +10778,7 @@
       "parameter_count" : {
         "billions" : 9
       },
+      "useCase" : "Code generation",
       "variants" : [
         {
           "id" : "yi-coder-9b-q4km",

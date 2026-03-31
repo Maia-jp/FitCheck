@@ -22,10 +22,15 @@ struct CatalogModel: Codable, Sendable {
     let releaseDate: String?
     let sourceUrl: String?
     let huggingFaceUrl: String?
+    let contextLength: Int?
+    let useCase: String?
+    let capabilities: [String]?
+    let isMoE: Bool?
     var variants: [CatalogVariant]
 
     enum CodingKeys: String, CodingKey {
         case id, name, family, description, license, variants
+        case contextLength, useCase, capabilities, isMoE
         case parameterCount = "parameter_count"
         case releaseDate = "release_date"
         case sourceUrl = "source_url"

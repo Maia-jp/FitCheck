@@ -1,426 +1,855 @@
 {
   "ollama/llama3.2:1b": {
-    "ollama": "llama3.2:1b", "name": "Llama 3.2 1B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Llama-3.2-1B-Instruct-GGUF", "params_b": 1.0
+    "ollama": "llama3.2:1b",
+    "name": "Llama 3.2 1B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Llama-3.2-1B-Instruct-GGUF",
+    "params_b": 1.0,
+    "context_length": 131072
   },
   "ollama/llama3.2:3b": {
-    "ollama": "llama3.2:3b", "name": "Llama 3.2 3B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Llama-3.2-3B-Instruct-GGUF", "params_b": 3.0
+    "ollama": "llama3.2:3b",
+    "name": "Llama 3.2 3B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Llama-3.2-3B-Instruct-GGUF",
+    "params_b": 3.0,
+    "context_length": 131072
   },
   "ollama/llama3:8b": {
-    "ollama": "llama3:8b", "name": "Llama 3 8B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF", "params_b": 8.0
+    "ollama": "llama3:8b",
+    "name": "Llama 3 8B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+    "params_b": 8.0,
+    "context_length": 8192
   },
   "ollama/llama3.1:8b": {
-    "ollama": "llama3.1:8b", "name": "Llama 3.1 8B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF", "params_b": 8.0
+    "ollama": "llama3.1:8b",
+    "name": "Llama 3.1 8B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "params_b": 8.0,
+    "context_length": 131072
   },
   "ollama/llama3:70b": {
-    "ollama": "llama3:70b", "name": "Llama 3 70B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3-70B-Instruct-GGUF", "params_b": 70.0
+    "ollama": "llama3:70b",
+    "name": "Llama 3 70B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3-70B-Instruct-GGUF",
+    "params_b": 70.0,
+    "context_length": 8192
   },
   "ollama/llama3.1:70b": {
-    "ollama": "llama3.1:70b", "name": "Llama 3.1 70B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF", "params_b": 70.0
+    "ollama": "llama3.1:70b",
+    "name": "Llama 3.1 70B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3.1-70B-Instruct-GGUF",
+    "params_b": 70.0,
+    "context_length": 131072
   },
   "ollama/llama3.3:70b": {
-    "ollama": "llama3.3:70b", "name": "Llama 3.3 70B", "family": "llama",
-    "hf_gguf": "lmstudio-community/Meta-Llama-3.3-70B-Instruct-GGUF", "params_b": 70.0
+    "ollama": "llama3.3:70b",
+    "name": "Llama 3.3 70B",
+    "family": "llama",
+    "hf_gguf": "lmstudio-community/Meta-Llama-3.3-70B-Instruct-GGUF",
+    "params_b": 70.0,
+    "context_length": 131072
   },
   "ollama/llama3.1:405b": {
-    "ollama": "llama3.1:405b", "name": "Llama 3.1 405B", "family": "llama",
-    "hf_gguf": null, "params_b": 405.0
+    "ollama": "llama3.1:405b",
+    "name": "Llama 3.1 405B",
+    "family": "llama",
+    "hf_gguf": null,
+    "params_b": 405.0,
+    "context_length": 131072
   },
   "ollama/llama2:7b": {
-    "ollama": "llama2:7b", "name": "Llama 2 7B", "family": "llama",
-    "hf_gguf": "TheBloke/Llama-2-7B-Chat-GGUF", "params_b": 7.0
+    "ollama": "llama2:7b",
+    "name": "Llama 2 7B",
+    "family": "llama",
+    "hf_gguf": "TheBloke/Llama-2-7B-Chat-GGUF",
+    "params_b": 7.0,
+    "context_length": 4096
   },
   "ollama/llama2:13b": {
-    "ollama": "llama2:13b", "name": "Llama 2 13B", "family": "llama",
-    "hf_gguf": "TheBloke/Llama-2-13B-Chat-GGUF", "params_b": 13.0
+    "ollama": "llama2:13b",
+    "name": "Llama 2 13B",
+    "family": "llama",
+    "hf_gguf": "TheBloke/Llama-2-13B-Chat-GGUF",
+    "params_b": 13.0,
+    "context_length": 4096
   },
   "ollama/codellama:7b": {
-    "ollama": "codellama:7b", "name": "Code Llama 7B", "family": "code_llama",
-    "hf_gguf": "TheBloke/CodeLlama-7B-Instruct-GGUF", "params_b": 7.0
+    "ollama": "codellama:7b",
+    "name": "Code Llama 7B",
+    "family": "code_llama",
+    "hf_gguf": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+    "params_b": 7.0,
+    "context_length": 16384
   },
   "ollama/codellama:13b": {
-    "ollama": "codellama:13b", "name": "Code Llama 13B", "family": "code_llama",
-    "hf_gguf": "TheBloke/CodeLlama-13B-Instruct-GGUF", "params_b": 13.0
+    "ollama": "codellama:13b",
+    "name": "Code Llama 13B",
+    "family": "code_llama",
+    "hf_gguf": "TheBloke/CodeLlama-13B-Instruct-GGUF",
+    "params_b": 13.0,
+    "context_length": 16384
   },
   "ollama/codellama:34b": {
-    "ollama": "codellama:34b", "name": "Code Llama 34B", "family": "code_llama",
-    "hf_gguf": "TheBloke/CodeLlama-34B-Instruct-GGUF", "params_b": 34.0
+    "ollama": "codellama:34b",
+    "name": "Code Llama 34B",
+    "family": "code_llama",
+    "hf_gguf": "TheBloke/CodeLlama-34B-Instruct-GGUF",
+    "params_b": 34.0,
+    "context_length": 16384
   },
   "ollama/codellama:70b": {
-    "ollama": "codellama:70b", "name": "Code Llama 70B", "family": "code_llama",
-    "hf_gguf": null, "params_b": 70.0
+    "ollama": "codellama:70b",
+    "name": "Code Llama 70B",
+    "family": "code_llama",
+    "hf_gguf": null,
+    "params_b": 70.0,
+    "context_length": 16384
   },
   "ollama/mistral:7b": {
-    "ollama": "mistral:7b", "name": "Mistral 7B", "family": "mistral",
-    "hf_gguf": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF", "params_b": 7.0
+    "ollama": "mistral:7b",
+    "name": "Mistral 7B",
+    "family": "mistral",
+    "hf_gguf": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+    "params_b": 7.0,
+    "context_length": 32768
   },
   "ollama/mistral-nemo": {
-    "ollama": "mistral-nemo", "name": "Mistral Nemo 12B", "family": "mistral",
-    "hf_gguf": "lmstudio-community/Mistral-Nemo-Instruct-2407-GGUF", "params_b": 12.0
+    "ollama": "mistral-nemo",
+    "name": "Mistral Nemo 12B",
+    "family": "mistral",
+    "hf_gguf": "lmstudio-community/Mistral-Nemo-Instruct-2407-GGUF",
+    "params_b": 12.0,
+    "context_length": 128000
   },
   "ollama/mistral-small:24b": {
-    "ollama": "mistral-small:24b", "name": "Mistral Small 24B", "family": "mistral",
-    "hf_gguf": "lmstudio-community/Mistral-Small-3.1-24B-Instruct-2503-GGUF", "params_b": 24.0
+    "ollama": "mistral-small:24b",
+    "name": "Mistral Small 24B",
+    "family": "mistral",
+    "hf_gguf": "lmstudio-community/Mistral-Small-3.1-24B-Instruct-2503-GGUF",
+    "params_b": 24.0,
+    "context_length": 32768
   },
   "ollama/mistral-large": {
-    "ollama": "mistral-large", "name": "Mistral Large 123B", "family": "mistral",
-    "hf_gguf": null, "params_b": 123.0
+    "ollama": "mistral-large",
+    "name": "Mistral Large 123B",
+    "family": "mistral",
+    "hf_gguf": null,
+    "params_b": 123.0,
+    "context_length": 131072
   },
   "ollama/mixtral:8x7b": {
-    "ollama": "mixtral:8x7b", "name": "Mixtral 8x7B", "family": "mixtral",
-    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF", "params_b": 46.7, "active_params_b": 14.0
+    "ollama": "mixtral:8x7b",
+    "name": "Mixtral 8x7B",
+    "family": "mixtral",
+    "hf_gguf": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+    "params_b": 46.7,
+    "active_params_b": 14.0,
+    "context_length": 32768
   },
   "ollama/mixtral:8x22b": {
-    "ollama": "mixtral:8x22b", "name": "Mixtral 8x22B", "family": "mixtral",
-    "hf_gguf": null, "params_b": 141.0, "active_params_b": 39.0
+    "ollama": "mixtral:8x22b",
+    "name": "Mixtral 8x22B",
+    "family": "mixtral",
+    "hf_gguf": null,
+    "params_b": 141.0,
+    "active_params_b": 39.0,
+    "context_length": 65536
   },
   "ollama/codestral": {
-    "ollama": "codestral", "name": "Codestral 22B", "family": "mistral",
-    "hf_gguf": "lmstudio-community/Codestral-22B-v0.1-GGUF", "params_b": 22.0
+    "ollama": "codestral",
+    "name": "Codestral 22B",
+    "family": "mistral",
+    "hf_gguf": "lmstudio-community/Codestral-22B-v0.1-GGUF",
+    "params_b": 22.0,
+    "context_length": 32768
   },
   "ollama/phi3:mini": {
-    "ollama": "phi3:mini", "name": "Phi-3 Mini 3.8B", "family": "phi",
-    "hf_gguf": "microsoft/Phi-3-mini-4k-instruct-gguf", "params_b": 3.8
+    "ollama": "phi3:mini",
+    "name": "Phi-3 Mini 3.8B",
+    "family": "phi",
+    "hf_gguf": "microsoft/Phi-3-mini-4k-instruct-gguf",
+    "params_b": 3.8,
+    "context_length": 4096
   },
   "ollama/phi3:medium": {
-    "ollama": "phi3:medium", "name": "Phi-3 Medium 14B", "family": "phi",
-    "hf_gguf": null, "params_b": 14.0
+    "ollama": "phi3:medium",
+    "name": "Phi-3 Medium 14B",
+    "family": "phi",
+    "hf_gguf": null,
+    "params_b": 14.0,
+    "context_length": 4096
   },
   "ollama/phi3.5": {
-    "ollama": "phi3.5", "name": "Phi-3.5 Mini 3.8B", "family": "phi",
-    "hf_gguf": null, "params_b": 3.8
+    "ollama": "phi3.5",
+    "name": "Phi-3.5 Mini 3.8B",
+    "family": "phi",
+    "hf_gguf": null,
+    "params_b": 3.8,
+    "context_length": 131072
   },
   "ollama/phi4:14b": {
-    "ollama": "phi4:14b", "name": "Phi-4 14B", "family": "phi",
-    "hf_gguf": "lmstudio-community/phi-4-GGUF", "params_b": 14.0
+    "ollama": "phi4:14b",
+    "name": "Phi-4 14B",
+    "family": "phi",
+    "hf_gguf": "lmstudio-community/phi-4-GGUF",
+    "params_b": 14.0,
+    "context_length": 16384
   },
   "ollama/phi4-mini": {
-    "ollama": "phi4-mini", "name": "Phi-4 Mini 3.8B", "family": "phi",
-    "hf_gguf": "microsoft/Phi-4-mini-instruct-GGUF", "params_b": 3.8
+    "ollama": "phi4-mini",
+    "name": "Phi-4 Mini 3.8B",
+    "family": "phi",
+    "hf_gguf": "microsoft/Phi-4-mini-instruct-GGUF",
+    "params_b": 3.8,
+    "context_length": 131072
   },
   "ollama/gemma:2b": {
-    "ollama": "gemma:2b", "name": "Gemma 2B", "family": "gemma",
-    "hf_gguf": null, "params_b": 2.0
+    "ollama": "gemma:2b",
+    "name": "Gemma 2B",
+    "family": "gemma",
+    "hf_gguf": null,
+    "params_b": 2.0,
+    "context_length": 8192
   },
   "ollama/gemma:7b": {
-    "ollama": "gemma:7b", "name": "Gemma 7B", "family": "gemma",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "gemma:7b",
+    "name": "Gemma 7B",
+    "family": "gemma",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 8192
   },
   "ollama/gemma2:9b": {
-    "ollama": "gemma2:9b", "name": "Gemma 2 9B", "family": "gemma",
-    "hf_gguf": "lmstudio-community/gemma-2-9b-it-GGUF", "params_b": 9.0
+    "ollama": "gemma2:9b",
+    "name": "Gemma 2 9B",
+    "family": "gemma",
+    "hf_gguf": "lmstudio-community/gemma-2-9b-it-GGUF",
+    "params_b": 9.0,
+    "context_length": 8192
   },
   "ollama/gemma2:27b": {
-    "ollama": "gemma2:27b", "name": "Gemma 2 27B", "family": "gemma",
-    "hf_gguf": "lmstudio-community/gemma-2-27b-it-GGUF", "params_b": 27.0
+    "ollama": "gemma2:27b",
+    "name": "Gemma 2 27B",
+    "family": "gemma",
+    "hf_gguf": "lmstudio-community/gemma-2-27b-it-GGUF",
+    "params_b": 27.0,
+    "context_length": 8192
   },
   "ollama/gemma3:4b": {
-    "ollama": "gemma3:4b", "name": "Gemma 3 4B", "family": "gemma",
-    "hf_gguf": "lmstudio-community/gemma-3-4b-it-GGUF", "params_b": 4.0
+    "ollama": "gemma3:4b",
+    "name": "Gemma 3 4B",
+    "family": "gemma",
+    "hf_gguf": "lmstudio-community/gemma-3-4b-it-GGUF",
+    "params_b": 4.0,
+    "context_length": 8192
   },
   "ollama/gemma3:12b": {
-    "ollama": "gemma3:12b", "name": "Gemma 3 12B", "family": "gemma",
-    "hf_gguf": "lmstudio-community/gemma-3-12b-it-GGUF", "params_b": 12.0
+    "ollama": "gemma3:12b",
+    "name": "Gemma 3 12B",
+    "family": "gemma",
+    "hf_gguf": "lmstudio-community/gemma-3-12b-it-GGUF",
+    "params_b": 12.0,
+    "context_length": 8192
   },
   "ollama/gemma3:27b": {
-    "ollama": "gemma3:27b", "name": "Gemma 3 27B", "family": "gemma",
-    "hf_gguf": "lmstudio-community/gemma-3-27b-it-GGUF", "params_b": 27.0
+    "ollama": "gemma3:27b",
+    "name": "Gemma 3 27B",
+    "family": "gemma",
+    "hf_gguf": "lmstudio-community/gemma-3-27b-it-GGUF",
+    "params_b": 27.0,
+    "context_length": 8192
   },
   "ollama/qwen2.5:0.5b": {
-    "ollama": "qwen2.5:0.5b", "name": "Qwen 2.5 0.5B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-0.5B-Instruct-GGUF", "params_b": 0.5
+    "ollama": "qwen2.5:0.5b",
+    "name": "Qwen 2.5 0.5B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+    "params_b": 0.5,
+    "context_length": 131072
   },
   "ollama/qwen2.5:1.5b": {
-    "ollama": "qwen2.5:1.5b", "name": "Qwen 2.5 1.5B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-1.5B-Instruct-GGUF", "params_b": 1.5
+    "ollama": "qwen2.5:1.5b",
+    "name": "Qwen 2.5 1.5B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "params_b": 1.5,
+    "context_length": 131072
   },
   "ollama/qwen2.5:3b": {
-    "ollama": "qwen2.5:3b", "name": "Qwen 2.5 3B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-3B-Instruct-GGUF", "params_b": 3.0
+    "ollama": "qwen2.5:3b",
+    "name": "Qwen 2.5 3B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "params_b": 3.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5:7b": {
-    "ollama": "qwen2.5:7b", "name": "Qwen 2.5 7B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-7B-Instruct-GGUF", "params_b": 7.0
+    "ollama": "qwen2.5:7b",
+    "name": "Qwen 2.5 7B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "params_b": 7.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5:14b": {
-    "ollama": "qwen2.5:14b", "name": "Qwen 2.5 14B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-14B-Instruct-GGUF", "params_b": 14.0
+    "ollama": "qwen2.5:14b",
+    "name": "Qwen 2.5 14B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-14B-Instruct-GGUF",
+    "params_b": 14.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5:32b": {
-    "ollama": "qwen2.5:32b", "name": "Qwen 2.5 32B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-32B-Instruct-GGUF", "params_b": 32.0
+    "ollama": "qwen2.5:32b",
+    "name": "Qwen 2.5 32B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-32B-Instruct-GGUF",
+    "params_b": 32.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5:72b": {
-    "ollama": "qwen2.5:72b", "name": "Qwen 2.5 72B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-72B-Instruct-GGUF", "params_b": 72.0
+    "ollama": "qwen2.5:72b",
+    "name": "Qwen 2.5 72B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-72B-Instruct-GGUF",
+    "params_b": 72.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5-coder:7b": {
-    "ollama": "qwen2.5-coder:7b", "name": "Qwen 2.5 Coder 7B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF", "params_b": 7.0
+    "ollama": "qwen2.5-coder:7b",
+    "name": "Qwen 2.5 Coder 7B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "params_b": 7.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5-coder:14b": {
-    "ollama": "qwen2.5-coder:14b", "name": "Qwen 2.5 Coder 14B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF", "params_b": 14.0
+    "ollama": "qwen2.5-coder:14b",
+    "name": "Qwen 2.5 Coder 14B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+    "params_b": 14.0,
+    "context_length": 131072
   },
   "ollama/qwen2.5-coder:32b": {
-    "ollama": "qwen2.5-coder:32b", "name": "Qwen 2.5 Coder 32B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF", "params_b": 32.0
+    "ollama": "qwen2.5-coder:32b",
+    "name": "Qwen 2.5 Coder 32B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+    "params_b": 32.0,
+    "context_length": 131072
   },
   "ollama/qwen3:8b": {
-    "ollama": "qwen3:8b", "name": "Qwen 3 8B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen3-8B-GGUF", "params_b": 8.0
+    "ollama": "qwen3:8b",
+    "name": "Qwen 3 8B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen3-8B-GGUF",
+    "params_b": 8.0,
+    "context_length": 32768
   },
   "ollama/qwen3:14b": {
-    "ollama": "qwen3:14b", "name": "Qwen 3 14B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen3-14B-GGUF", "params_b": 14.0
+    "ollama": "qwen3:14b",
+    "name": "Qwen 3 14B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen3-14B-GGUF",
+    "params_b": 14.0,
+    "context_length": 32768
   },
   "ollama/qwen3:32b": {
-    "ollama": "qwen3:32b", "name": "Qwen 3 32B", "family": "qwen",
-    "hf_gguf": "Qwen/Qwen3-32B-GGUF", "params_b": 32.0
+    "ollama": "qwen3:32b",
+    "name": "Qwen 3 32B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/Qwen3-32B-GGUF",
+    "params_b": 32.0,
+    "context_length": 32768
   },
   "ollama/qwen3.5:9b": {
-    "ollama": "qwen3.5:9b", "name": "Qwen 3.5 9B", "family": "qwen",
-    "hf_gguf": null, "params_b": 9.0
+    "ollama": "qwen3.5:9b",
+    "name": "Qwen 3.5 9B",
+    "family": "qwen",
+    "hf_gguf": null,
+    "params_b": 9.0,
+    "context_length": 131072
   },
   "ollama/qwen3.5:27b": {
-    "ollama": "qwen3.5:27b", "name": "Qwen 3.5 27B", "family": "qwen",
-    "hf_gguf": null, "params_b": 27.0
+    "ollama": "qwen3.5:27b",
+    "name": "Qwen 3.5 27B",
+    "family": "qwen",
+    "hf_gguf": null,
+    "params_b": 27.0,
+    "context_length": 131072
   },
   "ollama/qwq:32b": {
-    "ollama": "qwq:32b", "name": "QwQ 32B", "family": "qwen",
-    "hf_gguf": "Qwen/QwQ-32B-GGUF", "params_b": 32.0
+    "ollama": "qwq:32b",
+    "name": "QwQ 32B",
+    "family": "qwen",
+    "hf_gguf": "Qwen/QwQ-32B-GGUF",
+    "params_b": 32.0,
+    "context_length": 32768
   },
   "ollama/deepseek-r1:1.5b": {
-    "ollama": "deepseek-r1:1.5b", "name": "DeepSeek R1 Distill 1.5B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 1.5
+    "ollama": "deepseek-r1:1.5b",
+    "name": "DeepSeek R1 Distill 1.5B",
+    "family": "deepseek",
+    "hf_gguf": null,
+    "params_b": 1.5,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:7b": {
-    "ollama": "deepseek-r1:7b", "name": "DeepSeek R1 Distill 7B", "family": "deepseek",
-    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF", "params_b": 7.0
+    "ollama": "deepseek-r1:7b",
+    "name": "DeepSeek R1 Distill 7B",
+    "family": "deepseek",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF",
+    "params_b": 7.0,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:8b": {
-    "ollama": "deepseek-r1:8b", "name": "DeepSeek R1 Distill 8B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "deepseek-r1:8b",
+    "name": "DeepSeek R1 Distill 8B",
+    "family": "deepseek",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:14b": {
-    "ollama": "deepseek-r1:14b", "name": "DeepSeek R1 Distill 14B", "family": "deepseek",
-    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-14B-GGUF", "params_b": 14.0
+    "ollama": "deepseek-r1:14b",
+    "name": "DeepSeek R1 Distill 14B",
+    "family": "deepseek",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+    "params_b": 14.0,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:32b": {
-    "ollama": "deepseek-r1:32b", "name": "DeepSeek R1 Distill 32B", "family": "deepseek",
-    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-32B-GGUF", "params_b": 32.0
+    "ollama": "deepseek-r1:32b",
+    "name": "DeepSeek R1 Distill 32B",
+    "family": "deepseek",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Qwen-32B-GGUF",
+    "params_b": 32.0,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:70b": {
-    "ollama": "deepseek-r1:70b", "name": "DeepSeek R1 Distill 70B", "family": "deepseek",
-    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Llama-70B-GGUF", "params_b": 70.0
+    "ollama": "deepseek-r1:70b",
+    "name": "DeepSeek R1 Distill 70B",
+    "family": "deepseek",
+    "hf_gguf": "lmstudio-community/DeepSeek-R1-Distill-Llama-70B-GGUF",
+    "params_b": 70.0,
+    "context_length": 131072
   },
   "ollama/deepseek-r1:671b": {
-    "ollama": "deepseek-r1:671b", "name": "DeepSeek R1 671B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 671.0, "active_params_b": 37.0
+    "ollama": "deepseek-r1:671b",
+    "name": "DeepSeek R1 671B",
+    "family": "deepseek",
+    "hf_gguf": null,
+    "params_b": 671.0,
+    "active_params_b": 37.0,
+    "context_length": 131072
   },
   "ollama/deepseek-v3": {
-    "ollama": "deepseek-v3", "name": "DeepSeek V3 671B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 671.0, "active_params_b": 37.0
+    "ollama": "deepseek-v3",
+    "name": "DeepSeek V3 671B",
+    "family": "deepseek",
+    "hf_gguf": null,
+    "params_b": 671.0,
+    "active_params_b": 37.0,
+    "context_length": 131072
   },
   "ollama/deepseek-coder:6.7b": {
-    "ollama": "deepseek-coder:6.7b", "name": "DeepSeek Coder 6.7B", "family": "deepseek",
-    "hf_gguf": "TheBloke/deepseek-coder-6.7B-instruct-GGUF", "params_b": 6.7
+    "ollama": "deepseek-coder:6.7b",
+    "name": "DeepSeek Coder 6.7B",
+    "family": "deepseek",
+    "hf_gguf": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+    "params_b": 6.7,
+    "context_length": 16384
   },
   "ollama/deepseek-coder:33b": {
-    "ollama": "deepseek-coder:33b", "name": "DeepSeek Coder 33B", "family": "deepseek",
-    "hf_gguf": "TheBloke/deepseek-coder-33B-instruct-GGUF", "params_b": 33.0
+    "ollama": "deepseek-coder:33b",
+    "name": "DeepSeek Coder 33B",
+    "family": "deepseek",
+    "hf_gguf": "TheBloke/deepseek-coder-33B-instruct-GGUF",
+    "params_b": 33.0,
+    "context_length": 16384
   },
   "ollama/deepseek-coder-v2:16b": {
-    "ollama": "deepseek-coder-v2:16b", "name": "DeepSeek Coder V2 16B", "family": "deepseek",
-    "hf_gguf": null, "params_b": 16.0
+    "ollama": "deepseek-coder-v2:16b",
+    "name": "DeepSeek Coder V2 16B",
+    "family": "deepseek",
+    "hf_gguf": null,
+    "params_b": 16.0,
+    "context_length": 131072
   },
   "ollama/command-r:35b": {
-    "ollama": "command-r:35b", "name": "Command R 35B", "family": "command_r",
-    "hf_gguf": "lmstudio-community/c4ai-command-r-08-2024-GGUF", "params_b": 35.0
+    "ollama": "command-r:35b",
+    "name": "Command R 35B",
+    "family": "command_r",
+    "hf_gguf": "lmstudio-community/c4ai-command-r-08-2024-GGUF",
+    "params_b": 35.0,
+    "context_length": 131072
   },
   "ollama/command-r-plus:104b": {
-    "ollama": "command-r-plus:104b", "name": "Command R+ 104B", "family": "command_r",
-    "hf_gguf": null, "params_b": 104.0
+    "ollama": "command-r-plus:104b",
+    "name": "Command R+ 104B",
+    "family": "command_r",
+    "hf_gguf": null,
+    "params_b": 104.0,
+    "context_length": 131072
   },
   "ollama/command-r7b": {
-    "ollama": "command-r7b", "name": "Command R 7B", "family": "command_r",
-    "hf_gguf": "lmstudio-community/c4ai-command-r7b-12-2024-GGUF", "params_b": 7.0
+    "ollama": "command-r7b",
+    "name": "Command R 7B",
+    "family": "command_r",
+    "hf_gguf": "lmstudio-community/c4ai-command-r7b-12-2024-GGUF",
+    "params_b": 7.0,
+    "context_length": 131072
   },
   "ollama/tinyllama": {
-    "ollama": "tinyllama", "name": "TinyLlama 1.1B", "family": "llama",
-    "hf_gguf": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF", "params_b": 1.1
+    "ollama": "tinyllama",
+    "name": "TinyLlama 1.1B",
+    "family": "llama",
+    "hf_gguf": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+    "params_b": 1.1,
+    "context_length": 2048
   },
   "ollama/starcoder2:3b": {
-    "ollama": "starcoder2:3b", "name": "StarCoder 2 3B", "family": "starcoder",
-    "hf_gguf": null, "params_b": 3.0
+    "ollama": "starcoder2:3b",
+    "name": "StarCoder 2 3B",
+    "family": "starcoder",
+    "hf_gguf": null,
+    "params_b": 3.0,
+    "context_length": 16384
   },
   "ollama/starcoder2:7b": {
-    "ollama": "starcoder2:7b", "name": "StarCoder 2 7B", "family": "starcoder",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "starcoder2:7b",
+    "name": "StarCoder 2 7B",
+    "family": "starcoder",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 16384
   },
   "ollama/starcoder2:15b": {
-    "ollama": "starcoder2:15b", "name": "StarCoder 2 15B", "family": "starcoder",
-    "hf_gguf": null, "params_b": 15.0
+    "ollama": "starcoder2:15b",
+    "name": "StarCoder 2 15B",
+    "family": "starcoder",
+    "hf_gguf": null,
+    "params_b": 15.0,
+    "context_length": 16384
   },
   "ollama/yi:6b": {
-    "ollama": "yi:6b", "name": "Yi 1.5 6B", "family": "yi",
-    "hf_gguf": null, "params_b": 6.0
+    "ollama": "yi:6b",
+    "name": "Yi 1.5 6B",
+    "family": "yi",
+    "hf_gguf": null,
+    "params_b": 6.0,
+    "context_length": 4096
   },
   "ollama/yi:9b": {
-    "ollama": "yi:9b", "name": "Yi 1.5 9B", "family": "yi",
-    "hf_gguf": null, "params_b": 9.0
+    "ollama": "yi:9b",
+    "name": "Yi 1.5 9B",
+    "family": "yi",
+    "hf_gguf": null,
+    "params_b": 9.0,
+    "context_length": 4096
   },
   "ollama/yi:34b": {
-    "ollama": "yi:34b", "name": "Yi 1.5 34B", "family": "yi",
-    "hf_gguf": null, "params_b": 34.0
+    "ollama": "yi:34b",
+    "name": "Yi 1.5 34B",
+    "family": "yi",
+    "hf_gguf": null,
+    "params_b": 34.0,
+    "context_length": 4096
   },
   "ollama/yi-coder:9b": {
-    "ollama": "yi-coder:9b", "name": "Yi Coder 9B", "family": "yi",
-    "hf_gguf": null, "params_b": 9.0
+    "ollama": "yi-coder:9b",
+    "name": "Yi Coder 9B",
+    "family": "yi",
+    "hf_gguf": null,
+    "params_b": 9.0,
+    "context_length": 131072
   },
   "ollama/falcon3:7b": {
-    "ollama": "falcon3:7b", "name": "Falcon 3 7B", "family": "falcon",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "falcon3:7b",
+    "name": "Falcon 3 7B",
+    "family": "falcon",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 8192
   },
   "ollama/falcon3:10b": {
-    "ollama": "falcon3:10b", "name": "Falcon 3 10B", "family": "falcon",
-    "hf_gguf": null, "params_b": 10.0
+    "ollama": "falcon3:10b",
+    "name": "Falcon 3 10B",
+    "family": "falcon",
+    "hf_gguf": null,
+    "params_b": 10.0,
+    "context_length": 8192
   },
   "ollama/vicuna:7b": {
-    "ollama": "vicuna:7b", "name": "Vicuna 7B", "family": "vicuna",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "vicuna:7b",
+    "name": "Vicuna 7B",
+    "family": "vicuna",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 2048
   },
   "ollama/vicuna:13b": {
-    "ollama": "vicuna:13b", "name": "Vicuna 13B", "family": "vicuna",
-    "hf_gguf": null, "params_b": 13.0
+    "ollama": "vicuna:13b",
+    "name": "Vicuna 13B",
+    "family": "vicuna",
+    "hf_gguf": null,
+    "params_b": 13.0,
+    "context_length": 2048
   },
   "ollama/smollm2:135m": {
-    "ollama": "smollm2:135m", "name": "SmolLM 2 135M", "family": "smol_lm",
-    "hf_gguf": null, "params_b": 0.135
+    "ollama": "smollm2:135m",
+    "name": "SmolLM 2 135M",
+    "family": "smol_lm",
+    "hf_gguf": null,
+    "params_b": 0.135,
+    "context_length": 8192
   },
   "ollama/smollm2:360m": {
-    "ollama": "smollm2:360m", "name": "SmolLM 2 360M", "family": "smol_lm",
-    "hf_gguf": null, "params_b": 0.36
+    "ollama": "smollm2:360m",
+    "name": "SmolLM 2 360M",
+    "family": "smol_lm",
+    "hf_gguf": null,
+    "params_b": 0.36,
+    "context_length": 8192
   },
   "ollama/smollm2:1.7b": {
-    "ollama": "smollm2:1.7b", "name": "SmolLM 2 1.7B", "family": "smol_lm",
-    "hf_gguf": null, "params_b": 1.7
+    "ollama": "smollm2:1.7b",
+    "name": "SmolLM 2 1.7B",
+    "family": "smol_lm",
+    "hf_gguf": null,
+    "params_b": 1.7,
+    "context_length": 8192
   },
   "ollama/olmo2:7b": {
-    "ollama": "olmo2:7b", "name": "OLMo 2 7B", "family": "olmo",
-    "hf_gguf": "allenai/OLMo-2-0325-7B-Instruct-GGUF", "params_b": 7.0
+    "ollama": "olmo2:7b",
+    "name": "OLMo 2 7B",
+    "family": "olmo",
+    "hf_gguf": "allenai/OLMo-2-0325-7B-Instruct-GGUF",
+    "params_b": 7.0,
+    "context_length": 4096
   },
   "ollama/olmo2:13b": {
-    "ollama": "olmo2:13b", "name": "OLMo 2 13B", "family": "olmo",
-    "hf_gguf": null, "params_b": 13.0
+    "ollama": "olmo2:13b",
+    "name": "OLMo 2 13B",
+    "family": "olmo",
+    "hf_gguf": null,
+    "params_b": 13.0,
+    "context_length": 4096
   },
   "ollama/granite4": {
-    "ollama": "granite4", "name": "Granite 4 8B", "family": "granite",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "granite4",
+    "name": "Granite 4 8B",
+    "family": "granite",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 8192
   },
   "ollama/granite3.3": {
-    "ollama": "granite3.3", "name": "Granite 3.3 8B", "family": "granite",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "granite3.3",
+    "name": "Granite 3.3 8B",
+    "family": "granite",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 8192
   },
   "ollama/internlm2:7b": {
-    "ollama": "internlm2:7b", "name": "InternLM 2 7B", "family": "intern_lm",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "internlm2:7b",
+    "name": "InternLM 2 7B",
+    "family": "intern_lm",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 32768
   },
   "ollama/internlm2:20b": {
-    "ollama": "internlm2:20b", "name": "InternLM 2 20B", "family": "intern_lm",
-    "hf_gguf": null, "params_b": 20.0
+    "ollama": "internlm2:20b",
+    "name": "InternLM 2 20B",
+    "family": "intern_lm",
+    "hf_gguf": null,
+    "params_b": 20.0,
+    "context_length": 32768
   },
   "ollama/aya": {
-    "ollama": "aya", "name": "Aya 23 8B", "family": "aya",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "aya",
+    "name": "Aya 23 8B",
+    "family": "aya",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 8192
   },
   "ollama/aya-expanse:8b": {
-    "ollama": "aya-expanse:8b", "name": "Aya Expanse 8B", "family": "aya",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "aya-expanse:8b",
+    "name": "Aya Expanse 8B",
+    "family": "aya",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 8192
   },
   "ollama/aya-expanse:32b": {
-    "ollama": "aya-expanse:32b", "name": "Aya Expanse 32B", "family": "aya",
-    "hf_gguf": null, "params_b": 32.0
+    "ollama": "aya-expanse:32b",
+    "name": "Aya Expanse 32B",
+    "family": "aya",
+    "hf_gguf": null,
+    "params_b": 32.0,
+    "context_length": 8192
   },
   "ollama/hermes3:8b": {
-    "ollama": "hermes3:8b", "name": "Hermes 3 8B", "family": "llama",
-    "hf_gguf": "NousResearch/Hermes-3-Llama-3.1-8B-GGUF", "params_b": 8.0
+    "ollama": "hermes3:8b",
+    "name": "Hermes 3 8B",
+    "family": "llama",
+    "hf_gguf": "NousResearch/Hermes-3-Llama-3.1-8B-GGUF",
+    "params_b": 8.0,
+    "context_length": 131072
   },
   "ollama/hermes3:70b": {
-    "ollama": "hermes3:70b", "name": "Hermes 3 70B", "family": "llama",
-    "hf_gguf": "NousResearch/Hermes-3-Llama-3.1-70B-GGUF", "params_b": 70.0
+    "ollama": "hermes3:70b",
+    "name": "Hermes 3 70B",
+    "family": "llama",
+    "hf_gguf": "NousResearch/Hermes-3-Llama-3.1-70B-GGUF",
+    "params_b": 70.0,
+    "context_length": 131072
   },
   "ollama/dolphin3:8b": {
-    "ollama": "dolphin3:8b", "name": "Dolphin 3 8B", "family": "llama",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "dolphin3:8b",
+    "name": "Dolphin 3 8B",
+    "family": "llama",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 131072
   },
   "ollama/openchat:7b": {
-    "ollama": "openchat:7b", "name": "OpenChat 3.5 7B", "family": "mistral",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "openchat:7b",
+    "name": "OpenChat 3.5 7B",
+    "family": "mistral",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 8192
   },
   "ollama/wizardlm2:7b": {
-    "ollama": "wizardlm2:7b", "name": "WizardLM 2 7B", "family": "mistral",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "wizardlm2:7b",
+    "name": "WizardLM 2 7B",
+    "family": "mistral",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 32768
   },
   "ollama/nemotron-mini": {
-    "ollama": "nemotron-mini", "name": "Nemotron Mini 4B", "family": "nemotron",
-    "hf_gguf": null, "params_b": 4.0
+    "ollama": "nemotron-mini",
+    "name": "Nemotron Mini 4B",
+    "family": "nemotron",
+    "hf_gguf": null,
+    "params_b": 4.0,
+    "context_length": 8192
   },
   "ollama/codegemma:7b": {
-    "ollama": "codegemma:7b", "name": "CodeGemma 7B", "family": "gemma",
-    "hf_gguf": null, "params_b": 7.0
+    "ollama": "codegemma:7b",
+    "name": "CodeGemma 7B",
+    "family": "gemma",
+    "hf_gguf": null,
+    "params_b": 7.0,
+    "context_length": 8192
   },
   "ollama/lfm2": {
-    "ollama": "lfm2", "name": "LFM 2 24B", "family": "lfm",
-    "hf_gguf": null, "params_b": 24.0
+    "ollama": "lfm2",
+    "name": "LFM 2 24B",
+    "family": "lfm",
+    "hf_gguf": null,
+    "params_b": 24.0,
+    "context_length": 131072
   },
   "ollama/gpt-oss:20b": {
-    "ollama": "gpt-oss:20b", "name": "GPT-OSS 20B", "family": "gpt_oss",
-    "hf_gguf": null, "params_b": 20.0
+    "ollama": "gpt-oss:20b",
+    "name": "GPT-OSS 20B",
+    "family": "gpt_oss",
+    "hf_gguf": null,
+    "params_b": 20.0,
+    "context_length": 131072
   },
   "ollama/gpt-oss:120b": {
-    "ollama": "gpt-oss:120b", "name": "GPT-OSS 120B", "family": "gpt_oss",
-    "hf_gguf": null, "params_b": 120.0
+    "ollama": "gpt-oss:120b",
+    "name": "GPT-OSS 120B",
+    "family": "gpt_oss",
+    "hf_gguf": null,
+    "params_b": 120.0,
+    "context_length": 131072
   },
   "ollama/cogito:8b": {
-    "ollama": "cogito:8b", "name": "Cogito 8B", "family": "cogito",
-    "hf_gguf": null, "params_b": 8.0
+    "ollama": "cogito:8b",
+    "name": "Cogito 8B",
+    "family": "cogito",
+    "hf_gguf": null,
+    "params_b": 8.0,
+    "context_length": 131072
   },
   "ollama/cogito:32b": {
-    "ollama": "cogito:32b", "name": "Cogito 32B", "family": "cogito",
-    "hf_gguf": null, "params_b": 32.0
+    "ollama": "cogito:32b",
+    "name": "Cogito 32B",
+    "family": "cogito",
+    "hf_gguf": null,
+    "params_b": 32.0,
+    "context_length": 131072
   },
   "ollama/cogito:70b": {
-    "ollama": "cogito:70b", "name": "Cogito 70B", "family": "cogito",
-    "hf_gguf": null, "params_b": 70.0
+    "ollama": "cogito:70b",
+    "name": "Cogito 70B",
+    "family": "cogito",
+    "hf_gguf": null,
+    "params_b": 70.0,
+    "context_length": 131072
   },
   "ollama/glm-4.7-flash": {
-    "ollama": "glm-4.7-flash", "name": "GLM 4.7 Flash 30B", "family": "glm",
-    "hf_gguf": null, "params_b": 30.0
+    "ollama": "glm-4.7-flash",
+    "name": "GLM 4.7 Flash 30B",
+    "family": "glm",
+    "hf_gguf": null,
+    "params_b": 30.0,
+    "context_length": 131072
   },
   "ollama/magistral": {
-    "ollama": "magistral", "name": "Magistral 24B", "family": "mistral",
-    "hf_gguf": null, "params_b": 24.0
+    "ollama": "magistral",
+    "name": "Magistral 24B",
+    "family": "mistral",
+    "hf_gguf": null,
+    "params_b": 24.0,
+    "context_length": 131072
   },
   "ollama/devstral": {
-    "ollama": "devstral", "name": "Devstral 24B", "family": "mistral",
-    "hf_gguf": null, "params_b": 24.0
+    "ollama": "devstral",
+    "name": "Devstral 24B",
+    "family": "mistral",
+    "hf_gguf": null,
+    "params_b": 24.0,
+    "context_length": 131072
   },
   "ollama/qwen3-coder": {
-    "ollama": "qwen3-coder", "name": "Qwen 3 Coder 480B MoE", "family": "qwen",
-    "hf_gguf": null, "params_b": 480.0, "active_params_b": 35.0
+    "ollama": "qwen3-coder",
+    "name": "Qwen 3 Coder 480B MoE",
+    "family": "qwen",
+    "hf_gguf": null,
+    "params_b": 480.0,
+    "active_params_b": 35.0,
+    "context_length": 32768
   },
   "ollama/deepscaler": {
-    "ollama": "deepscaler", "name": "DeepScaler 1.5B", "family": "qwen",
-    "hf_gguf": null, "params_b": 1.5
+    "ollama": "deepscaler",
+    "name": "DeepScaler 1.5B",
+    "family": "qwen",
+    "hf_gguf": null,
+    "params_b": 1.5,
+    "context_length": 16384
   },
   "ollama/solar:10.7b": {
-    "ollama": "solar:10.7b", "name": "Solar 10.7B", "family": "solar",
-    "hf_gguf": null, "params_b": 10.7
+    "ollama": "solar:10.7b",
+    "name": "Solar 10.7B",
+    "family": "solar",
+    "hf_gguf": null,
+    "params_b": 10.7,
+    "context_length": 4096
   }
 }

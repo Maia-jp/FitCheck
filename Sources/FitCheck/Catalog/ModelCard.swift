@@ -10,11 +10,15 @@ public struct ModelCard: Sendable, Identifiable, Codable, Equatable {
     public let releaseDate: String?
     public let sourceURL: URL?
     public let huggingFaceURL: URL?
+    public let contextLength: Int?
+    public let useCase: String?
+    public let capabilities: [String]?
+    public let isMoE: Bool?
     public let variants: [ModelVariant]
 
     enum CodingKeys: String, CodingKey {
         case id, name, family, parameterCount, description, license
-        case releaseDate, variants
+        case releaseDate, variants, contextLength, useCase, capabilities, isMoE
         case sourceURL = "sourceUrl"
         case huggingFaceURL = "huggingFaceUrl"
     }
@@ -29,6 +33,10 @@ public struct ModelCard: Sendable, Identifiable, Codable, Equatable {
         releaseDate: String?,
         sourceURL: URL?,
         huggingFaceURL: URL?,
+        contextLength: Int? = nil,
+        useCase: String? = nil,
+        capabilities: [String]? = nil,
+        isMoE: Bool? = nil,
         variants: [ModelVariant]
     ) {
         self.id = id
@@ -40,6 +48,10 @@ public struct ModelCard: Sendable, Identifiable, Codable, Equatable {
         self.releaseDate = releaseDate
         self.sourceURL = sourceURL
         self.huggingFaceURL = huggingFaceURL
+        self.contextLength = contextLength
+        self.useCase = useCase
+        self.capabilities = capabilities
+        self.isMoE = isMoE
         self.variants = variants
     }
 
