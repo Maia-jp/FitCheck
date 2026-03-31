@@ -266,14 +266,16 @@ struct BundledCatalogProviderTests {
         }
     }
 
-    @Test("Memory requirements scale with parameter count")
+    @Test("Memory requirements scale with parameter count for dense models")
     func requirementsScale() async throws {
         let models = try await BundledCatalogProvider().fetchModels()
-        let q4km = models.compactMap { model -> (Double, UInt64)? in
-            guard let variant = model.variants.first(where: { $0.quantization == .q4KM }) else { return nil }
-            return (model.parameterCount.billions, variant.requirements.minimumMemoryBytes)
-        }
-        .sorted { $0.0 < $1.0 }
+        let q4km = models
+            .filter { $0.isMoE != true }
+            .compactMap { model -> (Double, UInt64)? in
+                guard let variant = model.variants.first(where: { $0.quantization == .q4KM }) else { return nil }
+                return (model.parameterCount.billions, variant.requirements.minimumMemoryBytes)
+            }
+            .sorted { $0.0 < $1.0 }
 
         guard q4km.count >= 2 else { return }
         for i in 1..<q4km.count {
